@@ -1,0 +1,12 @@
+#鏁版嵁搴撶被鍨�
+default.type=oracle
+#椹卞姩鍚�
+default.driver=oracle.jdbc.driver.OracleDriver
+#杩炴帴鐢ㄦ埛鍚�
+default.username=reply
+#杩炴帴瀵嗙爜
+default.password=reply
+#杩炴帴鍦板潃
+default.url=jdbc:oracle:thin:@192.168.2.230:1521:site
+#杩炴帴姹犲弬鏁拌缃�
+default.maxConn=50

@@ -1,0 +1,135 @@
+/*
+ * 文件名： ReflectUtil.java	 <br>
+ * 创建日期: 2011-3-9<br>
+ * 包名: com.shinetech.sql <br>
+ * Copyright (C), 2011-2012, ShineTech. Co., Ltd.<br>
+ * 
+ */
+package com.shinetech.sql;
+
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.apache.commons.lang.StringUtils;
+
+/**
+ * 功能描述: java反射工具类 <br>
+ * 作者: <a href="mailto:wdps.cn@gmail.com">loong</a> <br>
+ * 版本: 1.0.0<br>
+ */
+
+public class ReflectUtil {
+
+	/**
+	 * wrapperPrimitiveMap: 基本数据类型包装集合
+	 */
+	private static Map<Class<?>, PrimitiveData> wrapperPrimitiveMap = new HashMap<Class<?>, PrimitiveData>();
+	static {
+		wrapperPrimitiveMap.put(Boolean.class, new PrimitiveData(boolean.class, "false"));
+		wrapperPrimitiveMap.put(Byte.class, new PrimitiveData(byte.class, "0"));
+		wrapperPrimitiveMap.put(Character.class, null);
+		wrapperPrimitiveMap.put(Short.class, new PrimitiveData(short.class, "0"));
+		wrapperPrimitiveMap.put(Integer.class, new PrimitiveData(int.class, "0"));
+		wrapperPrimitiveMap.put(Long.class, new PrimitiveData(long.class, "0"));
+		wrapperPrimitiveMap.put(Double.class, new PrimitiveData(double.class, "0.00"));
+		wrapperPrimitiveMap.put(Float.class, new PrimitiveData(float.class, "0.0"));
+		wrapperPrimitiveMap.put(String.class, null);
+	}
+
+	/**
+	 * 目的和功能：构造方法,构造ReflectUtil类的一个实例 <br>
+	 * 注意事项：<font color="red">不允许实例化</font> <br>
+	 */
+	private ReflectUtil() {
+	}
+
+	/**
+	 * 功能：检查指定对象是否为基本数据类型对象 <br>
+	 * 注意事项：<font color="red">TODO</font> <br>
+	 * 
+	 * @param clazz
+	 * @return boolean
+	 */
+	public static boolean isPrimitive(Class<?> clazz) {
+		return wrapperPrimitiveMap.containsKey(clazz);
+	}
+
+	/**
+	 * 功能：返回指定对象中指定属性名称的方法对象 <br>
+	 * 注意事项：<font color="red">未找到对应方法对象返回null</font> <br>
+	 * 
+	 * @param clazz
+	 * @param fieldName
+	 *            String 属性名称
+	 * @param prefix
+	 *            String 方法名称前缀
+	 * @return Method
+	 */
+	public static Method getMethod(Class<?> clazz, String fieldName, String prefix) {
+		Method method = null;
+		Method[] methods = clazz.getMethods();
+		for (int i = 0; i < methods.length; i++) {
+			String methodName = StringUtils.upperCase(methods[i].getName());
+			if (methodName.startsWith(StringUtils.upperCase(StringUtils.trimToEmpty(prefix)))
+					&& methodName.endsWith(StringUtils.upperCase(fieldName))) {
+				method = methods[i];
+			}
+		}
+		return method;
+	}
+
+	/**
+	 * 功能：返回基本数据类型Class对象 <br>
+	 * 注意事项：<font color="red">TODO</font> <br>
+	 * 
+	 * @param <T>
+	 * @param clazz
+	 * @return
+	 * @throws InstantiationException
+	 * @throws IllegalAccessException
+	 * @throws SecurityException
+	 * @throws NoSuchMethodException
+	 * @throws IllegalArgumentException
+	 * @throws InvocationTargetException
+	 *             T
+	 */
+	@SuppressWarnings("unchecked")
+	public static <T> T newInstance(Class<T> clazz) throws InstantiationException, IllegalAccessException,
+			SecurityException, NoSuchMethodException, IllegalArgumentException, InvocationTargetException {
+		if (wrapperPrimitiveMap.containsKey(clazz)) {
+			if (clazz == Character.class) {
+				return (T) new Character('0');
+			} else if (clazz == String.class) {
+				return (T) new String();
+			}
+			return (T) clazz.getMethod("valueOf", new Class[] { String.class }).invoke(
+					wrapperPrimitiveMap.get(clazz).getClazz(), wrapperPrimitiveMap.get(clazz).getDefaultValue());
+		}
+		return clazz.newInstance();
+	}
+
+	/**
+	 * 功能描述: 基本数据类型信息Bean <br>
+	 * 作者: <a href="mailto:wdps.cn@gmail.com">loong</a> <br>
+	 * 版本: 1.0.0<br>
+	 */
+	static class PrimitiveData {
+		private Class<?> clazz;
+		private String defaultValue;
+
+		public PrimitiveData(Class<?> clazz, String defaultValue) {
+			this.clazz = clazz;
+			this.defaultValue = defaultValue;
+		}
+
+		public Class<?> getClazz() {
+			return clazz;
+		}
+
+		public String getDefaultValue() {
+			return defaultValue;
+		}
+	}
+}

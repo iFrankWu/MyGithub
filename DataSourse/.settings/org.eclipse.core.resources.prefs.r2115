@@ -1,0 +1,18 @@
+#Fri Feb 25 10:41:14 CST 2011
+eclipse.preferences.version=1
+encoding//config/db.properties=UTF-8
+encoding//src/com/shinetech/sql/DatabaseAccess.java=UTF-8
+encoding//src/com/shinetech/sql/DatabaseAccessBuilder.java=UTF-8
+encoding//src/com/shinetech/sql/FieldParameter.java=UTF-8
+encoding//src/com/shinetech/sql/FieldTypes.java=UTF-8
+encoding//src/com/shinetech/sql/SqlParameter.java=UTF-8
+encoding//src/com/shinetech/sql/exception/DBException.java=UTF-8
+encoding//src/com/shinetech/sql/lob/LobReader.java=UTF-8
+encoding//src/com/shinetech/sql/lob/LobWriter.java=UTF-8
+encoding//src/com/shinetech/sql/oracle/lob/DefaultBlobReader.java=UTF-8
+encoding//src/com/shinetech/sql/oracle/lob/DefaultClobReader.java=UTF-8
+encoding//src/com/shinetech/sql/pools/ConnectionPools.java=UTF-8
+encoding//src/com/shinetech/sql/pools/ConnectionPoolsBuilder.java=UTF-8
+encoding//src/com/shinetech/sql/pools/DBConfigManager.java=UTF-8
+encoding//src/com/shinetech/sql/pools/DbConfigBean.java=UTF-8
+encoding/<project>=UTF-8

@@ -1,0 +1,12 @@
+log4j.rootLogger=info,X4
+
+
+log4j.logger.com.shinetech.db=debug, X4
+log4j.logger.com.shinetech.db.access=debug, X4
+log4j.logger.com.autolink.extend.dao=debug, X4
+log4j.appender.X4=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.X4.file=e:/log/DBSourse.log
+log4j.appender.X4.DatePattern='.'yyyy-MM-dd'.log'
+log4j.appender.X4.layout=org.apache.log4j.PatternLayout
+log4j.appender.X4.layout.ConversionPattern=%m%n
+

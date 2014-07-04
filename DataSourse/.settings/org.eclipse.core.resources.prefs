@@ -1,0 +1,18 @@
+<<<<<<< .mine
+#Sat Feb 26 10:34:04 CST 2011
+=======
+#Sat Feb 26 11:44:53 CST 2011
+>>>>>>> .r2135
+eclipse.preferences.version=1
+encoding//config/db.properties=UTF-8
+encoding//src/com/shinetech/sql/DatabaseAccessBuilder.java=UTF-8
+encoding//src/com/shinetech/sql/FieldParameter.java=UTF-8
+encoding//src/com/shinetech/sql/FieldTypes.java=UTF-8
+encoding//src/com/shinetech/sql/SqlParameter.java=UTF-8
+encoding//src/com/shinetech/sql/exception/DBException.java=UTF-8
+encoding//src/com/shinetech/sql/pools/ConnectionPoolsBuilder.java=UTF-8
+encoding//src/com/shinetech/sql/pools/DBConfigManager.java=UTF-8
+<<<<<<< .mine
+=======
+encoding/<project>=UTF-8
+>>>>>>> .r2135
