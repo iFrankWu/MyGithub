@@ -1,0 +1,6 @@
+[INFO ] 2014-03-04 10:14:42,847 method:com.tibco.rest.CommonResource.handlePut(CommonResource.java:131)
+退款信息被删除：用户(Id:1)删除付款信息(paymentId:13)，若有疑问请及时联系该用户：
+[INFO ] 2014-03-04 10:16:16,048 method:com.tibco.rest.CommonResource.handlePut(CommonResource.java:131)
+退款信息被删除：用户(Id:1)删除付款信息(paymentId:5)，若有疑问请及时联系该用户：
+[INFO ] 2014-03-04 10:16:16,063 method:com.tibco.service.PaymentService.deleteRefund(PaymentService.java:100)
+删除退款信息，退款方式：存入账户,因此学生账户余额会减少:1000.0

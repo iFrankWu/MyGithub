@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html ng-app="userControl">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+ <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <!--
+    <script src="js/jquery/require-jquery.js" data-main="main"></script>
+    <script src="scripts/angular.js"></script>   
+<script src="scripts/ui-bootstrap-tpls-0.6.0.js"></script>
+<script src="scripts/angular-route.min.js"></script>
+-->
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div id="container" class="onzichtbaar">
+    <div class="row hero-unit">
+        <img src="images/clock.png" class="span3" style="float: left; height: 80px; width: 125px;">
+
+        <h1 class="span9">Manage students easier</h1>
+    </div>
+<div id="navigation"  class="offset1">
+		<ul>
+    	 <li id="studentLink" style="display:none"><a href="#/crm/students"  class="btn">学生</a></li>
+	    <li id="classLink" style="display:none"><a href="#/crm/classes"  class="btn">班级</a></li>
+	    <li id="userLink" style="display:none"><a href="#/crm/users"  class="btn">用户</a></li>
+	    <li><a id="mypageLink" style="display:none" href="#/crm/mypage" class="btn">我的帐户</a></li>
+	    </ul>
+	     <a  id="logout"  href=""  style="display:none;position:relative;left: 700px;" class="btn" onclick="logout()">退出</a>
+</div>
+   
+    <div class="row offset1" ng-view>
+
+    </div>
+    <div style="height:15px"></div>
+    <div class="row offset1">
+        <blockquote>
+            <p>"Project for Ms.Mu managing student information using JavaScript and REST" written by  Frank Wu(wushexin@gmail.com)</p>
+        </blockquote>
+    </div>
+</div>
+<div id="wait" class="offset5 span1">
+    <img src="images/animated.gif">
+</div>
+<iframe src="about:blank" id="printframe"  width="10" height="10" style="border:0"></iframe>
+</body>
+  <script src="scripts/angular.js"></script>   
+<script src="scripts/ui-bootstrap-tpls-0.6.0.js"></script>
+<script src="scripts/angular-route.min.js"></script>
+
+<script src="js/jquery/jquery-1.8.1.min.js"></script>
+
+<script src="js/ui/app.js"></script>
+<script src="js/ui/controller.js"></script>
+<script src="js/ui/services.js"></script>
+ 
+<script src="js/ui/filters.js"></script>
+<script src="js/ui/user_customize.js"></script>
+</html>

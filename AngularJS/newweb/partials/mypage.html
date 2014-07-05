@@ -1,0 +1,155 @@
+<fieldset ng-show="!modifys"  style="clear:left">
+ <legend>用户信息</legend>
+<table id="list"  width="100%">
+			<thead>
+				<tr>
+					<th>姓名</th> <th>用户类型</th><th>用户状态</th><th>创建日期</th><th>修改日期</th><th>更新</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>{{currentuser.username}}</td>
+					<td>{{currentuser.type}}</td>
+					<td>{{currentuser.status}}</td>
+					<td>{{formatTime(currentuser.createDate)}}</td>
+					<td>{{formatTime(currentuser.modifyDate)}}</td>
+					<td><button  class="btn" ng-click="modify(currentuser)">修改</button></td>
+				</tr>
+			</tbody>
+		</table>
+	</fieldset>	
+
+<fieldset border="1" ng-show="modifys" style="clear:left">
+ 
+  <legend>更新用户</legend>
+  <form ng-submit="updateUser()">
+  
+            	<label name="s" for="aantalUren">用户名:	
+              	  <input id="aantalUren" type="text" class="span4" placeholder="User Name" required="required" ng-model="username">
+                </label>
+                
+                <label name="sq" for="activiteit">密码:	
+               		 <input id="activiteit" type="Password" class="span4" ng-model="password"> 如果不修改密码，请不要填写这个字段
+                </label>
+                 <label name="sq" for="type" >用户类型:
+                     	<select ng-model="type" ng-options="v for v in types.values"></select>
+                </label>
+                
+                 <label name="sq" for="activiteit">用户状态:	
+                   <select ng-model="status" ng-options="v for v in statuses.values"></select>
+
+                
+                </label>
+               <input class="btn" type="submit" value="更新用户">
+                 <input  class="btn" type="button" value="取消更新" ng-click="cancle()">
+            </form>
+ 
+</fieldset>
+
+
+
+<fieldset>
+<legend>用户收费记录查询    </legend>
+<lable>设置查询日期区间：</lable>
+<input type="date" ng-model="date1"><input type="date" ng-model="date2">
+<a href="" class="btn" ng-click="getPayments()">查询</a> 
+</fieldset>
+<fieldset ng-show="payments != null && payments.length > 0">
+	<legend>收费明细</legend>
+	<table width="100%">
+		<tr>
+			<th>付款学生</th>
+			<th>收款人</th>
+			<th>付款金额</th>
+			<th>付款目的</th>
+			<th>过期提醒设置</th>
+			<th>备注</th>
+			<th>生效日期</th>
+			<th>到期日期</th>
+			<th>付款日期</th>
+			<th>打印</th>
+		</tr>
+		<tbody>
+		<tr ng-repeat="payment in payments">
+			<td>{{payment.payer}}</td>
+			<td>{{payment.receiver}}</td>
+			<td>{{payment.payAmount}}</td>
+			<td>{{payment.purpose}}</td>
+			<td>{{doesReminder(minderpayment.doesNeedReminder)}}</td>
+			<td>{{payment.remark}}</td>
+			<td>{{formatDate(payment.startDate)}}</td>
+			<td>{{formatDate(payment.endDate)}}</td>
+			<td>{{formatDate(payment.payDate)}}</td>
+			<td><button class="btn" ng-controller="CommomController" ng-click="printFrame('printframe','{{payment.payAmount}}','{{payment.purpose}}','{{formatDate(payment.startDate)}}','{{formatDate(payment.endDate)}}','{{formatDate(payment.payDate)}}','{{payment.payer}}','{{payment.receiver}}','{{payment.payway}}')">打印收据</button></td>
+		</tr>
+		<tr><td colspan="5"><h4>金额合计</h4></td><td colspan="2"><h4>{{allMoney(payments)}}</h4></td></tr>
+		</tbody>
+	</table>
+</fieldset>
+
+<fieldset>
+	<legend>处理退款</legend>
+	<table style="width:100%">
+					<tr><th>序号</th><th>学生</th><th>班级</th>
+						<th>退款人</th><th>收款人</th>
+						<th>退款金额</th><th>退款方式</th>
+						<th>操作</th></tr>
+					<tr ng-repeat="refund in allRefunds">
+							<td class="span4">{{$index+1}}</td>
+							<td class="span4">{{refund.selectedPayway}}</td>
+							<td class="span4">{{refund.selectedClass}}</td>
+							<td class="span4">{{refund.payer}}</td>
+							<td class="span4">{{refund.receiver}}</td>
+							<td class="span4">{{refund.payAmount}}</td>
+							<td class="span4">{{refund.cashOrCard}}</td>
+							<td class="span4"><button ng-controller="CommomController" class="btn" ng-click="printFrame('printframe','{{refund.payAmount}}','退费','{{refund.selectedClass}}',' ','{{formatDate(refund.payDate)}}','{{refund.payer}}','{{refund.receiver}}','{{refund.cashOrCard}}')">打印</button>
+								<button class="btn" ng-show="isAdmin" ng-click="deleteRefund($index)">删除</button></td>
+					</tr>
+					<tr ng-show="!showSettingRefund">
+						<td colspan="4" ><button class="btn" ng-click="getStudentList4Refund()">增加</button></td>
+					</tr>
+			</table>
+			<table ng-show="showSettingRefund">
+				<tr>
+					<th>学生</th>
+					<th>班级</th>
+					<th>退款方式</th>
+					<th>金额</th>
+					<th>操作</th>
+				</tr>
+					<tr >
+						<td>
+							<select ng-model="selectedStu" ng-options="v.name for v in allStudents4Refund"  ng-change="changeStudent()">
+							</select>
+						</td>
+						<td><select ng-model="selectedClass" ng-options="v.className for v in allClass4Refund">
+							</select>
+						</td>
+						<td>
+							   <select  ng-model="payment.cashOrCard" ng-options="v for v in refundPayways.values">
+                               </select>
+						</td>
+						<td><input class="span2" ng-model="payment.payAmount"></input></td>
+						<td colpan="4"><button class="btn" ng-click="addRefund()">提交</button></td>	
+					</tr>
+					
+				
+			</table>
+</fieldset>
+
+<fieldset>
+	<legend>导出数据</legend>
+	<form action="crm/comm/exports" method="POST">
+		<table>
+			<tr>
+				<td>设置导出时间区间：</td>
+				<td><input type="date" ng-model="date5" name="date1" ng-change=exportData()></td>
+				<td><input type="date" ng-model="date6" name="date2" ng-change=exportData()></td>
+				<td><input type="text" ng-model="userName" name="userName"  ng-show="false">
+					<select ng-model="userName" ng-options="u for u in getColFromArray(users,'username')" ng-show="isAdmin"></select>
+				</td>
+				<td><input id="exportBtn" type="submit" value="导出学生" class="btn" ng-disabled="abletosummit" /></td>
+			</tr>
+		</table>
+		</form>
+</fieldset>

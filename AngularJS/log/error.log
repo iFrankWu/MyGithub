@@ -1,0 +1,156 @@
+[ERROR] 2014-01-17 15:38:02,381 method:com.tibco.rest.StudentResource.addStudent(StudentResource.java:53)
+增加学生失败，学生名: 32，错误原因: 执行操作失败
+[ERROR] 2014-01-17 15:38:14,432 method:com.tibco.rest.StudentResource.addStudent(StudentResource.java:53)
+增加学生失败，学生名: 32，错误原因: 执行操作失败
+[ERROR] 2014-01-17 16:41:08,919 method:com.tibco.rest.UserResource.login(UserResource.java:59)
+Fail to login,username : a:从Resultset对象中获取值到[com.tibco.bean.User]对象中失败
+[ERROR] 2014-01-17 16:41:16,518 method:com.tibco.rest.UserResource.login(UserResource.java:59)
+Fail to login,username : a:从Resultset对象中获取值到[com.tibco.bean.User]对象中失败
+[ERROR] 2014-01-17 21:18:57,079 method:com.tibco.rest.StudentResource.addStudent(StudentResource.java:53)
+增加学生失败，学生名: dads，错误原因: 执行操作失败
+[ERROR] 2014-02-15 19:38:22,599 method:com.tibco.rest.StudentResource.addStudent(StudentResource.java:53)
+增加学生失败，学生名: da，错误原因: 执行操作失败
+[ERROR] 2014-02-18 20:56:23,137 method:com.tibco.rest.StudentResource.addStudent(StudentResource.java:53)
+增加学生失败，学生名: 姓名，错误原因: 执行操作失败
+[ERROR] 2014-02-22 17:15:36,419 method:com.tibco.rest.StudentResource.addStudent(StudentResource.java:53)
+增加学生失败，学生名: 但是，错误原因: 执行操作失败
+[ERROR] 2014-02-22 17:20:44,704 method:com.tibco.rest.StudentResource.addStudent(StudentResource.java:53)
+增加学生失败，学生名: a，错误原因: 绑定参数到PreparedStatement对象失败：insert into student(id,name,sex,age,address,contact,mobilePhone,email,telephone,dataFrom,status,doesBill,createDate,uid,qq,school,otherTelephone,accountBalance) values(?,?,?,?,?,?,?,?,?,?,?,?,now(),?,?,?,?)
+[ERROR] 2014-02-22 17:26:16,068 method:com.tibco.rest.StudentResource.addStudent(StudentResource.java:53)
+增加学生失败，学生名: a，错误原因: 执行操作失败
+[ERROR] 2014-02-22 17:41:19,290 method:com.tibco.rest.StudentResource.addStudent(StudentResource.java:53)
+增加学生失败，学生名: wsx，错误原因: 执行操作失败
+[ERROR] 2014-02-22 17:49:07,180 method:com.tibco.rest.StudentResource.addStudent(StudentResource.java:53)
+增加学生失败，学生名: 吴社新，错误原因: 执行操作失败
+[ERROR] 2014-02-26 22:11:49,035 method:com.tibco.rest.StudentResource.updateStudent(StudentResource.java:78)
+更新学生失败，学生ID: 1，错误原因： 绑定参数到PreparedStatement对象失败：update payment set payAmount= ?,purpose =?,doesNeedReminder=?,endDate=?,remark=?,payDate=?, pwayid = ? ,startDate = ?, useBalance = ?,cashOrCard= ? ,selectedClass =?,selectedPayway =? where id =?
+[ERROR] 2014-02-27 17:20:13,756 method:com.tibco.rest.CommonResource.handlePut(CommonResource.java:105)
+Add student fail, student name : {"sid":1,"action":"settingDiscount","cid":1,"discount":"0.5"}:java.lang.String cannot be cast to java.lang.Float
+[ERROR] 2014-02-27 21:06:47,070 method:com.tibco.rest.CommonResource.handlePut(CommonResource.java:105)
+Add student fail, student name : {"sid":2,"action":"settingDiscount","cid":1}:null
+[ERROR] 2014-02-27 21:09:26,281 method:com.tibco.rest.CommonResource.handlePut(CommonResource.java:105)
+Add student fail, student name : {"sid":2,"action":"settingDiscount","cid":3}:null
+[ERROR] 2014-02-27 21:14:51,016 method:com.tibco.rest.CommonResource.handlePut(CommonResource.java:105)
+Add student fail, student name : {"sid":1,"action":"settingDiscount","cid":1,"discount":"o.9"}:For input string: "o.9"
+[ERROR] 2014-02-27 21:15:02,155 method:com.tibco.rest.CommonResource.handlePut(CommonResource.java:105)
+Add student fail, student name : {"sid":2,"action":"settingDiscount","cid":1,"discount":"o.9"}:For input string: "o.9"
+[ERROR] 2014-02-28 13:54:41,311 method:com.tibco.rest.CommonResource.handlePut(CommonResource.java:111)
+Add student fail, student name : {"action":"getDiscountForStudentByClass","cid":1}:null
+[ERROR] 2014-02-28 13:56:16,503 method:com.tibco.rest.CommonResource.handlePut(CommonResource.java:111)
+Add student fail, student name : {"action":"getDiscountForStudentByClass","cid":2}:null
+[ERROR] 2014-02-28 13:57:14,340 method:com.tibco.rest.CommonResource.handlePut(CommonResource.java:111)
+Add student fail, student name : {"action":"getDiscountForStudentByClass","cid":2}:null
+[ERROR] 2014-02-28 16:53:49,180 method:com.tibco.rest.CommonResource.handlePut(CommonResource.java:111)
+Add student fail, student name : {"action":"getDiscountForStudentByClass","cid":1}:null
+[ERROR] 2014-03-01 13:30:22,709 method:com.tibco.rest.CommonResource.HandlePost(CommonResource.java:82)
+Add student fail, student name : {"action":"getAllRefunds"}:执行查询失败
+[ERROR] 2014-03-01 13:32:16,106 method:com.tibco.rest.CommonResource.HandlePost(CommonResource.java:82)
+Add student fail, student name : {"action":"getAllRefunds"}:执行查询失败
+[ERROR] 2014-03-01 13:47:41,467 method:com.tibco.rest.CommonResource.handlePut(CommonResource.java:128)
+Add student fail, student name : {"payment":{"payAmount":0,"sid":3,"uid":1,"payer":"a","receiver":"dssd","useBalance":0,"cashOrCard":"刷卡","selectedClass":{"id":1,"className":"206班","modifyDate":1393402822000,"classNotice":"班级通知","createDate":1393060472000,"payAmount":1200,"students":[],"payways":[{"id":1,"modifyDate":1393402822000,"createDate":1393402822000,"payway":"月付","cid":1,"discount":1},{"id":2,"modifyDate":1393402822000,"createDate":1393402822000,"payway":"季付","cid":1,"discount":0.9},{"id":3,"modifyDate":1393402822000,"createDate":1393402822000,"payway":"半年付","cid":1,"discount":0.8}],"teacher":"李金兵"},"paymentAmout":"900"},"action":"addRefund"}:java.util.LinkedHashMap cannot be cast to org.json.simple.JSONObject
+[ERROR] 2014-03-01 13:54:08,879 method:com.tibco.rest.CommonResource.handlePut(CommonResource.java:128)
+Add student fail, student name : {"payment":{"payAmount":0,"sid":3,"uid":1,"payer":"a","receiver":"dssd","useBalance":0,"cashOrCard":"现金","selectedClass":"温塘二中","paymentAmout":"dsa"},"action":"addRefund"}:java.util.LinkedHashMap cannot be cast to org.json.simple.JSONObject
+[ERROR] 2014-03-01 14:05:25,308 method:com.tibco.rest.CommonResource.HandlePost(CommonResource.java:81)
+Add student fail, student name : {"action":"getAllRefunds"}:从Resultset对象中获取值到[com.tibco.bean.Payment]对象中失败
+[ERROR] 2014-03-01 14:07:06,410 method:com.tibco.rest.CommonResource.HandlePost(CommonResource.java:81)
+Add student fail, student name : {"action":"getAllRefunds"}:从Resultset对象中获取值到[com.tibco.bean.Payment]对象中失败
+[ERROR] 2014-03-01 14:09:58,762 method:com.tibco.rest.CommonResource.handlePut(CommonResource.java:127)
+Add student fail, student name : {"payment":{"payAmount":"444","sid":3,"uid":1,"payer":"a","receiver":"dssd","useBalance":"444","cashOrCard":"存入账户","selectedClass":"温塘二中"},"action":"addRefund"}:绑定参数到PreparedStatement对象失败：update student set modifyDate =now(), accountBalance = accountBalance+ ?  where (id = ?)
+[ERROR] 2014-03-01 14:10:00,174 method:com.tibco.rest.CommonResource.HandlePost(CommonResource.java:81)
+Add student fail, student name : {"action":"getAllRefunds"}:从Resultset对象中获取值到[com.tibco.bean.Payment]对象中失败
+[ERROR] 2014-03-01 14:11:52,963 method:com.tibco.rest.CommonResource.HandlePost(CommonResource.java:81)
+Add student fail, student name : {"action":"getAllRefunds"}:从Resultset对象中获取值到[com.tibco.bean.Payment]对象中失败
+[ERROR] 2014-03-01 18:05:23,166 method:com.tibco.rest.CommonResource.handlePut(CommonResource.java:127)
+Add student fail, student name : {"action":"getDiscountForStudentByClass","cid":2}:null
+[ERROR] 2014-03-01 18:28:37,083 method:com.tibco.rest.CommonResource.handlePut(CommonResource.java:127)
+Add student fail, student name : {"sid":1,"action":"getDiscountForStudentByClass","cid":3}:null
+[ERROR] 2014-03-02 19:14:08,618 method:com.tibco.rest.CommonResource.HandlePost(CommonResource.java:82)
+Add student fail, student name : {"action":"getAllRefunds"}:执行查询失败
+[ERROR] 2014-03-02 19:14:15,071 method:com.tibco.rest.CommonResource.HandlePost(CommonResource.java:82)
+Add student fail, student name : {"action":"getAllRefunds"}:执行查询失败
+[ERROR] 2014-03-03 16:10:01,987 method:com.tibco.rest.StudentResource.addStudent(StudentResource.java:54)
+增加学生失败，学生名: null，错误原因: 执行操作失败
+[ERROR] 2014-03-03 16:13:22,447 method:com.tibco.rest.StudentResource.addStudent(StudentResource.java:54)
+增加学生失败，学生名: null，错误原因: 执行操作失败
+[ERROR] 2014-03-03 16:32:04,504 method:com.tibco.rest.StudentResource.addStudent(StudentResource.java:54)
+增加学生失败，学生名: ds，错误原因: 执行操作失败
+[ERROR] 2014-03-10 18:14:41,508 method:com.shinetech.sql.pools.impl.DefaultConnectionPools.newConnection(DefaultConnectionPools.java:266)
+创建新连接时出错
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'systemv1'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3597)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3529)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:935)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:4101)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1300)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2337)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2370)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2154)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:792)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:381)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at java.sql.DriverManager.getConnection(DriverManager.java:579)
+	at java.sql.DriverManager.getConnection(DriverManager.java:221)
+	at com.shinetech.sql.pools.impl.DefaultConnectionPools.newConnection(DefaultConnectionPools.java:262)
+	at com.shinetech.sql.pools.impl.DefaultConnectionPools.getConnection(DefaultConnectionPools.java:152)
+	at com.shinetech.sql.impl.DefaultDatabaseAccess.getConnection(DefaultDatabaseAccess.java:435)
+	at com.shinetech.sql.impl.DefaultDatabaseAccess.queryPrepareFirst(DefaultDatabaseAccess.java:313)
+	at com.tibco.dao.UserDAO.existUsename(UserDAO.java:60)
+	at com.tibco.service.UserService.Login(UserService.java:31)
+	at com.tibco.rest.UserResource.login(UserResource.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1469)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1400)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1349)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:699)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:648)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:229)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:722)
+[ERROR] 2014-03-10 18:14:41,523 method:com.shinetech.sql.pools.impl.DefaultConnectionPools.getConnection(DefaultConnectionPools.java:154)
+创建一个新连接时出错
+[ERROR] 2014-03-10 18:14:41,524 method:com.tibco.rest.UserResource.login(UserResource.java:59)
+Fail to login,username : a:创建一个新连接时出错

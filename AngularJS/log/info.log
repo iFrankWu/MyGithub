@@ -1,0 +1,18 @@
+[INFO ] 2014-03-08 11:33:48,501 method:com.tibco.service.PaymentService.addRefund(PaymentService.java:93)
+增加退款信息，退款方式：存入账户,因此学生账户余额会增加:1000
+[INFO ] 2014-03-08 11:39:08,494 method:com.tibco.service.PaymentService.updatePayment(PaymentService.java:73)
+付款信息被删除：用户(Id:1)删除付款信息(paymentId:16)，若有疑问请及时联系该用户。
+[INFO ] 2014-03-08 12:45:05,673 method:com.tibco.service.PaymentService.addRefund(PaymentService.java:93)
+增加退款信息，退款方式：存入账户,因此学生账户余额会增加:30
+[INFO ] 2014-03-08 14:30:13,629 method:com.tibco.service.PaymentService.updatePayment(PaymentService.java:73)
+付款信息被删除：用户(Id:1)删除付款信息(paymentId:18)，若有疑问请及时联系该用户。
+[INFO ] 2014-03-08 14:30:13,631 method:com.tibco.service.PaymentService.updatePayment(PaymentService.java:73)
+付款信息被删除：用户(Id:1)删除付款信息(paymentId:19)，若有疑问请及时联系该用户。
+[INFO ] 2014-03-08 14:31:07,687 method:com.tibco.rest.CommonResource.handlePut(CommonResource.java:138)
+退款信息被删除：用户(Id:1)删除付款信息(paymentId:20)，若有疑问请及时联系该用户。
+[INFO ] 2014-03-08 14:31:07,698 method:com.tibco.service.PaymentService.deleteRefund(PaymentService.java:101)
+删除退款信息，退款方式：存入账户,因此学生账户余额会减少:30.0
+[INFO ] 2014-03-08 14:31:32,315 method:com.tibco.service.PaymentService.addRefund(PaymentService.java:93)
+增加退款信息，退款方式：存入账户,因此学生账户余额会增加:30
+[INFO ] 2014-03-08 14:36:45,683 method:com.tibco.service.PaymentService.addRefund(PaymentService.java:93)
+增加退款信息，退款方式：存入账户,因此学生账户余额会增加:35
