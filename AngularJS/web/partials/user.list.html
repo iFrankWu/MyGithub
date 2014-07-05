@@ -1,0 +1,158 @@
+<div >
+<!--  
+<div ng-include src="'partials/navBar.html'"></div>-->
+<input type="checkbox" ng-model="confirmed1"  id="ng-change-example1" style="display:none" />
+
+
+<!-- 
+<input type="button" ng-click="getUserList()" style="size:10">getUserList</input>
+ -->
+<fieldset border="1" ng-show="!modifys" style="clear:left">
+  <legend>增加用户</legend>
+  <form ng-submit="addUser()">
+  
+            	<label name="s" for="aantalUren">用户名:  	
+                <input id="aantalUren" type="text" class="span4" placeholder="User Name" required="required" ng-model="username">
+                </label>
+                
+                <label name="sq" for="activiteit">密码:  	
+                <input id="activiteit" type="password" class="span4" ng-model="password" required="required">
+                </label>
+                 <label name="sq" for="type">用户类型:
+                 <select ng-model="type">
+                	 <option ng-repeat="t in types" value="{{t.value}}" >{{t.name}}</option>
+                	</select>
+                </label>
+                
+                 <label name="sq" for="activiteit">用户状态:	
+                   <select ng-model="status">
+                	 <option ng-repeat="t in statuses" value="{{t.value}}">{{t.name}}</option>
+                	</select>
+                
+                </label>
+                
+               <input  class="btn" type="submit" value="新增用户">
+            </form>
+ 
+</fieldset>
+<fieldset style="clear:left">
+<legend>用户查找</legend>
+<input ng-model="searchText">  <label class="btn">查找</label>
+</fieldset>
+ 	
+ <fieldset ng-show="users!=null && !modifys"  style="clear:left">
+ <legend>用户列表</legend>
+<table id="list"  width="100%">
+			<thead>
+				<tr>
+					<th>姓名</th> <th>用户类型</th><th>用户状态</th><th>创建日期</th><th>修改日期</th><th>更新</th><th>删除</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="user in users | filter:searchText">
+					<!--  <td>{{getChildStatus(child)}}</td>-->
+					<!--  <td><input type="text" value="{{user.username}}"></input></td>
+					<td><input type="password" value="{{user.password}}"></input></td>
+					<td><input type="text" value="{{user.type}}"></input></td>
+					<td><input type="text" value="{{user.status}}"></input></td>
+					-->
+					<td>{{user.username}}</td>
+					<td>{{seek(user.type,types)}}</td>
+					<td>{{seek(user.status,statuses)}}</td>
+						<!--  
+					<td>
+					 <select >
+                	 <option ng-repeat="t in types" value="{{t.value}}" selected=false>{{t.name}}</option>
+                	</select>
+                	</td>
+					
+					<td>
+					 <select>
+                	 <option ng-repeat="t in statuses" value="{{t.value}}" {{{isSelected(t.value,'stutus',user)}}}>{{t.name}}</option>
+                	</select>
+                	</td>
+                	-->
+					<td>{{formatTime(user.createDate)}}</td>
+					<td>{{formatTime(user.modifyDate)}}</td>
+					<td><button  class="btn" ng-click="modify(user)">修改</button></td>
+					<td><button  class="btn" ng-click="deleteUser(user)">删除</button></td>
+				</tr>
+			</tbody>
+		</table>
+	</fieldset>	
+		
+		
+<fieldset border="1" ng-show="modifys" style="clear:left">
+ 
+  <legend>更新用户</legend>
+  <form ng-submit="updateUser()">
+  
+            	<label name="s" for="aantalUren">用户名:	
+              	  <input id="aantalUren" type="text" class="span4" placeholder="User Name" required="required" ng-model="username">
+                </label>
+                
+                <label name="sq" for="activiteit">密码:	
+               		 <input id="activiteit" type="Password" class="span4" ng-model="password"> 如果不修改密码，请不要填写这个字段
+                </label>
+                 <label name="sq" for="type" >用户类型:
+                 <select ng-model="type" id="type">
+               
+                	 <option ng-repeat="t in types" value="{{t.value}}">{{t.name}}</option>
+                	 
+                	</select>
+                </label>
+                
+                 <label name="sq" for="activiteit">用户状态:	
+                   <select ng-model="status" id="status">
+                   
+                	 <option {{isSelected(t.value,'stutus',user)}} ng-repeat="t in statuses" value="{{t.value}}" >{{t.name}}</option>
+                	 
+                	</select>
+                
+                </label>
+               <input class="btn" type="submit" value="更新用户">
+                 <input  class="btn" type="button" value="取消更新" ng-click="cancle()">
+            </form>
+ 
+</fieldset>
+
+<fieldset>
+<legend>用户收费记录查询    </legend>
+<lable>设置查询日期区间：</lable>
+<input type="date" ng-model="date1"><input type="date" ng-model="date2">
+<a href="" class="btn" ng-click="getPayments()">查询</a> 
+</fieldset>
+<fieldset ng-show="payments != null && payments.length > 0">
+	<legend>收费明细</legend>
+	<table width="100%">
+		<tr>
+			<th>付款学生</th>
+			<th>收款人</th>
+			<th>付款金额</th>
+			<th>付款目的</th>
+			<th>过期提醒设置</th>
+			<th>备注</th>
+			<th>生效日期</th>
+			<th>到期日期</th>
+			<th>付款日期</th>
+			<th>打印</th>
+		</tr>
+		<tbody>
+		<tr ng-repeat="payment in payments">
+			<td>{{payment.payer}}</td>
+			<td>{{payment.receiver}}</td>
+			<td>{{payment.payAmount}}</td>
+			<td>{{payment.purpose}}</td>
+			<td>{{doesReminder(minderpayment.doesNeedReminder)}}</td>
+			<td>{{payment.remark}}</td>
+			<td>{{formatDate(payment.startDate)}}</td>
+			<td>{{formatDate(payment.endDate)}}</td>
+			<td>{{formatDate(payment.payDate)}}</td>
+			<td><button class="btn" onclick="printFrame('printframe','{{payment.payAmount}}','{{payment.purpose}}','{{formatDate(payment.startDate)}}','{{formatDate(payment.endDate)}}','{{formatDate(payment.payDate)}}','{{payment.payer}}','{{payment.receiver}}')">打印收据</button></td>
+		</tr>
+		<tr><td colspan="5"><h4>金额合计</h4></td><td colspan="2"><h4>{{allMoney(payments)}}</h4></td></tr>
+		</tbody>
+	</table>
+</fieldset>
+</div>
+		

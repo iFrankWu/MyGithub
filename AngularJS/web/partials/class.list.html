@@ -1,0 +1,231 @@
+<div>
+	<!--  <div ng-include src="'partials/navBar.html'"></div>-->
+	<a herf="" class="btn" ng-click="showAddClass()" ng-show="!modifys">增加班级</a>
+	<div style="clear:left" ng-show="modifys">
+	<!-- update class div -->
+	<fieldset>
+				<legend>更新班级</legend>
+				 <form ng-submit="updateClazz()">
+  		
+  		<fieldset>
+  			<legend>基本信息</legend>
+            	<label name="s" >班级名字：	
+                <input type="text" class="span4" placeholder="Class Name" required="required" ng-model="className">
+                </label>
+                
+                <label name="sq" >班级通知：
+                 <textarea ng-model="classNotice" required="required" ></textarea>
+                </label>
+                 <label name="sq" >班主任：
+                 <input  type="text" class="span4" ng-model="teacher" required="required">
+                </label>
+                
+                 <label name="sq" >学费：	
+                 	 <input  type="text"   smart-float class="span4" ng-model="payAmount" required="required" onChange="checkfloat(event, this)">                
+                </label>
+                	</fieldset>
+                  <label ng-show="payways == null || payways.length == 0">增加折扣信息:	
+                	<input  type="checkbox"  ng-click="addPayways()">
+           		 </label>
+             
+             	<div ng-show="payways!=null && payways.length > 0">
+            	<fieldset >
+            		
+            		<div ng-repeat="payway in  payways">
+            		<legend>在这里设置第  {{$index+1}} 条打折信息</legend>
+	            		<label >付款方式:	
+	               			 <select ng-model="payway.payway">
+	               			 	<option ng-repeat="c in discountInfo" value="{{c.name}}">{{c.name}}</option>
+	               			 </select>
+	           		 	</label>
+	           		 	<label >折扣:	
+	               			 <input  type="text" smart-float class="span4" placeholder="Student pay purpose" required="required" ng-model="payway.discount" onChange="checkfloat(event, this)">
+	           		 	</label>
+	           		 	<label><a href="" class="btn" ng-click="addMorePaywayInfo()">再增加付款信息</a> 
+	           		  <a href="" class="btn"  ng-click="removePaywayHtml($index)">移除该付款信息</a></label>
+           		 	</div>
+            	</fieldset>
+            </div>
+                
+                <div style="clear:left">
+            	<fieldset>
+            	<legend>增加学生</legend>
+						<table >
+						  <tr>
+						    <td >
+							    <table >
+							      <tr>
+							        <td >请选择</td>
+							      </tr>
+							      <tr>
+							        <td >
+								        <select  ng-multiple="true"  ng-model="selectedStu1" >
+								          <option ng-repeat="s in allStudents" value="{{s.name}}" >{{s.name}}</option>
+								        </select>
+							        </td>
+							      </tr>
+							    </table>
+						    </td>
+						    <td  valign="bottom">
+							    <a href="" class="btn" ng-click="removeAStudent()"><<</a>
+							    <a href="" class="btn" ng-click="selectAStudent()">>></a>
+						    </td>
+						    
+						    <td >
+							    <table>
+							      <tr>
+							        <td >请选择</td>
+							      </tr>
+							      <tr>
+							        <td >
+							        	<select  ng-multiple="true" ng-model="selectedStu2">
+							        		<option ng-repeat="s in students" value="{{s.name}}">{{s.name}}</option>
+							            </select></td>
+							      </tr>
+							    </table>
+						   </td>
+						  </tr>
+						</table>
+            	</fieldset>
+            </div>
+                
+               <input class="btn" type="submit" value="更新">
+               <a href="" class="btn" ng-click="cancle()" >取消</a> 
+            </form>
+			</fieldset>
+	
+	</div>
+	<div style="clear:left" ng-show="!modifys" >
+	<!-- add class div -->
+		<div ng-show="show">
+			<fieldset>
+				<legend>增加班级</legend>
+				 <form ng-submit="addClazz()">
+  				<fieldset>
+  					<legend>基本信息</legend>
+  				
+            	<label name="s" >班级名字：	
+                <input type="text" class="span4" placeholder="Class Name" required="required" ng-model="className">
+                </label>
+                
+                <label name="sq" >班级通知：
+                <textarea ng-model="classNotice" required="required" ></textarea>
+                </label>
+                 <label name="sq" >班主任：
+                 <input  type="text" class="span4" ng-model="teacher" required="required">
+                </label>
+                
+                 <label name="sq" >学费：	
+                 	 <input type="text"  smart-float class="span4" ng-model="payAmount" required="required" onChange="checkfloat(event, this)">                
+                </label>
+                </fieldset>
+                 <label ng-show="payways == null || payways.length == 0">增加折扣信息:	
+                	<input  type="checkbox"  ng-click="addPayways()">       请至少设置一条折扣信息
+           		 </label>
+             
+             	<div ng-show="payways!=null && payways.length > 0">
+            	<fieldset >
+            		
+            		<div ng-repeat="payway in  payways">
+            		<legend>在这里设置第  {{$index+1}} 条打折信息</legend>
+	            		<label >付款方式:	
+	               			 <select ng-model="payway.payway">
+	               			 	<option ng-repeat="c in discountInfo" value="{{c.name}}">{{c.name}}</option>
+	               			 </select>
+	           		 	</label>
+	           		 	<label >折扣:	
+	               			 <input  type="text" smart-float class="span4" placeholder="Student pay purpose" required="required" ng-model="payway.discount"  onChange="checkfloat(event, this)"> 请设置折扣值在[0-1]之间
+	           		 	</label>
+	           		 	<label><a href="" class="btn" ng-click="addMorePaywayInfo()">再增加折扣信息</a> 
+	           		  <a href="" class="btn"  ng-click="removePaywayHtml($index)">移除该折扣信息</a></label>
+           		 	</div>
+            	</fieldset>
+            </div>
+            
+             
+                
+                <div style="clear:left">
+            	<fieldset>
+            	<legend>增加学生</legend>
+						<table >
+						  <tr>
+						    <td >
+							    <table >
+							      <tr>
+							        <td >请选择</td>
+							      </tr>
+							      <tr>
+							        <td >
+								        <select  ng-multiple="true"  ng-model="selectedStu1" >
+								          <option ng-repeat="s in allStudents" value="{{s.name}}" >{{s.name}}</option>
+								        </select>
+							        </td>
+							      </tr>
+							    </table>
+						    </td>
+						    <td  valign="bottom">
+							    <a href="" class="btn" ng-click="removeAStudent()"><<</a>
+							    <a href="" class="btn" ng-click="selectAStudent()">>></a>
+						    </td>
+						    
+						    <td >
+							    <table>
+							      <tr>
+							        <td >请选择</td>
+							      </tr>
+							      <tr>
+							        <td >
+							        	<select  ng-multiple="true" ng-model="selectedStu2">
+							        		<option ng-repeat="s in students" value="{{s.name}}">{{s.name}}</option>
+							            </select></td>
+							      </tr>
+							    </table>
+						   </td>
+						  </tr>
+						</table>
+            	</fieldset>
+            </div>
+                
+               <input id="addClass" class="btn" type="submit" value="提交"> <input type="reset" class="btn" value="重置">
+            </form>
+			</fieldset>
+		</div>
+		<div>
+		<fieldset>
+			<legend>班级查找</legend>
+			<input ng-model="searchText"><label class="btn">查找</label>
+		</fieldset>
+		
+			<fieldset ng-show="clazzes != null && clazzes.length > 0">
+				<legend>班级列表</legend>
+				<table id="clazzTable" width="100%">
+				<tr>
+					<th>班级名字</th>
+					<th>班级老师</th>
+					<th>学费</th>
+					<th>学生人数</th>
+					<th>班级通知</th>
+					<th>创建日期</th>
+					<th>修改日期</th>
+					<th>修改</th>
+					<th>删除</th>
+				</tr>
+				
+				<tr ng-repeat="clazz in clazzes |filter:searchText" ng-click="showDetailsFun($index,clazz)">
+						<td>{{clazz.className}}</td>
+						<td>{{clazz.teacher}}</td>
+						<td>{{clazz.payAmount}}</td>
+						<td>{{clazz.students.length}}</td>
+						<td>{{clazz.classNotice}}</td>
+						<td>{{formatDate(clazz.createDate)}}</td>
+						<td>{{formatDate(clazz.modifyDate)}}</td>
+						<td><a href="" class="btn" ng-click="modify(clazz)">修改</a></td>
+						<td><a href="" class="btn" ng-click="deleteClazz(clazz)">删除</a></td>
+					</tr>
+				</table>
+				
+			</fieldset>
+		</div>
+	
+	</div>
+</div>

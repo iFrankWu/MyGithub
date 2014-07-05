@@ -1,0 +1,197 @@
+<fieldset>
+			<legend>基本信息</legend>
+			<label>学生姓名:	
+                <input type="text" class="span4" placeholder="Student Name" required="required" ng-model="student.name">
+            </label>
+            
+            <label>性别:	
+                <input   type="radio"    ng-model="student.sex" name="sex" value="male">男</input>
+                <input   type="radio"    ng-model="student.sex" name="sex" value="female">女</input>
+            </label>
+            
+            	<label>出生年月日:	
+                <input type="date" class="span4" required="required" ng-model="student.age">
+            </label>
+            	<label>联系人:	
+                <input type="text" class="span4" placeholder="Student Contact" required="required" ng-model="student.contact">
+            </label>
+            
+            	<label >联系电话:	
+                <input type="text" class="span4" placeholder="Student MobilePhone" required="required" ng-model="student.mobilePhone">  
+                <a href="" class="btn"  ng-click="checkStudent()">检查学生是否重复</a> 
+            </label>
+
+             <label ng-show="student.otherTelephone == null || student.otherTelephone.length() == 0">增加联系电话:    
+                <input  type="checkbox"  ng-click="addPhone()">
+            </label>
+              <div ng-show="student.otherTelephone!=null && student.otherTelephone.length() > 0">
+                <div ng-repeat="phone in  student.otherTelephone.spilt(",")">
+                    <label >联系电话 {{$index+1}}:
+                     <input type="text" class="span4" placeholder="Other MobilePhone" ng-model="phone">
+                    </input>
+                 </label>
+                   <a href="" class="btn"  ng-click="addMorePhone()">增加联系电话< /a> 
+                   <a href="" class="btn" ng-click="removePhone($index)">删除该联系电话</a>
+                </div>
+              
+            </label>
+               </div>
+
+
+            
+            
+            	<label>固定电话:	
+                <input type="text" class="span4" placeholder="Student Phone" required="required" ng-model="student.telephone">
+            </label>
+
+            <label>QQ:	
+                <input type="text" class="span4" placeholder="QQ number"  ng-model="student.qq">
+            </label>
+
+              <label>学校:	
+                <input type="text" class="span4" placeholder="学校"  ng-model="student.school">
+            </label>
+
+            	<label >联系地址:	
+                <input  type="text" class="span4" placeholder="Student Address"  ng-model="student.address">
+            </label>
+            
+            
+            	<label >Email:	
+                <input  type="email" class="span4" placeholder="Student Email,Such as wushexin@gmail.com" required="required" ng-model="student.email">
+            </label>
+            
+            	<label >学生状态:	
+                <input  type="text" class="span4" placeholder="Student Status" required="required" ng-model="student.status">
+            	 <span class="hint" >长期跟踪/挖掘需求 追追有戏/天天电话 意向较强/施加压力 铁定报名/敲定时间</span>
+            </label>
+            
+            	<label >数据来源:	
+                <input type="text" class="span4" placeholder="Student Data From" required="required" ng-model="student.dataFrom">
+           		 <span class="hint">网络/短信/直访/口碑/单页/海报/社区活动/员工老师推/TQ咨询/信息资源/市场活动/面咨/未登记老单回访/其他</span>
+            </label>
+            
+            	<label  >已经签单:	
+                <input  type="checkbox" ng-model="student.doesBill">
+            </label>
+            </fieldset>
+            	<div style="clear:left">
+            	<fieldset>
+            	<legend>分配班级：</legend>
+						<table >
+						  <tr>
+						    <td >
+							    <table >
+							      <tr>
+							        <td >　　请选择：</td>
+							      </tr>
+							      <tr>
+							        <td >
+								        <select  ng-multiple="true"  ng-model="selected1" >
+								          <option ng-repeat="c in allClazzes" value="{{c.className}}" >{{c.className}}</option>
+								        </select>
+							        </td>
+							      </tr>
+							    </table>
+						    </td>
+						    <td  valign="bottom">
+							    <a href="" class="btn" ng-click="removeAClass()"><<</a>
+							    <a href="" class="btn" ng-click="selectAClass()">>></a>
+						    </td>
+						    
+						    <td >
+							    <table>
+							      <tr>
+							        <td >　　　请选择：</td>
+							      </tr>
+							      <tr>
+							        <td >
+							        	<select  ng-multiple="true" ng-model="selected2">
+							        		<option ng-repeat="c in clazzes" value="{{c.className}}">{{c.className}}</option>
+							            </select></td>
+							      </tr>
+							    </table>
+						    
+						   </td>
+						  </tr>
+						</table>
+            	</fieldset>
+            </div>
+            
+            
+            <label ng-show="student.paymentHistorys == null || student.paymentHistorys.length == 0">增加付款信息:	
+                <input  type="checkbox"  ng-click="addPay()">
+            </label>
+            	
+            	<div ng-show="student.paymentHistorys!=null && student.paymentHistorys.length > 0">
+            	<fieldset >
+            		
+            		<div ng-repeat="paymentHistory in  student.paymentHistorys">
+            		<legend>请输入第  {{$index+1}} 条付款信息</legend>
+	            		
+	           		 	<label>选择付款班级
+	           		 		<select ng-model="selectedClassToPay" ng-change="changeClass(this,$index)"><option ng-repeat="c in clazzes" value="{{c}}">{{c.className}}</option></select> <!-- 选择班级 -->
+	           		 	 	<span ng-show="payAmountForPay[$index]!=null">学费:<font size="10">{{payAmountForPay[$index]}} </font>元,</span>付款方式:
+	           		 	 	<select ng-model="selectedPayway" ng-change="changePayway(this,$index)"><option ng-repeat="p in paywaysForPay[$index]" value="{{p}}">{{p.payway}}</option></select> 
+	           		 	 	<span ng-show="discountForPay[$index]!=null">折扣:<font size="10">{{discountForPay[$index]}}</font>
+	           		 		  ,应付金额:	<font size="10" color="red">{{paymentHistory.payAmount}}</font> RMB </span>
+	               			 <!--  <input  type="number" class="span4" placeholder="Student pay account" required="required" ng-model="paymentHistory.payAmount">-->
+	           		 	</label>
+	           		 	<br/>
+	           		 	
+	           		 	<!-- 
+	           		 	 <select ng-model="color" ng-options="c.payways group by c.className for c in clazzes">
+      					</select><br/>
+	           		 	 -->
+	           		 	<label >付款目的:	
+	               			 <input  type="text" class="span4" placeholder="Student pay purpose" required="required" ng-model="paymentHistory.purpose">
+	           		 	</label>
+	           		 	<label>过期提醒设置:	
+	               			 <input  type="checkbox" class="span4" placeholder="Student doesNeedReminder" ng-model="paymentHistory.doesNeedReminder">
+	           		 	</label>
+	           		 	<label >备注:	
+	               			 <input  type="text" class="span4" placeholder="Student remark"  ng-model="paymentHistory.remark">
+	           		 	</label>
+	           		 
+	           		 	<label >生效日期:	
+	               			 <input  type="date" class="span4"  required="required" ng-model="paymentHistory.startDate">
+	           		 	</label>
+	           		 	<label >过期日期:	
+	               			 <input  type="date" class="span4"  required="required" ng-model="paymentHistory.endDate">
+	           		 	</label>
+	           		 		<label >付款日期:	
+	               			 <input  type="date" class="span4" placeholder="Payment endDate,Such as 2013-04-18" required="required" ng-model="paymentHistory.payDate">
+	           		 	</label>
+	           		 	<label><a href="" class="btn" ng-click="addMorePayInfo()">再增加付款信息</a> 
+	           		  <a href="" class="btn"  ng-click="removePayHtml($index)">移除该付款信息</a></label>
+           		 	</div>
+            	</fieldset>
+            </div>
+            
+           
+            
+              <label ng-show="student.communications==null || student.communications.length == 0">增加跟踪记录:	
+                <input type="checkbox"  ng-click="addComm()">
+            </label>
+            	<div  ng-show="student.communications!=null && student.communications.length > 0">
+            	<fieldset>
+            		<div ng-repeat="communication in  student.communications">
+            		<legend>请输入第  {{$index+1}} 条跟踪信息</legend>
+           		 	<label>日期:	
+               			 <input  type="date" class="span4" placeholder="Communicate Date,Such as 2013-04-18" required="required" ng-model="communication.communicationDate">
+           		 	</label>
+           		 	<label >内容:	
+               			 <textarea rows="5" cols="20" ng-model="communication.content" name="communication.content" ngChange="alert(this)" placeholder="Communication content"  required="required"  ></textarea>
+           		 	</label>
+           		 	
+           		 		<label><a href="" class="btn" ng-click="addMoreCommInfo()">再增加跟踪记录</a> 
+	           		  <a href="" class="btn" ng-click="removeCommHtml($index)">移除该跟踪记录</a></label>
+            	</fieldset>
+            	</div>
+            
+            <label>
+              <input type="submit"  value="新增学生" class="btn">
+              <input type="reset" value="重置" class="btn"> 
+              </label>
+		</form>
+	</fieldset>

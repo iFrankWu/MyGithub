@@ -1,0 +1,215 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		</head>
+	
+<style>
+	body fieldset table {
+		font-size:12px;
+	}
+	label{
+		font-size:14px;
+	}
+	h1{
+		font-size:24px
+	}
+	input {
+		background-color: transparent; 
+		border-style:solid; 
+		border-width: 0px 0px 1px 0px; 
+		border-color: darkred
+	}
+	#checkdate{
+		text-align:right
+	}
+	#bottom{
+		text-align: center;
+		font-size:10px
+	}
+	input {
+	
+	font-size:10px;
+}
+	#mian{
+		clear:float
+	}
+
+tr td{
+ padding:1px;
+ 	text-align:right;
+ 	font-size:10px;
+ }
+ 
+  
+	</style>
+
+<body style="width:800px;margin:auto;">
+<h1 align="center">xxx医院</h1>
+<h1 align="center">初善仪&reg;宫颈癌筛查系统(TruScreen&reg;)报告单</h1>
+<div  id="checkdate">
+<label style="font-size:10px">检查日期:2013年6月19日</label>
+</div>
+
+<div id="main" width="800px" >
+<fieldset width="100%">
+<legend>资料</legend>
+<table>
+<tr>
+	<td><label>科室:</label></td>
+		<td width="50px"><input type="text" readonly value="xxx"></input></td>
+	</tr>
+	<tr>
+		<td width="50px"><label>姓名:</label></td>
+		<td width="40px"><input type="text"></td>
+		<td width="50px"><label>年龄:</label></td>
+		<td width="20px"><input type="text"></td>
+		<td width="90px"><label>病历号:</label></td>
+		<td width="40px"><input type="text"></td>
+	
+	
+	</tr>
+	<tr>
+	
+		<td width="50px"><label>孕次:</label></td>
+		<td><input type="text"></td>
+		<td ><label>产次:</label></td>
+		<td ><input type="text"></td>
+	
+	</tr> 
+	<tr>
+			<td width="80px"><label>末次月经:</label></td>
+		<td width="40px"><input type="text"></td>
+			<td width="50px"><label>绝经:</label></td>
+		<td width="10px" style="text-align:left"><input type="checkbox"></td>
+		</tr>
+</table>
+</fieldset>
+
+<fieldset>
+<legend>主诉</legend>
+<table>
+	<tr>
+	<td width="50px"><label>白带多:</label></td>
+	<td><input type="checkbox"/></td>
+	<td width="100px"><label>性交出血:</label></td>
+	<td><input type="checkbox"/></td>
+	<td width="100px"><label>不规则流血:</label></td><td>多<input type="radio" name="unrule"/>中<input type="radio" name="unrule"/>少<input type="radio" name="unrule"/></td>
+<td width="100px"><label>其他:</label></td><td><input type="text"/></td>
+	</tr>
+	</table>
+</fieldset>
+
+<fieldset>
+<legend>临床表现</legend>
+<table>
+	<tr>
+		<td width="50px"><label>光滑:</label></td><td><input type="checkbox"/></td>
+		<td width="100px"><label>急性炎症:</label></td><td><input type="checkbox"/></td>
+		<td width="100px"><label>肥大:</label></td><td><input type="checkbox"/></td>
+		<td width="100px"><label>息肉:</label></td><td><input type="checkbox"/></td>
+		<td width="100px"><label>糜烂:</label></td><td style="text-align:left">重<input type="radio" name="erosion"/>中<input type="radio"  name="erosion"/>轻<input type="radio"  name="erosion"/></td>
+	</tr>
+<tr>
+	<td width="50px"><label>撕裂:</label></td><td><input type="checkbox"/></td>
+	<td width="100px"><label>纳氏腺囊肿:</label></td><td><input type="checkbox"/></td>
+	<td width="100px"><label>白斑:</label></td><td><input type="checkbox"/></td>
+	<td width="100px"><label>可疑癌:</label></td><td><input type="checkbox"></input></td>
+	<td width="100px"><label>其他:</label></td><td><input type="text"/></td>
+	</tr>
+</table>	
+</fieldset>
+
+<fieldset>
+<legend>初善仪&reg;宫颈癌筛查系统检查内容</legend>
+<table><tr><td>
+<label>  主机序列号:<label></td><td style="text-align:left"><input type="text"/></td></tr>
+<tr><td><label>手控器序列号:</label></td><td style="text-align:left"><input type="text"/></td></tr>
+<tr><td><label>    算法版本:</label></td><td style="text-align:left">D2.03G</td></tr>
+<tr><td><label>    韧体版本:</label></td><td style="text-align:left"><input type="text"/></td></tr>
+<tr><td><label>    检查类型:</label></td><td style="text-align:left">筛查 </td></tr>
+<tr><td><label>    点探数量:</label></td><td style="text-align:left"><input type="text"/></td></tr>
+<tr><td><label>检查是否完成:</label></td><td style="text-align:left">是<input type="radio" name="isCompleted"/>否<input type="radio" name="isCompleted"/></td></tr>
+<tr><td><label>    检查结果:</label></td><td style="text-align:left">正常<input type="radio" name="result"/>异常<input type="radio" name="result"/></td>
+</tr></table>
+</fieldset>
+
+<fieldset>
+<legend>初善仪&reg;检查结果分析</legend>
+<div id="normal">
+<table style="text-align:left">
+<thead>正常,可能存在以下组织类型:</thead>
+<tr>
+	<td width="10px"></td>
+	<td style="text-align:left">1.原始鳞状上皮</td>
+	<td width="10px"></td>
+	<td style="text-align:left">2.柱状上皮</td>
+	</tr>
+<tr>
+		<td width="10px"></td>
+	<td style="text-align:left">3.不成熟的化生</td>
+	<td width="10px"></td>
+	<td style="text-align:left">4.适中的/成熟的化生</td>
+<tr>
+		<td width="10px"></td>
+	<td style="text-align:left">5.新生的鳞状上皮(治疗后)</td>
+	<td width="10px"></td>
+	<td style="text-align:left">6.萎缩症</td>
+<tr>
+		<td width="10px"></td>
+	<td style="text-align:left">7.纳博特囊</td>
+	<td width="10px"></td>
+	<td style="text-align:left">8.移行带外的HPV感染区域</td>
+<tr>
+		<td width="10px"></td>
+	<td style="text-align:left">9.原发鳞状上皮低危型HPV</td>
+	<td width="10px"></td>
+	<td style="text-align:left">10.息肉</td>
+<tr>
+		<td width="10px"></td>
+	<td style="text-align:left">11.穹窿</td>
+	<td width="10px"></td>
+	<td style="text-align:left">12.其他</td>
+</table>
+</div>
+<div id="unnormal" style="display:">
+<table width="100%">
+<thead>异常,可能存在以下组织类型:</thead>
+<tr>	<td width="10px" ></td><td style="text-align:left">1.非典型性增生</td></tr>
+	<tr>	<td width="10px"></td><td style="text-align:left">2.CIN1</td></tr>
+	<tr>	<td width="10px"></td><td style="text-align:left">3.CIN2</td></tr>
+	<tr>	<td width="10px"></td><td style="text-align:left">4.CIN3</td></tr>
+	<tr>	<td width="10px"></td><td style="text-align:left">5.癌:鳞癌,腺癌</td>
+</tr>
+</table>
+</div>
+</fieldset>
+
+<fieldset>
+<legend>进一步处理意见</legend>
+<table>
+<tr>
+	<td><label for="regular">按照国家宫颈癌筛查指南定期筛查:</label></td>
+	<td style="text-align:left"><input type="checkbox" name="regular"></input></td>
+</tr>
+<tr>
+	<td><label for="colposcopy">进行阴道镜或阴道镜下活检:</label></td>
+	<td style="text-align:left"><input type="checkbox" name="colposcopy"></input></td>
+</tr>
+<tr>
+	<td><label for="other">其他:</label></td>
+	<td><textarea rows="4" cols="50" name="other"></textarea></td>
+</tr>
+</table>
+</fieldset>
+</div>
+<div >
+	<table width="100%"><tr>
+		<td>ID:10086</td>
+		<td>北京四维祥泰科技有限公司</td>
+		<td>联系电话:010-88937344</td>
+		<td><font size="4px">操作人员:刘医生</font></td>
+		<td width="40px"></td>
+		</tr></table>
+</div>
+</body>
+</html>
