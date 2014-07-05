@@ -1,0 +1,29 @@
+Shown Color
+Black
+Blue
+Brown
+Burgundy
+Champagne
+Chocolate
+Dark Navy
+Daffodil
+Dark Green
+Fuchsia
+Gold
+Grape
+Green
+Hunter
+Ivory
+Lavender
+Pearl Pink
+Light Sky Blue
+Lilac
+Orange
+Pink
+Royal Blue
+Sage
+Silver
+White
+Red
+Regency
+Watermelon

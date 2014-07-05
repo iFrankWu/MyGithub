@@ -1,0 +1,3 @@
+#请在这里配置 需要处理的展厅文件是哪一个。 格式：
+# now_use_showroom_file=assets/showroom.mmdd.tsv
+now_use_showroom_file=assets/showroom.1220.tsv

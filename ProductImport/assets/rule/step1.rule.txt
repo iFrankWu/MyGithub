@@ -1,0 +1,8 @@
+Silhouette: Trumpet=Fit-n-Flare; Sheath=Column; Ball Gown=Full Skirt;
+Neckline: One Shoulder=Asymmetric Neckline; Bateau=Boat=Sabrina; Illusion=Sheer;
+Sleeve Length:Elbow Length Sleeve=Half Length Sleeve;
+Sleeve Shape/Sleeve Style: Petal=Tulip; Batwing=Dolman; Leg of Mutton=Gigot Sleeve; Illusion=Sheer;
+Hemline/Train: Mini=Short; Sweep Train=Brush Train; Monarch Train=Royal Train;
+Back Details: Zip up=Zipper;
+Embellishment: Sequin=Paillette; Tassel=Fringe; Ribbon=Sash; Ruched=Draped;
+Style: Vintage=Antique; Simple=Plain; Casual=Informal=Hawaiian; Disney Princess=Cinderella=Fairytale;

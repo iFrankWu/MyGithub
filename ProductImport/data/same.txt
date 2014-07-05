@@ -1,0 +1,990 @@
+--------------------------
+
+MESSAGE #59:
+ 
+FROM: Sarah Jones <sars2283@hotmail.com>
+TO: service@9dresses.com
+SUBJECT: Order number 100000264 - 3 wedding dresses - Delivery
+SendDate: Sun Jan 01 23:48:44 CST 2012
+
+--------------------------
+
+MESSAGE #60:
+ 
+FROM: Sarah Jones <sars2283@hotmail.com>
+TO: service@9dresses.com
+SUBJECT: FW: Order number 100000264 - 3 wedding dresses - Delivery
+SendDate: Mon Jan 02 00:38:24 CST 2012
+
+--------------------------
+
+MESSAGE #62:
+ 
+FROM: Sarah Jones <sars2283@hotmail.com>
+TO: service@9dresses.com
+SUBJECT: RE: Order number 100000264 - 3 wedding dresses - Delivery
+SendDate: Mon Jan 02 08:45:45 CST 2012
+
+--------------------------
+
+MESSAGE #63:
+ 
+FROM: Sarah Jones <sars2283@hotmail.com>
+TO: service@9dresses.com
+SUBJECT: RE: Order number 100000264 - 3 wedding dresses - Delivery
+SendDate: Mon Jan 02 08:49:57 CST 2012
+
+--------------------------
+
+MESSAGE #91:
+ 
+FROM: JM Myers <akhplvr@hotmail.com>
+TO: service@9dresses.com
+SUBJECT: Dress color for order #100000286 , Jacqueline Myers
+SendDate: Wed Jan 04 11:52:26 CST 2012
+
+--------------------------
+
+MESSAGE #139:
+ 
+FROM: Kylie Hoppitt <k.hoppitt@nover.com.au>
+TO: Service Team <service@9dresses.com>
+SUBJECT: RE: Order confirmation from 9 dresses.com
+SendDate: Mon Jan 09 06:13:25 CST 2012
+
+--------------------------
+
+MESSAGE #161:
+ 
+FROM: Kylie Hoppitt <k.hoppitt@nover.com.au>
+TO: Service Team <service@9dresses.com>
+SUBJECT: RE: Order confirmation from 9 dresses.com
+SendDate: Tue Jan 10 05:02:35 CST 2012
+
+--------------------------
+
+MESSAGE #178:
+ 
+FROM: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+TO: service@9dresses.com
+SUBJECT: Delivery Status Notification (Failure)
+SendDate: Tue Jan 10 16:15:56 CST 2012
+
+--------------------------
+
+MESSAGE #182:
+ 
+FROM: darrdee@aol.com
+TO: service@9dresses.com
+SUBJECT: darrdee@aol.com wrote you a note
+SendDate: Tue Jan 10 21:04:09 CST 2012
+
+--------------------------
+
+MESSAGE #188:
+ 
+FROM: Kylie Hoppitt <k.hoppitt@nover.com.au>
+TO: Service Team <service@9dresses.com>
+SUBJECT: RE: Order confirmation from 9 dresses.com
+SendDate: Wed Jan 11 04:55:53 CST 2012
+
+--------------------------
+
+MESSAGE #190:
+ 
+FROM: Alena <alenajamel@yahoo.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Re: dress
+SendDate: Wed Jan 11 09:00:20 CST 2012
+
+--------------------------
+
+MESSAGE #192:
+ 
+FROM: Endalkachew Ayele <eayele@cox.net>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Re: Order confirmation from 9dresses.com
+SendDate: Wed Jan 11 09:50:31 CST 2012
+
+--------------------------
+
+MESSAGE #194:
+ 
+FROM: Alena <alenajamel@yahoo.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Re: dress
+SendDate: Wed Jan 11 10:15:31 CST 2012
+
+--------------------------
+
+MESSAGE #199:
+ 
+FROM: Trishna Patel <trshnapatel@gmail.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Re: Order Confirmation from 9dresses.com
+SendDate: Wed Jan 11 21:21:00 CST 2012
+
+--------------------------
+
+MESSAGE #201:
+ 
+FROM: Trishna Patel <trshnapatel@gmail.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Re: Order Confirmation from 9dresses.com
+SendDate: Wed Jan 11 21:39:11 CST 2012
+
+--------------------------
+
+MESSAGE #233:
+ 
+FROM: Trishna Patel <trshnapatel@gmail.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Re: Order Confirmation from 9dresses.com
+SendDate: Fri Jan 13 09:44:37 CST 2012
+
+--------------------------
+
+MESSAGE #234:
+ 
+FROM: Trishna Patel <trshnapatel@gmail.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Re: Order Confirmation from 9dresses.com
+SendDate: Fri Jan 13 09:58:29 CST 2012
+
+--------------------------
+
+MESSAGE #235:
+ 
+FROM: Trishna Patel <trshnapatel@gmail.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Re: Order Confirmation from 9dresses.com
+SendDate: Fri Jan 13 10:08:39 CST 2012
+
+--------------------------
+
+MESSAGE #236:
+ 
+FROM: Trishna Patel <trshnapatel@gmail.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Re: Order Confirmation from 9dresses.com
+SendDate: Fri Jan 13 10:14:03 CST 2012
+
+--------------------------
+
+MESSAGE #239:
+ 
+FROM: JM Myers <akhplvr@hotmail.com>
+TO: service@9dresses.com
+SUBJECT: RE: Dress color for order #100000286 , Jacqueline Myers
+SendDate: Fri Jan 13 12:09:40 CST 2012
+
+--------------------------
+
+MESSAGE #241:
+ 
+FROM: Pay Team <pay@9dresses.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Fwd: Your purchase from MIN DENG
+SendDate: Fri Jan 13 13:57:53 CST 2012
+
+--------------------------
+
+MESSAGE #245:
+ 
+FROM: nandanran@gmail.com
+TO: service@9dresses.com
+SUBJECT: nandanran@gmail.com wrote you a note
+SendDate: Fri Jan 13 18:06:28 CST 2012
+
+--------------------------
+
+MESSAGE #263:
+ 
+FROM: Jenna Chris <tinkpink354@yahoo.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Re: wedding dress
+SendDate: Sat Jan 14 09:00:43 CST 2012
+
+--------------------------
+
+MESSAGE #268:
+ 
+FROM: Cally Frey <pinkcall6@aol.com>
+TO: "service@9dresses.com" <service@9dresses.com>
+SUBJECT: Dress measurements
+SendDate: Fri Jan 13 11:03:56 CST 2012
+
+--------------------------
+
+MESSAGE #281:
+ 
+FROM: Brian Alderson <alderson0975@yahoo.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Re: order #100000375
+SendDate: Mon Jan 16 11:21:25 CST 2012
+
+--------------------------
+
+MESSAGE #292:
+ 
+FROM: William Klapperman <klapperman@verizon.net>
+TO: service@9dresses.com
+SUBJECT: order 379
+SendDate: Tue Jan 17 08:32:25 CST 2012
+
+--------------------------
+
+MESSAGE #317:
+ 
+FROM: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+TO: service@9dresses.com
+SUBJECT: Delivery Status Notification (Failure)
+SendDate: Wed Jan 18 15:11:44 CST 2012
+
+--------------------------
+
+MESSAGE #330:
+ 
+FROM: Rich Goodwin <rkgoodwin@charter.net>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Re: Order confirmation 100000387
+SendDate: Thu Jan 19 06:45:34 CST 2012
+
+--------------------------
+
+MESSAGE #362:
+ 
+FROM: tmheilesen@gmail.com
+TO: service@9dresses.com
+SUBJECT: tmheilesen@gmail.com wrote you a note
+SendDate: Sun Jan 22 05:00:43 CST 2012
+
+--------------------------
+
+MESSAGE #364:
+ 
+FROM: rhonda driscoll <rhondadriscoll@yahoo.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Re: rhondadriscoll@yahoo.com wrote you a note
+SendDate: Sun Jan 22 12:08:21 CST 2012
+
+--------------------------
+
+MESSAGE #365:
+ 
+FROM: saffanah22@hotmail.com
+TO: service@9dresses.com
+SUBJECT: saffanah22@hotmail.com wrote you a note
+SendDate: Sun Jan 22 14:38:59 CST 2012
+
+--------------------------
+
+MESSAGE #367:
+ 
+FROM: rhonda driscoll <rhondadriscoll@yahoo.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Re: rhondadriscoll@yahoo.com wrote you a note
+SendDate: Sun Jan 22 21:58:29 CST 2012
+
+--------------------------
+
+MESSAGE #369:
+ 
+FROM: shannen.stevenson@students.globeuniversity.edu
+TO: service@9dresses.com
+SUBJECT: shannen.stevenson@students.globeuniversity.edu wrote you a note
+SendDate: Mon Jan 23 09:10:38 CST 2012
+
+--------------------------
+
+MESSAGE #372:
+ 
+FROM: sarahabrewster@ymail.com
+TO: service@9dresses.com
+SUBJECT: sarahabrewster@ymail.com wrote you a note
+SendDate: Mon Jan 23 10:30:01 CST 2012
+
+--------------------------
+
+MESSAGE #373:
+ 
+FROM: Sarah Noorzai <aneesa09@yahoo.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Re: aneesa09@yahoo.com wrote you a note
+SendDate: Mon Jan 23 11:13:18 CST 2012
+
+--------------------------
+
+MESSAGE #374:
+ 
+FROM: lgary320@gmail.com
+TO: service@9dresses.com
+SUBJECT: lgary320@gmail.com wrote you a note
+SendDate: Mon Jan 23 11:30:20 CST 2012
+
+--------------------------
+
+MESSAGE #375:
+ 
+FROM: "9dresses.com" <notice@9dresses.com>
+TO: service@9dresses.com
+SUBJECT: Derniers messages envoy��s par les clients
+SendDate: Mon Jan 23 18:45:07 CST 2012
+
+--------------------------
+
+MESSAGE #376:
+ 
+FROM: jessamin kleinhanss <jess_kleinhanss@live.com.au>
+TO: service@9dresses.com
+SUBJECT: RE: Order confirmation 100000316
+SendDate: Mon Jan 23 19:44:02 CST 2012
+
+--------------------------
+
+MESSAGE #377:
+ 
+FROM: Shokoofah Noorzai <aneesa09@yahoo.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Re: aneesa09@yahoo.com wrote you a note
+SendDate: Mon Jan 23 20:20:34 CST 2012
+
+--------------------------
+
+MESSAGE #380:
+ 
+FROM: lgary320@gmail.com
+TO: service@9dresses.com
+SUBJECT: lgary320@gmail.com wrote you a note
+SendDate: Mon Jan 23 21:52:17 CST 2012
+
+--------------------------
+
+MESSAGE #387:
+ 
+FROM: Google Voice <voice-noreply@google.com>
+TO: uwin200@gmail.com
+SUBJECT: New voicemail from (708) 743-8328 at 6:54 PM
+SendDate: Tue Jan 24 07:55:01 CST 2012
+
+--------------------------
+
+MESSAGE #396:
+ 
+FROM: btallmann13@hotmail.com
+TO: service@9dresses.com
+SUBJECT: btallmann13@hotmail.com wrote you a note
+SendDate: Wed Jan 25 05:54:40 CST 2012
+
+--------------------------
+
+MESSAGE #399:
+ 
+FROM: "9dresses.com" <notice@9dresses.com>
+TO: service@9dresses.com
+SUBJECT: Derniers messages envoy��s par les clients
+SendDate: Wed Jan 25 06:45:08 CST 2012
+
+--------------------------
+
+MESSAGE #402:
+ 
+FROM: Sarah Noorzai <aneesa09@yahoo.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Re: aneesa09@yahoo.com wrote you a note
+SendDate: Wed Jan 25 11:34:41 CST 2012
+
+--------------------------
+
+MESSAGE #403:
+ 
+FROM: jessamin kleinhanss <jess_kleinhanss@live.com.au>
+TO: service@9dresses.com
+SUBJECT: RE: Order confirmation 100000316
+SendDate: Wed Jan 25 16:20:28 CST 2012
+
+--------------------------
+
+MESSAGE #404:
+ 
+FROM: Shokoofah Noorzai <aneesa09@yahoo.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Re: aneesa09@yahoo.com wrote you a note
+SendDate: Wed Jan 25 20:04:58 CST 2012
+
+--------------------------
+
+MESSAGE #411:
+ 
+FROM: momriot@live.com
+TO: service@9dresses.com
+SUBJECT: momriot@live.com wrote you a note
+SendDate: Thu Jan 26 23:00:46 CST 2012
+
+--------------------------
+
+MESSAGE #412:
+ 
+FROM: Jessica Ballinger <jessicaballinger@rocketmail.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Re: Order confirmation 100000405
+SendDate: Fri Jan 27 02:14:42 CST 2012
+
+--------------------------
+
+MESSAGE #413:
+ 
+FROM: darrdee@aol.com
+TO: service@9dresses.com
+SUBJECT: Re: darrdee@aol.com wrote you a note
+SendDate: Fri Jan 27 02:36:56 CST 2012
+
+--------------------------
+
+MESSAGE #416:
+ 
+FROM: tb96@westriv.com
+TO: service@9dresses.com
+SUBJECT: my order
+SendDate: Fri Jan 27 04:36:55 CST 2012
+
+--------------------------
+
+MESSAGE #419:
+ 
+FROM: "9dresses.com" <notice@9dresses.com>
+TO: service@9dresses.com
+SUBJECT: Derniers messages envoy��s par les clients
+SendDate: Fri Jan 27 06:45:07 CST 2012
+
+--------------------------
+
+MESSAGE #420:
+ 
+FROM: Sarah Noorzai <aneesa09@yahoo.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Re: aneesa09@yahoo.com wrote you a note
+SendDate: Fri Jan 27 10:10:59 CST 2012
+
+--------------------------
+
+MESSAGE #421:
+ 
+FROM: verrant4@yahoo.com
+TO: service@9dresses.com
+SUBJECT: verrant4@yahoo.com wrote you a note
+SendDate: Fri Jan 27 18:39:37 CST 2012
+
+--------------------------
+
+MESSAGE #425:
+ 
+FROM: "9dresses.com" <notice@9dresses.com>
+TO: service@9dresses.com
+SUBJECT: Derniers messages envoy��s par les clients
+SendDate: Sat Jan 28 06:45:10 CST 2012
+
+--------------------------
+
+MESSAGE #427:
+ 
+FROM: Cali Amos <caliamos@hotmail.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Re: 100000393
+SendDate: Sun Jan 29 04:31:06 CST 2012
+
+--------------------------
+
+MESSAGE #428:
+ 
+FROM: "9dresses.com" <notice@9dresses.com>
+TO: service@9dresses.com
+SUBJECT: Derniers messages envoy��s par les clients
+SendDate: Sun Jan 29 06:45:07 CST 2012
+
+--------------------------
+
+MESSAGE #430:
+ 
+FROM: Kylie Hoppitt <k.hoppitt@nover.com.au>
+TO: Service Team <service@9dresses.com>
+SUBJECT: RE: Shipping address confirmation of your order 100000347
+SendDate: Sun Jan 29 16:06:33 CST 2012
+
+--------------------------
+
+MESSAGE #440:
+ 
+FROM: Kylie Hoppitt <k.hoppitt@nover.com.au>
+TO: Service Team <service@9dresses.com>
+SUBJECT: RE: Shipping address confirmation of your order 100000347
+SendDate: Mon Jan 30 10:49:15 CST 2012
+
+--------------------------
+
+MESSAGE #446:
+ 
+FROM: tb96@westriv.com
+TO: Service Team <service@9dresses.com>
+SUBJECT: Re: my order 100000376
+SendDate: Mon Jan 30 23:19:31 CST 2012
+
+--------------------------
+
+MESSAGE #448:
+ 
+FROM: Jessica Ballinger <jessicaballinger@rocketmail.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Re: Order confirmation 100000405
+SendDate: Tue Jan 31 02:23:25 CST 2012
+
+--------------------------
+
+MESSAGE #450:
+ 
+FROM: Misty Lee <misty_lee78@hotmail.com>
+TO: Wedding Dress <service@9dresses.com>
+SUBJECT: Misty Peet Order
+SendDate: Tue Jan 31 04:10:21 CST 2012
+
+--------------------------
+
+MESSAGE #461:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Fwd: Thank you for your new order # 100000414 with 9dresses.com
+SendDate: Tue Jan 31 14:22:39 CST 2012
+
+--------------------------
+
+MESSAGE #463:
+ 
+FROM: Darrdee <Darrdee@aol.com>
+TO: service <service@9dresses.com>
+SUBJECT: Re: Dk navy tie missing
+SendDate: Tue Jan 31 19:30:43 CST 2012
+
+--------------------------
+
+MESSAGE #468:
+ 
+FROM: Misty Lee <misty_lee78@hotmail.com>
+TO: service@9dresses.com
+SUBJECT: RE: Misty Peet Order
+SendDate: Wed Feb 01 06:14:08 CST 2012
+
+--------------------------
+
+MESSAGE #472:
+ 
+FROM: Jennifer Ehler <jennifer.ehler@gmail.com>
+TO: service <service@9dresses.com>
+SUBJECT: Re: color swatch
+SendDate: Wed Feb 01 13:32:43 CST 2012
+
+--------------------------
+
+MESSAGE #479:
+ 
+FROM: Sarah Jones <sars2283@hotmail.com>
+TO: service@9dresses.com
+SUBJECT: FW: Order number 100000264 - 3 wedding dresses - Delivery
+SendDate: Thu Feb 02 00:17:46 CST 2012
+
+--------------------------
+
+MESSAGE #481:
+ 
+FROM: Misty Lee <misty_lee78@hotmail.com>
+TO: service@9dresses.com
+SUBJECT: RE: Misty Peet Order 100000360
+SendDate: Thu Feb 02 02:16:28 CST 2012
+
+--------------------------
+
+MESSAGE #482:
+ 
+FROM: jennifer.ehler@gmail.com
+TO: service@9dresses.com
+SUBJECT: jennifer.ehler@gmail.com wrote you a note
+SendDate: Thu Feb 02 02:40:57 CST 2012
+
+--------------------------
+
+MESSAGE #545:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: wdchitwood@comcast.net
+SUBJECT: Fwd: Thank you for your new order # 100000345 with 9dresses.com
+SendDate: Tue Jan 10 05:40:34 CST 2012
+
+--------------------------
+
+MESSAGE #563:
+ 
+FROM: service <service@9dresses.com>
+TO: "9dresses.com" <notice@9dresses.com>
+SUBJECT: RE: Thank you for your new order # 100000359 with 9dresses.com
+SendDate: Fri Jan 13 13:53:52 CST 2012
+
+--------------------------
+
+MESSAGE #564:
+ 
+FROM: service <service@9dresses.com>
+TO: "9dresses.com" <notice@9dresses.com>
+SUBJECT: RE: Thank you for your new order # 100000359 with 9dresses.com
+SendDate: Fri Jan 13 13:53:41 CST 2012
+
+--------------------------
+
+MESSAGE #582:
+ 
+FROM: service <service@9dresses.com>
+TO: Notice Team <notice@9dresses.com>
+SUBJECT: RE: Test Letter for Sugar CRM
+SendDate: Fri Jan 13 14:20:27 CST 2012
+
+--------------------------
+
+MESSAGE #583:
+ 
+FROM: service <service@9dresses.com>
+TO: Notice Team <notice@9dresses.com>
+SUBJECT: RE: Test Letter for Sugar CRM
+SendDate: Fri Jan 13 14:20:17 CST 2012
+
+--------------------------
+
+MESSAGE #584:
+ 
+FROM: service <service@9dresses.com>
+TO: "9dresses.com" <notice@9dresses.com>
+SUBJECT: RE: [CASE:124] Thank you for your new order # 100000375 with 9dresses.com
+SendDate: Fri Jan 13 18:20:55 CST 2012
+
+--------------------------
+
+MESSAGE #585:
+ 
+FROM: service <service@9dresses.com>
+TO: "9dresses.com" <notice@9dresses.com>
+SUBJECT: RE: [CASE:124] Thank you for your new order # 100000375 with 9dresses.com
+SendDate: Fri Jan 13 18:20:45 CST 2012
+
+--------------------------
+
+MESSAGE #595:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: zhangxs@office.net
+SUBJECT: Fwd: Thank you for your new order # 100000387 with 9dresses.com
+SendDate: Tue Jan 17 09:02:48 CST 2012
+
+--------------------------
+
+MESSAGE #607:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: pmposs@msn.com
+SUBJECT: Re: Thank you for your new order # 100000399 with 9dresses.com
+SendDate: Mon Jan 23 13:06:44 CST 2012
+
+--------------------------
+
+MESSAGE #677:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: Tracie_Mcdermott@live.com
+SUBJECT: Re: Thank you for your new order # 100000275 with 9dresses.com
+SendDate: Mon Jan 02 17:19:03 CST 2012
+
+--------------------------
+
+MESSAGE #700:
+ 
+FROM: "9dresses.com" <notice@9dresses.com>
+TO: service@9dresses.com
+SUBJECT: Derniers messages envoy��s par les clients
+SendDate: Tue Jan 24 18:45:07 CST 2012
+
+--------------------------
+
+MESSAGE #703:
+ 
+FROM: Trevor Lillywhite <trevor.lillywhite@hotmail.com>
+TO: service@9dresses.com
+SUBJECT: order 100000418 harwood.
+SendDate: Thu Feb 02 16:42:55 CST 2012
+
+--------------------------
+
+MESSAGE #706:
+ 
+FROM: Theresa <tcd0925@aol.com>
+TO: service <service@9dresses.com>
+SUBJECT: Re: Order confirmation from 9dresses.com
+SendDate: Thu Feb 02 22:13:35 CST 2012
+
+--------------------------
+
+MESSAGE #709:
+ 
+FROM: brownieb12@yahoo.com
+TO: service@9dresses.com
+SUBJECT: brownieb12@yahoo.com wrote you a note
+SendDate: Fri Feb 03 04:00:02 CST 2012
+
+--------------------------
+
+MESSAGE #710:
+ 
+FROM: Monica Haan <monicahaan@hotmail.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: RE: Silver color picture for style# D49307 and D66634
+SendDate: Fri Feb 03 05:58:42 CST 2012
+
+--------------------------
+
+MESSAGE #711:
+ 
+FROM: bikesandblues@aol.com
+TO: service@9dresses.com
+SUBJECT: bikesandblues@aol.com wrote you a note
+SendDate: Fri Feb 03 07:01:05 CST 2012
+
+--------------------------
+
+MESSAGE #713:
+ 
+FROM: monicahaan@hotmail.com
+TO: service@9dresses.com
+SUBJECT: monicahaan@hotmail.com wrote you a note
+SendDate: Fri Feb 03 07:21:36 CST 2012
+
+--------------------------
+
+MESSAGE #715:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Fwd: Thank you for your new order # 100000402 with 9dresses.com
+SendDate: Fri Feb 03 09:52:50 CST 2012
+
+--------------------------
+
+MESSAGE #723:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Fwd: Thank you for your new order # 100000380 with 9dresses.com
+SendDate: Fri Feb 03 10:36:24 CST 2012
+
+--------------------------
+
+MESSAGE #724:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Fwd: Thank you for your new order # 100000378 with 9dresses.com
+SendDate: Fri Feb 03 10:36:52 CST 2012
+
+--------------------------
+
+MESSAGE #725:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Fwd: Thank you for your new order # 100000370 with 9dresses.com
+SendDate: Fri Feb 03 10:37:17 CST 2012
+
+--------------------------
+
+MESSAGE #726:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Fwd: Thank you for your new order # 100000369 with 9dresses.com
+SendDate: Fri Feb 03 10:37:34 CST 2012
+
+--------------------------
+
+MESSAGE #727:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Fwd: Thank you for your new order # 100000353 with 9dresses.com
+SendDate: Fri Feb 03 10:43:29 CST 2012
+
+--------------------------
+
+MESSAGE #728:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Fwd: Thank you for your new order # 100000352 with 9dresses.com
+SendDate: Fri Feb 03 10:57:10 CST 2012
+
+--------------------------
+
+MESSAGE #729:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Fwd: Thank you for your new order # 100000351 with 9dresses.com
+SendDate: Fri Feb 03 10:57:24 CST 2012
+
+--------------------------
+
+MESSAGE #730:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Fwd: Thank you for your new order # 100000350 with 9dresses.com
+SendDate: Fri Feb 03 10:57:44 CST 2012
+
+--------------------------
+
+MESSAGE #731:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Fwd: Thank you for your new order # 100000345 with 9dresses.com
+SendDate: Fri Feb 03 10:58:12 CST 2012
+
+--------------------------
+
+MESSAGE #732:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Fwd: Thank you for your new order # 100000418 with 9dresses.com
+SendDate: Fri Feb 03 10:58:38 CST 2012
+
+--------------------------
+
+MESSAGE #733:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Fwd: Thank you for your new order # 100000343 with 9dresses.com
+SendDate: Fri Feb 03 10:59:11 CST 2012
+
+--------------------------
+
+MESSAGE #734:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Fwd: Thank you for your new order # 100000327 with 9dresses.com
+SendDate: Fri Feb 03 10:59:35 CST 2012
+
+--------------------------
+
+MESSAGE #735:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Fwd: Thank you for your new order # 100000319 with 9dresses.com
+SendDate: Fri Feb 03 11:15:03 CST 2012
+
+--------------------------
+
+MESSAGE #736:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Fwd: Thank you for your new order # 100000318 with 9dresses.com
+SendDate: Fri Feb 03 11:15:19 CST 2012
+
+--------------------------
+
+MESSAGE #743:
+ 
+FROM: brianna-10-7@hotmail.com
+TO: service@9dresses.com
+SUBJECT: brianna-10-7@hotmail.com wrote you a note
+SendDate: Fri Feb 03 12:07:02 CST 2012
+
+--------------------------
+
+MESSAGE #744:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Fwd: Thank you for your new order # 100000420 with 9dresses.com
+SendDate: Fri Feb 03 13:34:19 CST 2012
+
+--------------------------
+
+MESSAGE #745:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Fwd: Thank you for your new order # 100000360 with 9dresses.com
+SendDate: Fri Feb 03 14:08:36 CST 2012
+
+--------------------------
+
+MESSAGE #746:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Fwd: Thank you for your new order # 100000289 with 9dresses.com
+SendDate: Fri Feb 03 14:09:13 CST 2012
+
+--------------------------
+
+MESSAGE #747:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Fwd: Thank you for your new order # 100000287 with 9dresses.com
+SendDate: Fri Feb 03 14:09:33 CST 2012
+
+--------------------------
+
+MESSAGE #748:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Fwd: Thank you for your new order # 100000286 with 9dresses.com
+SendDate: Fri Feb 03 14:10:02 CST 2012
+
+--------------------------
+
+MESSAGE #749:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Fwd: Thank you for your new order # 100000285 with 9dresses.com
+SendDate: Fri Feb 03 14:10:17 CST 2012
+
+--------------------------
+
+MESSAGE #750:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Fwd: Thank you for your new order # 100000280 with 9dresses.com
+SendDate: Fri Feb 03 14:11:00 CST 2012
+
+--------------------------
+
+MESSAGE #751:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Fwd: Thank you for your new order # 100000282 with 9dresses.com
+SendDate: Fri Feb 03 14:11:27 CST 2012
+
+--------------------------
+
+MESSAGE #752:
+ 
+FROM: Service Team <service@9dresses.com>
+TO: Service Team <service@9dresses.com>
+SUBJECT: Fwd: Thank you for your new order # 100000275 with 9dresses.com
+SendDate: Fri Feb 03 14:11:53 CST 2012
+

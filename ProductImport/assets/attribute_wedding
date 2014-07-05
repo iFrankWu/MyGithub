@@ -1,0 +1,19 @@
+#Wedding Dresses:Bridal Gowns;Bridesmaid Dresses;Flower Girl Dresses;Mother of the Bride Dresses;Wedding Guest Dresses
+#Special Occasion Dresses:Evening Dresses;Cocktail Dresses;Prom Dresses;Homecoming Dresses;Quinceanera Dresses;Graduation Dresses;Sweet 16 Dresses;Club Dresses;Party Dresses;Little Black Dresses
+#Venues[T]:Beach/Destination{Beach,Destination}[T];Church/Hall{Church,Hall}[T];Garden/Outdoor{Garden,Outdoor}[T]
+#Silhouette[T]:A-line[T];Ball Gown{Ball Gown,Full Skirt}[T];Princess[T];Sheath/Column{Sheath,Column}[T];Mermaid/Trumpet{Mermaid,Trumpet,Fishtail,Fit-n-Flare}[T];Empire[T];Baby Doll[T];Ballerina[T]
+#Hemline{Hemline/Train}[T]:Short/Mini{Mini,Short}[T];Knee Length[T];Tea Length[T];Ankle Length[T];Floor Length[T];Asymmetric[T];Hi-Lo[T];With a Train{Sweep Train,Brush Train,Court Train,Chapel Train,Cathedral Train,Monarch Train,Royal Train,Panel Train,Watteau Train}[T]
+#Train{Hemline/Train}[T]:Sweep/Brush Train{Sweep Train,Brush Train}[T];Court Train[T];Chapel Train[T];Cathedral Train[T];Monarch Train{Monarch Train,Royal Train};Panel Train;Watteau Train
+#Neckline[T]:Strapless[T];Sweetheart{Sweetheart,Queen Anne}[T];V-neck[T];Halter[T];Off-the-Shoulder[T];Portrait[T];One Shoulder{One Shoulder,Asymmetric Neckline}[T];Spaghetti[T];Thick Straps[T];Bateau{Bateau,Boat,Sabrina}[T];High Neck[T];Jewel[T];Scoop[T];Square{Square,Wide Square}[T];Sheer{Illusion,Sheer}[T];Queen Elizabeth
+#Style[T]:Vintage{Vintage,Antique,Medieval,Traditional,Victorian}[T];Modest[T];Simple{Simple,Plain}[T];Casual{Casual,Informal,Hawaiian,Bohemian}[T];Elegant[T];Hot/Sexy{Sexy}[T];Cinderella{Disney Princess,Cinderella,Fairytale}[T];Fashion/Modern{Hippie,Modern,Gothic,Hippie}[T];Classic[T];Mature[T];Gorgeous{Gorgeous,Glamorous,Luxury}[T];Romantic[T];Mormon
+#Fabric{The Main Fabric,Fabric1,Fabric2}[T]:Chiffon[T];Lace[T];Organza[T];Satin[T];Taffeta[T];Tulle[T];Silk Like Satin[T];Elastic Woven Satin[T];Sequined
+#Body Shape[T]:Plus Size[T];Maternity;Petite[T];Apple[T];Hourglass[T];Inverted Triangle[T];Pear{Pear,Triangle}[T];Rectangle[T];Full Figure[T]
+#Season[T]:Spring[T];Summer[T];Fall{Fall,Autumn}[T];Winter[T]
+#Sleeve Length[T]:Sleeveless[T];Short Sleeve[T];Half Length Sleeve{Elbow Length Sleeve,Half Length Sleeve}[T];3/4 Length Sleeve[T];Long Sleeve[T]
+#Sleeve Style{Sleeve Shape/Sleeve Style}:Spaghetti Strap{Spaghetti Strap,Spaghetti-Strap};Cap;Petal{Petal,Tulip};Set in;Raglan;Butterfly;Puff;Fitted;Juliet;Leg of Mutton{Leg of Mutton,Gigot Sleeve};Balloon;Bishop;Poet;Bell;Illusion{Illusion,Sheer};Batwing{Batwing,Dolman};Gauntlet
+#Waistline[T]:Empire[T];Natural[T];Dropped[T]
+#Back Details[T]:Backless[T];Criss-cross Straps[T];Lace up[T];Hook up[T];Zip up{Zip up,Zipper,Buttons}[T]
+#Embellishment[T]:Appliques[T];Beaded{Beaded,Beading}[T];Bow[T];Embroidery[T];Flower[T];Feather/Fur{Feather,Fur}[T];Pleated[T];Sashes/Ribbons{Ribbon,Sash}[T];Ruffles[T];Ruched/Draped{Ruched,Draped}[T];Side Draped[T];Sparkly{Crystals,Gems,Jewel,Pearls,Rhinestone}[T];Sequin{Sequin,Paillette}[T];Split-Front[T];Tiered[T];Edging;Fringe/Tassel{Tassel,Fringe}
+#色卡标签，对应的是The Main Fabric
+#ColorChart:Satin;Silk Like Satin;Elastic Woven Satin;Taffeta;Organza;Chiffon;Tulle;Lace;Sequined
+Shown Color:Black;Blue;Brown;Burgundy;Champagne;Chocolate;Dark Navy;Daffodil;Dark Green;Fuchsia;Gold;Grape;Green;Hunter;Ivory;Lavender;Pearl Pink;Light Sky Blue;Lilac;Orange;Pink;Royal Blue;Sage;Silver;White;Red;Regency;Watermelon

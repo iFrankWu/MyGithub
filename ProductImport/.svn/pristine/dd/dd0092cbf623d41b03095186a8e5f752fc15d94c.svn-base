@@ -1,0 +1,5 @@
+#
+# 运行控制，每次从数据库中取第${start_product_id}开始的${count_prodcut}个有效产品
+#
+start_product_id=1
+count_prodcut=10000

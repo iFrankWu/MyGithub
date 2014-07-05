@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="LogAnalyse" default="compile" basedir=".">
+	<property name="src" value="src" />
+	<property name="build" value="build" />
+	<property name="lib" value="libs" />
+	<property name="work" value="work" />
+	<property name="classes" value="${work}/classes/" />
+	<property name="env.ANT_OPTS" value="-Xms256m -Xmx512m"/>
+	<property name="compile.encoding"    value="UTF-8"/>
+	<!--
+	<property name="jars" value="../jar" />
+	-->
+
+	<path id="classpath">
+		<pathelement location="${classes}" />
+		<fileset dir="${lib}" includes="**/*.jar" />
+		<!--
+		<fileset dir="${jars}" includes="**/*.jar" />
+		-->
+	</path>
+
+	<target name="clean">
+		<delete dir="${work}" />
+		<delete>
+			<fileset dir="${src}">
+				<include name="**/*.class" />
+			</fileset>
+		</delete>
+	</target>
+
+	<target name="prepare" depends="clean">
+		<mkdir dir="${classes}" />
+	</target>
+
+	<target name="compile" depends="prepare">
+		<javac encoding="utf-8" srcdir="${src}" destdir="${classes}" deprecation="on"
+			debug="on">
+			<classpath refid="classpath" />
+		</javac>
+	</target>
+
+	<target name="recompile" >
+		<javac encoding="utf-8" srcdir="${src}" destdir="${classes}" deprecation="on"
+				debug="on">
+			<classpath refid="classpath" />
+		</javac>
+	</target>
+
+
+	<target name="run" depends="compile">
+		<java classname="com.shinetech.service.Service" fork="true">
+			<classpath refid="classpath" />
+		</java>
+	</target>
+ 
+	
+</project>

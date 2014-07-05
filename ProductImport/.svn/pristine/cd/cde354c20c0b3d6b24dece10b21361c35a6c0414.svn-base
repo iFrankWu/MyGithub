@@ -1,0 +1,4 @@
+1、这是一个java工程的模板项目，以后创建新项目时复制该项目，在该项目上直接进行修改，以提高开发效率
+2、build.xml  编译脚本
+3、service.sh linux下启动脚本
+4、service.psl	windows下启动脚本

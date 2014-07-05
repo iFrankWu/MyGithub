@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/item/!svn/ver/3750/src/ImageDown/src/com/shinetech/dress/tag
+END
+TagConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/item/!svn/ver/3873/src/ImageDown/src/com/shinetech/dress/tag/TagConfig.java
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/item/!svn/ver/3757/src/ImageDown/src/com/shinetech/dress/tag/.project
+END
+TagCatalog.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/item/!svn/ver/3508/src/ImageDown/src/com/shinetech/dress/tag/TagCatalog.java
+END
+Tag.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/item/!svn/ver/3696/src/ImageDown/src/com/shinetech/dress/tag/Tag.java
+END
+CheckShowroom.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/item/!svn/ver/4026/src/ImageDown/src/com/shinetech/dress/tag/CheckShowroom.java
+END
+TagAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/item/!svn/ver/3873/src/ImageDown/src/com/shinetech/dress/tag/TagAdapter.java
+END
+GroupSortNumber.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/item/!svn/ver/3508/src/ImageDown/src/com/shinetech/dress/tag/GroupSortNumber.java
+END
+ClearDuplicateTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/item/!svn/ver/3947/src/ImageDown/src/com/shinetech/dress/tag/ClearDuplicateTag.java
+END
+TransferPriceTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/item/!svn/ver/3747/src/ImageDown/src/com/shinetech/dress/tag/TransferPriceTable.java
+END
+AddPlusSizeTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/item/!svn/ver/3696/src/ImageDown/src/com/shinetech/dress/tag/AddPlusSizeTag.java
+END
+TagUpdateRule1.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/item/!svn/ver/3891/src/ImageDown/src/com/shinetech/dress/tag/TagUpdateRule1.java
+END
+TagUpdateRule2.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/item/!svn/ver/3891/src/ImageDown/src/com/shinetech/dress/tag/TagUpdateRule2.java
+END
+TagUpdateRule3.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/item/!svn/ver/3891/src/ImageDown/src/com/shinetech/dress/tag/TagUpdateRule3.java
+END
+QcBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/item/!svn/ver/3696/src/ImageDown/src/com/shinetech/dress/tag/QcBean.java
+END
+GetShowroomQ.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/item/!svn/ver/3992/src/ImageDown/src/com/shinetech/dress/tag/GetShowroomQ.java
+END
+CantProduceLk.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/item/!svn/ver/3508/src/ImageDown/src/com/shinetech/dress/tag/CantProduceLk.java
+END

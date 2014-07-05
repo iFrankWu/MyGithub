@@ -1,0 +1,20 @@
+#用来描述分类的信息，格式：
+#${catagory};${tag}[,${tag}]
+#其中[]表示可选
+Bridal Dresses;Bridal Gowns
+Prom Dresses;Prom Dresses
+Bridesmaid Dresses;Bridesmaid Dresses
+Cocktail Dresses;Cocktail Dresses
+Evening Dresses;Evening Dresses
+Party Dresses;Party Dresses
+Mother of the Bride;Mother of the Bride Dresses
+Homecoming Dresses;Homecoming Dresses
+Quinceanera Dresses;Quinceanera Dresses
+Little Black Dresses;Little Black Dresses
+Club Dresses;Club Dresses
+Graduation Dresses;Graduation Dresses
+Sweet 16 Dresses;Sweet 16 Dresses
+Wedding Guest Dresses;Wedding Guest Dresses
+#Vintage Dresses;Vintage,Antique,Mediewal,Traditional,Victoria
+#Casual Dresses;Casual,Informal,Hawaiian,Bohemian
+#Test Import Dresses;Zip up,Backless,Zipper

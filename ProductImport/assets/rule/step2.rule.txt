@@ -1,0 +1,65 @@
+A-line:Full Figure;Petite;Pear;
+A-line&Empire Waistline:Petite;Apple;
+Ball Gown:Apple;Inverted Triangle;Pear;
+Princess:Full Figure;Pear;
+Princess&Empire Waistline:Apple;
+Empire:Full Figure;Petite;Apple;Inverted Triangle;
+Baby Doll:Apple;
+Empire Waistline:Inverted Triangle;Rectangle;
+Natural Waistline:Hourglass;Rectangle;
+Dropped Waistline:Hourglass;
+
+Short&A-line:Beach;
+Short&Princess:Beach;
+Short&Empire:Beach;
+Short&Sheath:Beach;
+Short&Baby Doll:Beach;
+Short&Ballerina:Beach;
+
+Knee Length&A-line:Beach;
+Knee Length&Princess:Beach;
+Knee Length&Empire:Beach;
+Knee Length&Sheath:Beach;
+Knee Length&Baby Doll:Beach;
+Knee Length&Ballerina:Beach;
+
+Tea Length&A-line:Beach;
+Tea Length&Princess:Beach;
+Tea Length&Empire:Beach;
+Tea Length&Sheath:Beach;
+Tea Length&Baby Doll:Beach;
+Tea Length&Ballerina:Beach;
+
+Ankle Length&A-line:Beach;
+Ankle Length&Princess:Beach;
+Ankle Length&Empire:Beach;
+Ankle Length&Sheath:Beach;
+Ankle Length&Baby Doll:Beach;
+Ankle Length&Ballerina:Beach;
+
+Floor Length&A-line:Beach;
+Floor Length&Princess:Beach;
+Floor Length&Empire:Beach;
+Floor Length&Sheath:Beach;
+Floor Length&Column:Beach;
+Floor Length&Baby Doll:Beach;
+Floor Length&Ballerina:Beach;
+
+Sweep Train&A-line:Beach;
+Sweep Train&Princess:Beach;
+Sweep Train&Empire:Beach;
+Sweep Train&Sheath:Beach;
+Sweep Train&Baby Doll:Beach;
+Sweep Train&Ballerina:Beach;
+
+
+Tea Length:Garden;
+Ankle Length:Garden;
+Floor Length:Church;Garden;
+Sweep Train:Church;
+Court Train:Church;
+Chapel Train:Church;
+Cathedral Train:Church;
+Monarch Train:Church;
+Panel Train:Church;
+Watteau Train:Church;

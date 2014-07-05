@@ -1,0 +1,16 @@
+#
+# 其他属性放置文件
+# ${Attribute Name}：${frontend_input}：${is_unique}
+#
+#${is_searchable}:${is_visible_in_advanced_search}:${is_comparable}:
+#${is_filterable}:${is_filterable_in_search}:${is_used_for_promo_rules}:
+#${is_html_allowed_on_front}:${is_visible_on_front}:${used_in_product_listing}:
+#${used_for_sort_by}
+#一共是13项
+#参考 onenote:///\\SERVER2\Onenote协作区\IT开发\2新软件站\9dresses.one#属性导入配置文件&section-id={8FF6DC42-F18E-4379-ADD7-3D4CB53A4579}&page-id={27FEAF2C-171D-43AC-8747-1AAEEC7C15AC}&object-id={B9625549-F637-49D3-8C69-1485739CBD3E}&F
+ItemCode:text:1:1:0:0:0:0:0:1:1:0:0
+Sort Score:text:0:0:0:0:0:0:0:0:0:0:0
+Discount:text:0:1:0:0:0:0:1:1:1:1:1
+Petticoat:boolean:0:0:0:0:0:0:0:0:0:0:0
+#图片色
+ShownColor:text:0:0:0:0:0:0:0:0:1:0:0

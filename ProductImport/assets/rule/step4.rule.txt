@@ -1,0 +1,2 @@
+Venues: Beach=Destination; Church=Hall; Garden=Outdoor
+Body Shape: Pear=Triangle;

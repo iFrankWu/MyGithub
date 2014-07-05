@@ -1,0 +1,1160 @@
+Show Name	Keyword	minp	maxp	tag
+Ball Dress	ball dress			Ball Gown
+Masquerade Ball Gowns	masquerade ball gowns			Ball Gown
+Custom Wedding Dresses	custom wedding dresses			Bridal Gowns
+Bridal Wear	bridal wear			Bridal Gowns
+Lace Bridal Gowns	lace bridal gowns			Bridal Gowns;Lace
+Lace Wedding Dresses	lace wedding dresses			Bridal Gowns;Lace
+Modest Wedding Dress	modest wedding dress			Bridal Gowns;Modest
+Princess Wedding Dresses	princess wedding dresses			Bridal Gowns;Princess
+Winter Wedding Dresses	winter wedding dresses			Bridal Gowns;Winter
+Maid of Honor Dresses	maid of honor dresses			Bridesmaid Dresses
+Modest Bridesmaid Dresses	modest bridesmaid dresses			Bridesmaid Dresses;Modest
+Club Clothing	club clothing			Club Dresses
+Club Dress	club dress			Club Dresses
+Club Wear	club wear			Club Dresses
+Clubwear Dresses	clubwear dresses			Club Dresses
+Clubwear	clubwear			Club Dresses
+Club Outfits	club outfits			Club Dresses
+Short Homecoming Dress	short homecoming dress			Homecoming Dresses;Mini
+Homecoming Dress	homecoming dress			Homecoming Dresses
+Homecoming Dresses	homecoming dresses			Homecoming Dresses
+Homecomming Dresses	homecomming dresses			Homecoming Dresses
+Mother of the Bride Outfits	mother of the bride outfits			Mother of the Bride Dresses
+Best Prom Dresses	best prom dresses			Prom Dresses
+Dresses Prom	dresses prom			Prom Dresses
+Prom Dress	prom dress			Prom Dresses
+Prom Gown	prom gown			Prom Dresses
+Long Prom Dress	long prom dress			Prom Dresses;Ankle Length;Floor Length;Sweep Train;Court Train;Chapel Train;Cathedral Train;Monarch Train;Panel Train;Watteau Train
+Open Back Prom Dresses	open back prom dresses			Prom Dresses;Backless
+Chiffon Prom Dresses	chiffon prom dresses			Prom Dresses;Chiffon
+Elegant Prom Dresses	elegant prom dresses			Prom Dresses;Elegant
+Petite Prom Dresses	petite prom dresses			Prom Dresses;Petite
+Sequin Prom Dresses	sequin prom dresses			Prom Dresses;Sequin
+Dresses for Quinceaneras	dresses for quinceaneras			Quinceanera Dresses
+Quinceanera Dress	quinceanera dress			Quinceanera Dresses
+Quinceanera Dresses	quinceanera dresses			Quinceanera Dresses
+Quince Dresses	quince dresses			Quinceanera Dresses
+Sweet 15 Dresses	sweet 15 dresses			Quinceanera Dresses
+Body Con Dresses	body con dresses			Sheath;Mini
+Sweet 16 Dresses	sweet 16 dresses			Sweet 16 Dresses
+Sweet Sixteen Dresses	sweet sixteen dresses			Sweet 16 Dresses
+Sweet 16 Dress	sweet 16 dress			Sweet 16 Dresses
+Wedding Attire for Guests	wedding attire for guests			Wedding Guest Dresses
+Backless Prom Dresses	backless prom dresses	0		Prom Dresses;Backless
+Backless Wedding Dress	backless wedding dress	0		Bridal Gowns;Backless
+Backless Wedding Dresses	backless wedding dresses	0		Bridal Gowns;Backless
+Low Back Wedding Dresses	low back wedding dresses	0		Bridal Gowns;Backless
+Backless Cocktail Dress	backless cocktail dress	0		Cocktail Dresses;Backless
+Backless Evening Dresses	backless evening dresses	0		Evening Dresses;Backless
+Backless Club Dresses	backless club dresses	0		Club Dresses;Backless
+Backless Cocktail Dresses	backless cocktail dresses	0		Cocktail Dresses;Backless
+Backless Formal Dresses	backless formal dresses	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Backless
+Backless Formal Gowns	backless formal gowns	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Backless
+Open Back Wedding Dresses	open back wedding dresses	0		Bridal Gowns;Backless
+Chiffon Wedding Dresses	chiffon wedding dresses	0		Bridal Gowns;Chiffon
+Lace Wedding Dress	lace wedding dress	0		Bridal Gowns;Lace
+Satin Wedding Dresses	satin wedding dresses	0		Bridal Gowns;Satin
+Chiffon Wedding Dress	chiffon wedding dress	0		Bridal Gowns;Chiffon
+Wedding Dresses Lace	wedding dresses lace	0		Bridal Gowns;Lace
+Chiffon Bridal Gowns	chiffon bridal gowns	0		Bridal Gowns;Chiffon
+Chiffon Evening Dress	chiffon evening dress	0		Evening Dresses;Chiffon
+Chiffon Evening Dresses	chiffon evening dresses	0		Evening Dresses;Chiffon
+Lace Bridal Dresses	lace bridal dresses	0		Bridal Gowns;Lace
+Lace Bridal Gown	lace bridal gown	0		Bridal Gowns;Lace
+Chiffon Cocktail Dress	chiffon cocktail dress	0		Cocktail Dresses;Chiffon
+Chiffon Cocktail Dresses	chiffon cocktail dresses	0		Cocktail Dresses;Chiffon
+Chiffon Evening Gown	chiffon evening gown	0		Evening Dresses;Chiffon
+Satin Bridal Gowns	satin bridal gowns	0		Bridal Gowns;Satin
+Satin Cocktail Dress	satin cocktail dress	0		Cocktail Dresses;Satin
+Satin Cocktail Dresses	satin cocktail dresses	0		Cocktail Dresses;Satin
+Satin Wedding Dress	satin wedding dress	0		Bridal Gowns;Satin
+Sequin Club Dress	sequin club dress	0		Club Dresses;Sequin
+Sequin Formal Dresses	sequin formal dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Sequin
+Sequin Homecoming Dresses	sequin homecoming dresses	0		Homecoming Dresses;Sequin
+Taffeta Wedding Dresses	taffeta wedding dresses	0		Bridal Gowns;Taffeta
+Tulle Wedding Dresses	tulle wedding dresses	0		Bridal Gowns;Tulle
+Tulle Ball Gown	tulle ball gown	0		Ball Gown;Tulle
+Satin Mini Dresses	satin mini dresses	0		Satin;Mini
+Beach Wedding Dress	beach wedding dress	0		Bridal Gowns;Beach
+Beach Bridesmaid Dresses	beach bridesmaid dresses	0		Bridesmaid Dresses;Beach
+Beach Dresses	beach dresses	0		Cocktail Dresses;Little Black dresses;Evening Dresses;Beach
+Beach Wedding Dresses	beach wedding dresses	0		Bridal Gowns;Beach
+Beach Wedding Gowns	beach wedding gowns	0		Bridal Gowns;Beach
+Destination Wedding Dresses	destination wedding dresses	0		Bridal Gowns;Destination
+Wedding Dresses for the Beach	wedding dresses for the beach	0		Bridal Gowns;Beach
+Beach Bridal Dress	beach bridal dress	0		Bridal Gowns;Beach
+Beach Bridal Dresses	beach bridal dresses	0		Bridal Gowns;Beach
+Beach Bridal Gowns	beach bridal gowns	0		Bridal Gowns;Beach
+Beach Bridesmaids Dresses	beach bridesmaids dresses	0		Bridesmaid dresses;Beach
+Beach Dresses for Wedding Guests	beach dresses for wedding guests	0		Wedding Guest Dresses;Beach
+Beach Style Wedding Dresses	beach style wedding dresses	0		Bridal Gowns;Beach
+Beach Wedding Dresses Gowns	beach wedding dresses gowns	0		Bridal Gowns;Beach
+Beach Weddings Dresses	beach weddings dresses	0		Bridal Gowns;Beach
+Bridal Beach Dresses	bridal beach dresses	0		Bridal Gowns;Beach
+Destination Bridal Gowns	destination bridal gowns	0		Bridal Gowns;Destination
+Destination Bridesmaid Dresses	destination bridesmaid dresses	0		Bridesmaid Dresses;Destination
+Dresses for a Beach Wedding Guest	dresses for a beach wedding guest	0		Wedding Guest Dresses;Beach
+Garden Party Dress	garden party dress	0		Party Dresses;Garden
+Garden Party Dresses	garden party dresses	0		Party Dresses;Garden
+Wedding Dress for Beach Wedding	wedding dress for beach wedding	0		Bridal Gowns;Beach
+Wedding Dresses Beach	wedding dresses beach	0		Bridal Gowns;Beach
+Wedding Dresses for a Beach Wedding	wedding dresses for a beach wedding	0		Bridal Gowns;Beach
+Beach Bridal Gown	beach bridal gown	0		Bridal Gowns;Beach
+Beach Wedding Dresses for Guests	beach wedding dresses for guests	0		Wedding Guest Dresses;Beach
+Beach Wedding Guest Dress	beach wedding guest dress	0		Wedding Guest Dresses;Beach
+Beach Wedding Guest Dresses	beach wedding guest dresses	0		Wedding Guest Dresses;Beach
+Beach Wedding Party Dresses	beach wedding party dresses	0		Wedding Guest Dresses;Beach
+Beachy Bridesmaid Dresses	beachy bridesmaid dresses	0		Bridesmaid dresses;Beach
+Cruise Evening Dresses	cruise evening dresses	0		Evening Dresses
+Destination Wedding Guest Dresses	destination wedding guest dresses	0		Wedding Guest Dresses;Destination
+Dress for Beach Wedding Guest	dress for beach wedding guest	0		Wedding Guest Dresses;Beach
+Dresses for Beach Wedding Guests	dresses for beach wedding guests	0		Wedding Guest Dresses;Beach
+Formal Beach Dresses	formal beach dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Beach
+Beachy Wedding Dresses	beachy wedding dresses	0		Bridal Gowns;Beach
+Custom Made Wedding Dresses	custom made wedding dresses	0		Bridal Gowns
+Custom Bridal Gowns	custom bridal gowns	0		Bridal Gowns
+Custom Bridesmaid Dresses	custom bridesmaid dresses	0		Bridesmaid dresses
+Custom Made Bridal Gowns	custom made bridal gowns	0		Bridal Gowns
+Custom Made Bridesmaid Dresses	custom made bridesmaid dresses	0		Bridesmaid dresses
+Ball Gown Costumes	ball gown costumes	0		ball gown
+Custom Made Quinceanera Dresses	custom made quinceanera dresses	0		Quinceanera Dresses
+Beautiful Prom Dresses	beautiful prom dresses	0		Prom dresses
+Pretty Prom Dresses	pretty prom dresses	0		Prom Dresses
+Pretty Quinceanera Dresses	pretty quinceanera dresses	0		Quinceanera Dresses
+Amazing Wedding Dresses	amazing wedding dresses	0		Bridal Gowns
+Beautiful Wedding Dresses	beautiful wedding dresses	0		Bridal Gowns
+Best Bridesmaid Dresses	best bridesmaid dresses	0		Bridesmaid Dresses
+Best Wedding Dress	best wedding dress	0		Bridal Gowns
+Best Wedding Dresses	best wedding dresses	0		Bridal Gowns
+Cinderella Prom Dresses	cinderella prom dresses	0		Prom Dresses;Cinderella
+Classic Wedding Dresses	classic wedding dresses	0		Bridal Gowns;Classic
+Elegant Cocktail Dresses	elegant cocktail dresses	0		Cocktail Dresses;Elegant
+Elegant Evening Dresses	elegant evening dresses	0		Evening Dresses;Elegant
+Elegant Evening Gowns	elegant evening gowns	0		Evening Dresses;Elegant
+Elegant Wedding Dresses	elegant wedding dresses	0		Bridal Gowns;Elegant
+Elegant Wedding Gowns	elegant wedding gowns	0		Bridal Gowns;Elegant
+Gorgeous Wedding Dresses	gorgeous wedding dresses	0		Bridal Gowns;Gorgeous
+Modest Bridal Gowns	modest bridal gowns	0		Bridal Gowns;Modest
+Modest Formal Dresses	modest formal dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Modest
+Modest Prom Dresses	modest prom dresses	0		Prom Dresses;Modest
+Modest Wedding Dresses	modest wedding dresses	0		Bridal Gowns;Modest
+Modest Wedding Gowns	modest wedding gowns	0		Bridal Gowns;Modest
+Perfect Wedding Dress	perfect wedding dress	0		Bridal Gowns
+Romantic Wedding Dresses	romantic wedding dresses	0		Bridal Gowns;Romantic
+Simple Prom Dresses	simple prom dresses	0		Prom Dresses;Simple
+Simple Wedding Dress	simple wedding dress	0		Bridal Gowns;Simple
+Simple Wedding Dresses	simple wedding dresses	0		Bridal Gowns;Simple
+Amazing Prom Dresses	amazing prom dresses	0		Prom Dresses
+Beautiful Ball Gowns	beautiful ball gowns	0		Ball Gown
+Beautiful Bridal Dress	beautiful bridal dress	0		Bridal Gowns
+Beautiful Bridal Dresses	beautiful bridal dresses	0		Bridal Gowns
+Beautiful Bridal Gowns	beautiful bridal gowns	0		Bridal Gowns
+Beautiful Evening Dresses	beautiful evening dresses	0		Evening Dresses
+Beautiful Party Dresses	beautiful party dresses	0		Party Dresses
+Beautiful Quinceanera Dresses	beautiful quinceanera dresses	0		Quinceanera Dresses
+Best Bridal Dresses	best bridal dresses	0		Bridal Gowns
+Best Bridal Gowns	best bridal gowns	0		Bridal Gowns
+Best Club Dresses	best club dresses	0		Club Dresses
+Best Cocktail Dresses	best cocktail dresses	0		Cocktail Dresses
+Best Evening Dresses	best evening dresses	0		Evening Dresses
+Best Little Black Dress	best little black dress	0		Little Black Dresses
+Best Mother of the Bride Dresses	best mother of the bride dresses	0		Mother of the Bride Dresses
+Best Party Dresses	best party dresses	0		Party Dresses
+Best Quinceanera Dresses	best quinceanera dresses	0		Quinceanera Dresses
+Bonny Bridal Dresses	bonny bridal dresses	0		Bridal Gowns
+Bridesmaid Dresses Modest	bridesmaid dresses modest	0		Bridesmaid Dresses;Modest
+Casual Party Dresses	casual party dresses	0		Party Dresses;Casual
+Chic Bridesmaid Dresses	chic bridesmaid dresses	0		Bridesmaid Dresses
+Classic Bridal Gowns	classic bridal gowns	0		Bridal Gowns;Classic
+Classy Bridesmaid Dresses	classy bridesmaid dresses	0		Bridesmaid Dresses
+Classy Club Dresses	classy club dresses	0		Club Dresses
+Classy Evening Dresses	classy evening dresses	0		Evening Dresses
+Classy Prom Dresses	classy prom dresses	0		Cocktail Dresses
+Cocktail Formal Dresses	cocktail formal dresses	0		Cocktail Dresses
+Cool Wedding Dresses	cool wedding dresses	0		Bridal Gowns
+Elegant Bridal Gowns	elegant bridal gowns	0		Bridal Gowns;Elegant
+Elegant Cocktail Dress	elegant cocktail dress	0		Cocktail Dresses;Elegant
+Elegant Dresses for Wedding Guests	elegant dresses for wedding guests	0		Wedding Guest Dresses;Elegant
+Elegant Evening Dress	elegant evening dress	0		Evening Dresses;Elegant
+Elegant Party Dresses	elegant party dresses	0		Party Dresses;Elegant
+Evening Formal Gown	evening formal gown	0		Evening Dresses
+Evening Formal Gowns	evening formal gowns	0		Evening Dresses
+Fashion Party Dresses	fashion party dresses	0		Party Dresses;Modern
+Formal Ball Gown	formal ball gown	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Ball Gown
+Formal Bridesmaid Dresses	formal bridesmaid dresses	0		Bridesmaid Dresses
+Formal Dresses for Weddings	formal dresses for weddings	0		Bridesmaid Dresses
+Formal Evening Gown	formal evening gown	0		Evening Dresses
+Formal Evening Wear	formal evening wear	0		Evening Dresses
+Formal Homecoming Dresses	formal homecoming dresses	0		Homecoming Dresses
+Formal Mother of the Bride Dresses	formal mother of the bride dresses	0		Mother of the Bride Dresses
+Formal Party Dress	formal party dress	0		Party Dresses
+Formal Prom Dresses	formal prom dresses	0		Prom Dresses
+Formal Wedding Gowns	formal wedding gowns	0		Bridal Gowns
+Glam Prom Dresses	glam prom dresses	0		Prom Dresses;Glamorous
+Gorgeous Prom Dresses	gorgeous prom dresses	0		Prom Dresses;Gorgeous
+Hot Club Dresses	hot club dresses	0		Club Dresses;Sexy
+Hot Clubbing Dresses	hot clubbing dresses	0		Club Dresses;Sexy
+Hot Party Dresses	hot party dresses	0		Party Dresses;Sexy
+Hot Prom Dresses	hot prom dresses	0		Prom Dresses;Sexy
+Modest Bridal Dresses	modest bridal dresses	0		Bridal Gowns;Modest
+Modest Bridesmaid Dress	modest bridesmaid dress	0		Bridesmaid Dresses;Modest
+Modest Evening Dresses	modest evening dresses	0		Evening Dresses;Modest
+Modest Formal Gowns	modest formal gowns	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Modest
+Modest Mother of the Bride Dresses	modest mother of the bride dresses	0		Mother of the Bride Dresses;Modest
+Nice Club Dresses	nice club dresses	0		Club Dresses
+Nice Evening Dresses	nice evening dresses	0		Evening Dresses
+Nice Party Dresses	nice party dresses	0		Party Dresses
+Nice Prom Dresses	nice prom dresses	0		Prom Dresses
+Perfect Little Black Dress	perfect little black dress	0		Little Black Dresses
+Perfect Prom Dress	perfect prom dress	0		Prom Dresses
+Perfect Wedding Dresses	perfect wedding dresses	0		Bridal Gowns
+Pretty Party Dresses	pretty party dresses	0		Party Dresses
+Pretty Wedding Dresses	pretty wedding dresses	0		Bridal Gowns
+Prom Dresses Formal Gowns	prom dresses formal gowns	0		Prom Dresses
+Romantic Bridal Dresses	romantic bridal dresses	0		Bridal Gowns;Romantic
+Romantic Bridal Gowns	romantic bridal gowns	0		Bridal Gowns;Romantic
+Semi Formal Gowns	semi formal gowns	0		Cocktail Dresses
+Semi Formal Wear	semi formal wear	0		Cocktail Dresses
+Simple Bridal Dresses	simple bridal dresses	0		Bridal Gowns;Simple
+Simple Bridal Gown	simple bridal gown	0		Bridal Gowns;Simple
+Simple Bridal Gowns	simple bridal gowns	0		Bridal Gowns;Simple
+Stunning Evening Dresses	stunning evening dresses	0		Evening Dresses
+Stylish Bridesmaid Dresses	stylish bridesmaid dresses	0		Bridesmaid Dresses
+the Perfect Little Black Dress	the perfect little black dress	0		Little Black Dresses
+the Perfect Prom Dress	the perfect prom dress	0		Prom Dresses
+the Perfect Wedding Dress	the perfect wedding dress	0		Bridal Gowns
+Top Bridal Dresses	top bridal dresses	0		Bridal Gowns
+Trendy Party Dresses	trendy party dresses	0		Party Dresses;Modern
+Alice in Wonderland Sweet 16 Dress	alice in wonderland sweet 16 dress	0		Sweet 16 Dresses;Fairytale
+Beautiful Cocktail Dresses	beautiful cocktail dresses	0		Cocktail Dresses
+Beautiful Sweet 16 Dresses	beautiful sweet 16 dresses	0		Sweet 16 Dresses
+Best Homecoming Dresses	best homecoming dresses	0		Homecoming Dresses
+Bridal Formal Wear	bridal formal wear	0		Bridal Gowns
+Chic Party Dresses	chic party dresses	0		Party Dresses;Sexy
+Cinderella Ball Gown	cinderella ball gown	0		Ball Gown;Cinderella
+Cinderella Ball Gowns	cinderella ball gowns	0		Ball Gown;Cinderella
+Cinderella by Special Occasions Dresses	cinderella by special occasions dresses	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Cinderella
+				
+Cinderella Quinceanera Dresses	cinderella quinceanera dresses	0		Quinceanera Dresses;Cinderella
+Cinderella Sweet 16 Dresses	cinderella sweet 16 dresses	0		Sweet 16 Dresses;Cinderella
+Classic Prom Dresses	classic prom dresses	0		Prom Dresses;Classic
+Classy Cocktail Dresses	classy cocktail dresses	0		Cocktail Dresses
+Different Wedding Dresses	different wedding dresses	0		Bridal Gowns
+Duckys Formal Wear	duckys formal wear	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Elegant Evening Gown	elegant evening gown	0		Evening Dresses;Elegant
+Elegant Formal Dresses	elegant formal dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Elegant
+				
+Elegant Special Occasion Dresses	elegant special occasion dresses	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Elegant
+Elegant Wedding Guest Dresses	elegant wedding guest dresses	0		Wedding Guest Dresses;Elegant
+Find the Perfect Little Black Dress	find the perfect little black dress	0		Little Black Dresses
+Formal Dresses for Wedding Guests	formal dresses for wedding guests	0		Wedding Guest Dresses
+Formal Gown Prom	formal gown prom	0		Prom Dresses
+Formal Hawaiian Dresses	formal hawaiian dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses; Hawaiian
+				
+				
+Formal Wear for Weddings	formal wear for weddings	0		Bridal Gowns;Bridesmaid Dresses;Flower Girl Dresses;Mother of the Bride Dresses;Wedding Guest Dresses
+				
+Formal Wedding Dresses for Guests	formal wedding dresses for guests	0		Wedding Guest Dresses
+Girls Formal Gowns	girls formal gowns	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Hawaiian Formal Wear	hawaiian formal wear	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses; Hawaiian
+Hot Club Dress	hot club dress	0		Club Dresses;Sexy
+Hot Club Wear	hot club wear	0		Club Dresses;Sexy
+Hot Cocktail Dresses	hot cocktail dresses	0		Cocktail Dresses;Sexy
+Hot Evening Dresses	hot evening dresses	0		Evening Dresses;Sexy
+Hot Homecoming Dresses	hot homecoming dresses	0		Homecoming Dresses;Sexy
+Hottest Club Dresses	hottest club dresses	0		Club Dresses;Sexy
+Inaugural Ball Gowns	inaugural ball gowns	0		Ball Gown
+Misses Special Occasion Dresses	misses special occasion dresses	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Modest Ball Gowns	modest ball gowns	0		Ball Gown;Modest
+Modest Formal Dress	modest formal dress	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Modest
+Modest Graduation Dresses	modest graduation dresses	0		Graduation Dresses;Modest
+Modest Homecoming Dresses	modest homecoming dresses	0		Homecoming Dresses;Modest
+Modest Little Black Dress	modest little black dress	0		Little Black Dresses;Modest
+Modest Semi Formal Dresses	modest semi formal dresses	0		Cocktail Dresses;Modest
+Mother of the Bride Fashion	mother of the bride fashion	0		Mother of the Bride Dresses
+Nice Cocktail Dresses	nice cocktail dresses	0		Cocktail Dresses
+Party Formal Dresses	party formal dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Perfect Cocktail Dress	perfect cocktail dress	0		Cocktail Dresses
+Perfect Prom Dresses	perfect prom dresses	0		Prom Dresses
+Plain Wedding Dresses	plain wedding dresses	0		Bridal Gowns;Plain
+Popular Bridesmaid Dresses	popular bridesmaid dresses	0		Bridesmaid Dresses
+Pretty Cocktail Dresses	pretty cocktail dresses	0		Cocktail Dresses
+Pretty Graduation Dresses	pretty graduation dresses	0		Graduation Dresses
+Pretty Homecoming Dresses	pretty homecoming dresses	0		Homecoming Dresses
+Pretty Sweet 16 Dresses	pretty sweet 16 dresses	0		Sweet 16 Dresses
+Semi Formal Evening Wear	semi formal evening wear	0		Cocktail Dresses
+Simple Homecoming Dresses	simple homecoming dresses	0		Homecoming Dresses;Simple
+Special Occasion Formal Dresses	special occasion formal dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Super Sweet 16 Dresses	super sweet 16 dresses	0		Sweet 16 Dresses
+the Perfect Homecoming Dress	the perfect homecoming dress	0		Homecoming Dresses
+Casual Mini Dresses	casual mini dresses	0		Mini;Casual
+Glitter Mini Dress	glitter mini dress	0		Rhinestone;Gems;Sequin;Mini
+Hot Mini Dresses	hot mini dresses	0		Mini;Sexy
+Buy Wedding Dress	buy wedding dress	0		Bridal Gowns
+Buy Wedding Dresses	buy wedding dresses	0		Bridal Gowns
+Buy Ball Gowns	buy ball gowns	0		Ball Gown
+Buy Bridesmaid Dress	buy bridesmaid dress	0		Bridesmaid Dresses
+Buy Bridesmaid Dresses	buy bridesmaid dresses	0		Bridesmaid Dresses
+Buy Evening Dress	buy evening dress	0		Evening Dresses
+Buy Evening Dresses	buy evening dresses	0		Evening Dresses
+Buy Little Black Dress	buy little black dress	0		Little Black Dresses
+Buy Prom Dresses	buy prom dresses	0		Prom Dresses
+in Stock Bridesmaid Dresses	in stock bridesmaid dresses	0		Bridesmaid Dresses
+Prom Dress Shopping	prom dress shopping	0		Prom Dresses
+Shop Evening Dresses	shop evening dresses	0		Evening Dresses
+Shop Prom Dresses	shop prom dresses	0		Prom Dresses
+Where to Buy Club Dresses	where to buy club dresses	0		Club Dresses
+Where to Buy Prom Dresses	where to buy prom dresses	0		Prom Dresses
+Buy Cocktail Dresses	buy cocktail dresses	0		Cocktail Dresses
+Buy Formal Dress	buy formal dress	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Buy Formal Dresses	buy formal dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Buy Homecoming Dresses	buy homecoming dresses	0		Homecoming Dresses
+Buy Quinceanera Dresses	buy quinceanera dresses	0		Quinceanera Dresses
+Homecoming Dress Shopping	homecoming dress shopping	0		Homecoming Dresses
+in Stock Prom Dresses	in stock prom dresses	0		Prom Dresses
+Shop Formal Dresses	shop formal dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Shop Special Occasion Dresses	shop special occasion dresses	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Where Can I Buy a Little Black Dress	where can i buy a little black dress	0		Little Black Dresses
+Where to Buy a Little Black Dress	where to buy a little black dress	0		Little Black Dresses
+Where to Buy Homecoming Dresses	where to buy homecoming dresses	0		Homecoming Dresses
+Fall Bridesmaid Dresses	fall bridesmaid dresses	0		Bridesmaid Dresses;Fall
+Summer Bridesmaid Dresses	summer bridesmaid dresses	0		Bridesmaid Dresses;Summer
+Winter Formal Dresses	winter formal dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Winter
+Mother of the Groom Dresses for Fall	mother of the groom dresses for fall	0		Mother of the Bride Dresses;Fall
+Fall Mother of the Bride Dresses	fall mother of the bride dresses	0		Mother of the Bride Dresses;Fall
+Mother of the Bride Summer Dresses	mother of the bride summer dresses	0		Mother of the Bride Dresses;Summer
+Spring Bridesmaid Dresses	spring bridesmaid dresses	0		Bridesmaid Dresses;Spring
+Spring Formal Dresses	spring formal dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Spring
+Spring Mother of the Bride Dresses	spring mother of the bride dresses	0		Mother of the Bride Dresses;Spring
+Spring Party Dresses	spring party dresses	0		Party Dresses;Spring
+Spring Wedding Dresses	spring wedding dresses	0		Bridal Gowns;Spring
+Summer Bridal Gowns	summer bridal gowns	0		Bridal Gowns;Summer
+Summer Cocktail Dresses	summer cocktail dresses	0		Cocktail Dresses;Summer
+Summer Evening Dress	summer evening dress	0		Evening Dresses;Summer
+Summer Evening Dresses	summer evening dresses	0		Evening Dresses;Summer
+Summer Formal Dresses	summer formal dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Summer
+Summer Mother of the Bride Dresses	summer mother of the bride dresses	0		Mother of the Bride Dresses;Summer
+Summer Party Dress	summer party dress	0		Party Dresses;Summer
+Summer Party Dresses	summer party dresses	0		Party Dresses;Summer
+Wedding Guest Dresses for Summer	wedding guest dresses for summer	0		Wedding Guest Dresses;Summer
+Winter Bridal Gowns	winter bridal gowns	0		Bridal Gowns;Winter
+Winter Formal Dress	winter formal dress	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Winter
+Dress for Spring Wedding Guest	dress for spring wedding guest	0		Wedding Guest Dresses;Spring
+Dresses for Fall Wedding Guest	dresses for fall wedding guest	0		Wedding Guest Dresses;Fall
+Fall Cocktail Dresses	fall cocktail dresses	0		Cocktail Dresses;Fall
+Fall Wedding Guest Dresses	fall wedding guest dresses	0		Wedding Guest Dresses;Fall
+Little Black Dress 2011	little black dress 2011	0		Little Black Dresses
+Spring Cocktail Dresses	spring cocktail dresses	0		Cocktail Dresses;Spring
+Spring Graduation Dresses	spring graduation dresses	0		Graduation Dresses;Spring
+Spring Wedding Dresses for Guests	spring wedding dresses for guests	0		Wedding Guest Dresses;Spring
+Spring Wedding Guest Dresses	spring wedding guest dresses	0		Wedding Guest Dresses;Spring
+Summer Bridesmaids Dresses	summer bridesmaids dresses	0		Bridesmaid Dresses;Summer
+Summer Cocktail Dress	summer cocktail dress	0		Cocktail Dresses;Summer
+Summer Dresses Wedding Guests	summer dresses wedding guests	0		Wedding Guest Dresses;Summer
+Summer Formal Wear	summer formal wear	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Summer
+Summer Guest Wedding Dresses	summer guest wedding dresses	0		Wedding Guest Dresses;Summer
+Summer Wedding Dresses for Guests	summer wedding dresses for guests	0		Wedding Guest Dresses;Summer
+Summer Wedding Guest Dress	summer wedding guest dress	0		Wedding Guest Dresses;Summer
+Summer Wedding Guest Dresses	summer wedding guest dresses	0		Wedding Guest Dresses;Summer
+Wedding Guest Dresses for Fall	wedding guest dresses for fall	0		Wedding Guest Dresses;Fall
+Wedding Guest Dresses for Spring	wedding guest dresses for spring	0		Wedding Guest Dresses;Spring
+Wedding Guest Dresses for Winter	wedding guest dresses for winter	0		Wedding Guest Dresses;Winter
+Winter Ball Gowns	winter ball gowns	0		Ball Gown;Winter
+Winter Evening Dresses	winter evening dresses	0		Evening Dresses;Winter
+Winter Party Dresses	winter party dresses	0		Party Dresses;Winter
+Winter Sweet 16 Dresses	winter sweet 16 dresses	0		Sweet 16 Dresses;Winter
+Winter Wedding Guest Dresses	winter wedding guest dresses	0		Wedding Guest Dresses;Winter
+Winter Wonderland Sweet 16 Dresses	winter wonderland sweet 16 dresses	0		Sweet 16 Dresses;Winter
+Cheap Prom Dresses under 100	cheap prom dresses under 100	0	100	Prom Dresses
+Prom Dresses for Sale	prom dresses for sale	0		Prom Dresses
+Prom Dresses under 100 Dollars	prom dresses under 100 dollars	0	100	Prom Dresses
+Prom Dresses under 100	prom dresses under 100	0	100	Prom Dresses
+Prom Dresses under 200	prom dresses under 200	0	200	Prom Dresses
+Wedding Dresses under 500	wedding dresses under 500	0	500	Bridal Gowns
+Cheap Formal Dresses	cheap formal dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Cocktail Dresses under 100	cocktail dresses under 100	0	100	Cocktail Dresses
+Discount Bridal Gowns	discount bridal gowns	0		Bridal Gowns
+Discount Bridesmaid Dresses	discount bridesmaid dresses	0		Bridesmaid Dresses
+Discount Cocktail Dresses	discount cocktail dresses	0		Cocktail Dresses
+Discount Prom Dresses	discount prom dresses	0		Prom Dresses
+Discount Wedding Dress	discount wedding dress	0		Bridal Gowns
+Discount Wedding Dresses	discount wedding dresses	0		Bridal Gowns
+Formal Dresses under 100	formal dresses under 100	0	100	Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Homecoming Dresses under 100	homecoming dresses under 100	0	100	Homecoming Dresses
+Prom Dresses under $100	prom dresses under $100	0	100	Prom Dresses
+Wedding Dresses under 1000	wedding dresses under 1000	0	1000	Bridal Gowns
+Discount Evening Gowns	discount evening gowns	0		Evening Dresses
+Ball Gowns under 200	ball gowns under 200	0	200	Ball Gown
+Bridal Gowns Discount	bridal gowns discount	0		Bridal Gowns
+Bridesmaid Dress Discount	bridesmaid dress discount	0		Bridesmaid Dresses
+Bridesmaid Dresses Discount	bridesmaid dresses discount	0		Bridesmaid Dresses
+Cheap Homecoming Dresses under 100	cheap homecoming dresses under 100	0	100	Homecoming Dresses
+Cheap Quinceanera Dresses under 200	cheap quinceanera dresses under 200	0	200	Quinceanera Dresses
+Discount Bridal Dress	discount bridal dress	0		Bridal Gowns
+Discount Bridal Dresses	discount bridal dresses	0		Bridal Gowns
+Discount Bridal Gown	discount bridal gown	0		Bridal Gowns
+Discount Bridal Wedding Gowns	discount bridal wedding gowns	0		Bridal Gowns
+Discount Bridesmaid Dress	discount bridesmaid dress	0		Bridesmaid Dresses
+Discount Club Dresses	discount club dresses	0		Club Dresses
+Discount Cocktail Dress	discount cocktail dress	0		Cocktail Dresses
+Discount Evening Dress	discount evening dress	0		Evening Dresses
+Discount Evening Dresses	discount evening dresses	0		Evening Dresses
+Discount Formal Dresses Gowns	discount formal dresses gowns	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Discount Formal Gowns	discount formal gowns	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Discount Mother of Bride Dresses	discount mother of bride dresses	0		Mother of the Bride Dresses
+Discount Mother of the Bride Dress	discount mother of the bride dress	0		Mother of the Bride Dresses
+Discount Mother of the Bride Dresses	discount mother of the bride dresses	0		Mother of the Bride Dresses
+Discount Party Dresses	discount party dresses	0		Party Dresses
+Discount Prom Dress	discount prom dress	0		Prom Dresses
+Discount Prom Dresses under 100	discount prom dresses under 100	0	100	Prom Dresses
+Discount Quinceanera Dresses	discount quinceanera dresses	0		Quinceanera Dresses
+Discounted Bridal Gowns	discounted bridal gowns	0		Bridal Gowns
+Discounted Bridesmaid Dresses	discounted bridesmaid dresses	0		Bridesmaid Dresses
+Discounted Evening Dresses	discounted evening dresses	0		Evening Dresses
+Discounted Prom Dresses	discounted prom dresses	0		Prom Dresses
+Formal Dresses and Gowns under 100	formal dresses and gowns under 100	0	100	Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Formal Gowns under 100	formal gowns under 100	0	100	Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Homecoming Dresses Cheap	homecoming dresses cheap	0		Homecoming Dresses
+Homecoming Dresses for Cheap	homecoming dresses for cheap	0		Homecoming Dresses
+Party Dresses under 100	party dresses under 100	0	100	Party Dresses
+Prom Dress under 100	prom dress under 100	0	100	Prom Dresses
+Prom Dresses under $200	prom dresses under $200	0	200	Prom Dresses
+Prom Dresses under 150 Dollars	prom dresses under 150 dollars	0	150	Prom Dresses
+Prom Dresses under 150	prom dresses under 150	0	150	Prom Dresses
+Prom Dresses under 200 Dollars	prom dresses under 200 dollars	0	200	Prom Dresses
+Prom Dresses under 300	prom dresses under 300	0	300	Prom Dresses
+Sale Bridal Dresses	sale bridal dresses	0		Bridal Gowns
+Sale Bridesmaid Dresses	sale bridesmaid dresses	0		Bridesmaid Dresses
+Sale Evening Dresses	sale evening dresses	0		Evening Dresses
+Sale Party Dresses	sale party dresses	0		Party Dresses
+Sale Wedding Dresses	sale wedding dresses	0		Bridal Gowns
+Wedding Dress Discount	wedding dress discount	0		Bridal Gowns
+Wedding Dresses and Prices	wedding dresses and prices	0		Bridal Gowns
+Wedding Dresses Discount	wedding dresses discount	0		Bridal Gowns
+Wedding Dresses on a Budget	wedding dresses on a budget	0		Bridal Gowns
+Wedding Dresses under 200	wedding dresses under 200	0	200	Bridal Gowns
+Bridal Dresses Discount	bridal dresses discount	0		Bridal Gowns
+Cheap Ball Gowns under 200	cheap ball gowns under 200	0	200	Ball gown
+Cheap Ball Gowns under 50	cheap ball gowns under 50	0	200	Ball gown
+Discount Ball Gown	discount ball gown	0		Ball Gown
+Discount Ball Gowns	discount ball gowns	0		Ball Gown
+Discount Formal Dress	discount formal dress	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Discount Formal Wear	discount formal wear	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Discount Homecoming Dresses	discount homecoming dresses	0		Homecoming Dresses
+Discount Little Black Dress	discount little black dress	0		Little Black Dresses
+Discount Little Black Dresses	discount little black dresses	0		Little Black Dresses
+Discount Mother of Bride Dress	discount mother of bride dress	0		Mother of the Bride Dresses
+Discount Special Occasion Dresses	discount special occasion dresses	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Discount Sweet 16 Dresses	discount sweet 16 dresses	0		Sweet 16 Dresses
+Discount Wedding Party Dresses	discount wedding party dresses	0		Wedding Guest Dresses
+Discounted Bridal Dresses	discounted bridal dresses	0		Bridal Gowns
+Discounted Formal Dresses	discounted formal dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Discounted Wedding Dresses	discounted wedding dresses	0		Bridal Gowns
+Formal Wear Discount	formal wear discount	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Formal Wear Outlet	formal wear outlet	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Homecoming Dresses under $100	homecoming dresses under $100	0	100	Homecoming Dresses
+Homecoming Dresses under 100 Dollars	homecoming dresses under 100 dollars	0	100	Homecoming Dresses
+Prom Dress Outlet	prom dress outlet	0		Prom Dresses
+Quinceanera Dresses under 200	quinceanera dresses under 200	0	200	Quinceanera Dresses
+Shop Cocktail Dresses	shop cocktail dresses	0		Cocktail Dresses
+Sweet 16 Dresses under 200	sweet 16 dresses under 200	0	200	Sweet 16 Dresses
+Discount Bridesmaid Dresses Online	discount bridesmaid dresses online	0		Bridesmaid Dresses
+Discount Evening Dresses Online	discount evening dresses online	0		Evening Dresses
+A line Wedding Dresses	a line wedding dresses	0		Bridal Gowns;A-line
+Ball Dresses	ball dresses	0		Ball Gown
+Ball Gown Dresses	ball gown dresses	0		Ball Gown
+Fitted Dresses	fitted dresses	0		Sheath
+A line Wedding Dress	a line wedding dress	0		Bridal Gowns;A-line
+Ballgown	ballgown	0		Ball Gown
+2 Piece Bridesmaid Dresses	2 piece bridesmaid dresses	0		Bridesmaid Dresses
+A line Bridal Gowns	a line bridal gowns	0		Bridal Gowns;A-line
+Ball Gown Dress	ball gown dress	0		Ball Gown
+Ball Gowns Dresses	ball gowns dresses	0		Ball Gown
+Formal Ball Gowns	formal ball gowns	0		Ball Gown
+Formal Dresses Ball Gowns	formal dresses ball gowns	0		Ball Gown
+Princess Bridal Gowns	princess bridal gowns	0		Bridal Gowns;Princess
+Puffy Quinceanera Dresses	puffy quinceanera dresses	0		Quinceanera Dresses;Ball Gown
+Quinceanera Ball Gowns	quinceanera ball gowns	0		Quinceanera Dresses;Ball Gown
+A line Prom Dresses	a line prom dresses	0		Prom Dresses;A-line
+Corset Ball Gown	corset ball gown	0		Ball Gown;Lace up
+Corset Ball Gowns	corset ball gowns	0		Ball Gown;Lace up
+Halter Wedding Dress	halter wedding dress	0		Bridal Gowns;Halter
+Pageant Ball Gowns	pageant ball gowns	0		Ball Gown
+Princess Ball Gown	princess ball gown	0		Ball Gown;Princess
+Princess Ball Gowns	princess ball gowns	0		Ball Gown;Princess
+Princess Bridal Dresses	princess bridal dresses	0		Bridal Gowns;Princess
+Really Puffy Quinceanera Dresses	really puffy quinceanera dresses	0		Quinceanera Dresses;Ball Gown
+Sweet 16 Ball Gowns	sweet 16 ball gowns	0		Sweet 16 Dresses;Ball Gown
+Tight Club Dresses	tight club dresses	0		Club Dresses;Sheath
+Tight Homecoming Dresses	tight homecoming dresses	0		Homecoming Dresses;Sheath
+Tight Little Black Dress	tight little black dress	0		Little Black Dresses;Sheath
+Tight Little Black Dresses	tight little black dresses	0		Little Black Dresses;Sheath
+Princess Ball Gown Wedding Dresses	princess ball gown wedding dresses	0		Bridal Gowns;Ball Gown;Princess
+A line Mini Dress	a line mini dress	0		Mini;A-line
+Fitted Mini Dress	fitted mini dress	0		Mini;Sheath
+Tight Mini Dress	tight mini dress	0		Mini;Sheath
+Tight Mini Dresses	tight mini dresses	0		Mini;Sheath
+Tube Mini Dress	tube mini dress	0		Mini;Column
+Fitted Black Dress	fitted black dress	0		Little Black Dresses;Sheath
+Tight Black Dress	tight black dress	0		Little Black Dresses;Sheath
+Halter Wedding Dresses	halter wedding dresses	0		Bridal Gowns;Halter 
+One Shoulder Prom Dresses	one shoulder prom dresses	0		Prom Dresses;One Shoulder
+Strapless Wedding Dresses	strapless wedding dresses	0		Bridal Gowns;Strapless
+Low Cut Dresses	low cut dresses	0		V-neck
+Halter Dress	halter dress	0		Halter
+Halter Dresses	halter dresses	0		Halter
+Halter Neck Dresses	halter neck dresses	0		Halter
+Halter Neck Wedding Dresses	halter neck wedding dresses	0		Halter
+One Shoulder Cocktail Dress	one shoulder cocktail dress	0		Cocktail Dresses;One Shoulder
+One Shoulder Dress	one shoulder dress	0		One Shoulder
+One Shoulder Dresses	one shoulder dresses	0		One Shoulder
+Strapless Dresses	strapless dresses	0		Strapless
+Strapless Prom Dresses	strapless prom dresses	0		Prom Dresses;Strapless
+Halter Bridal Gowns	halter bridal gowns	0		Bridal Gowns;Halter
+One Shoulder Cocktail Dresses	one shoulder cocktail dresses	0		Cocktail Dresses;One Shoulder
+One Shoulder Evening Dress	one shoulder evening dress	0		Evening Dresses;One Shoulder
+One Shoulder Evening Dresses	one shoulder evening dresses	0		Evening Dresses;One Shoulder
+One Shoulder Party Dress	one shoulder party dress	0		Party Dresses;One Shoulder
+One Shoulder Party Dresses	one shoulder party dresses	0		Party Dresses;One Shoulder
+One Shoulder Prom Dress	one shoulder prom dress	0		Prom Dresses;One Shoulder
+Strapless Ball Gown	strapless ball gown	0		Ball Gown;Strapless
+Strapless Ball Gowns	strapless ball gowns	0		Ball Gown;Strapless
+Strapless Cocktail Dress	strapless cocktail dress	0		Cocktail Dresses;Strapless
+Strapless Cocktail Dresses	strapless cocktail dresses	0		Cocktail Dresses;Strapless
+Strapless Evening Dresses	strapless evening dresses	0		Evening Dresses;Strapless
+Strapless Formal Gowns	strapless formal gowns	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Strapless
+Strapless Party Dress	strapless party dress	0		Party Dresses;Strapless
+Strapless Party Dresses	strapless party dresses	0		Party Dresses;Strapless
+Wedding Dresses Strapless	wedding dresses strapless	0		Bridal Gowns;Strapless
+Halter Evening Dresses	halter evening dresses	0		Evening Dresses;Halter
+Halter Prom Dresses	halter prom dresses	0		Prom Dresses;Halter
+One Shoulder Formal Gowns	one shoulder formal gowns	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;One Shoulder
+One Shoulder Gown	one shoulder gown	0		One Shoulder
+One Shoulder Homecoming Dresses	one shoulder homecoming dresses	0		Homecoming Dresses;One Shoulder
+Strapless Homecoming Dresses	strapless homecoming dresses	0		Homecoming Dresses;Strapless
+Strapless Prom Dress	strapless prom dress	0		Prom Dresses;Strapless
+V Neck Bridal Gowns	v neck bridal gowns	0		Bridal Gowns;V-neck
+Strapless Quinceanera Dresses	strapless quinceanera dresses	0		Quinceanera Dresses;Strapless
+One Shoulder Prom Dresses 2011	one shoulder prom dresses 2011	0		Prom Dresses;One Shoulder
+One Shoulder Mini Dress	one shoulder mini dress	0		One Shoulder;Mini
+One Shoulder Mini Dresses	one shoulder mini dresses	0		One Shoulder;Mini
+Strapless Mini Dress	strapless mini dress	0		Strapless;Mini
+Strapless Mini Dresses	strapless mini dresses	0		Strapless;Mini
+Bridal Gown	bridal gown	0		Bridal Gowns
+Club Dresses	club dresses	0		Club Dresses
+Prom Gowns	prom gowns	0		Prom Dresses
+Wedding Guest Outfits	wedding guest outfits	0		Wedding Guest Dresses
+Ball Gown	ball gown	0		ball gown
+Ball Gowns	ball gowns	0		ball gown
+Bridal Dress	bridal dress	0		Bridal Gowns
+Bridal Dresses	bridal dresses	0		Bridal Gowns
+Bridal Gowns	bridal gowns	0		Bridal Gowns
+Bridal Party Dresses	bridal party dresses	0		Wedding Guest Dresses
+Bridal Wedding Dresses	bridal wedding dresses	0		Bridal Gowns
+Bride Dress	bride dress	0		Bridal Gowns
+Bride Dresses	bride dresses	0		Bridal Gowns
+Bride Gowns	bride gowns	0		Bridal Gowns
+Bridemaid Dresses	bridemaid dresses	0		Bridesmaid Dresses
+Bridemaids Dresses	bridemaids dresses	0		Bridesmaid Dresses
+Brides Dresses	brides dresses	0		Bridal Gowns
+Brides Maid Dresses	brides maid dresses	0		Bridesmaid Dresses
+Bridesmade Dresses	bridesmade dresses	0		Bridesmaid Dresses
+Bridesmaid Dress	bridesmaid dress	0		Bridesmaid Dresses
+Bridesmaid Dresses	bridesmaid dresses	0		Bridesmaid Dresses
+Bridesmaid Gown	bridesmaid gown	0		Bridesmaid Dresses
+Bridesmaid Gowns	bridesmaid gowns	0		Bridesmaid Dresses
+Bridesmaids Dress	bridesmaids dress	0		Bridesmaid Dresses
+Bridesmaids Dresses	bridesmaids dresses	0		Bridesmaid Dresses
+Bridesmaids Gowns	bridesmaids gowns	0		Bridesmaid Dresses
+Christmas Party Dress	christmas party dress	0		Party Dresses
+Christmas Party Dresses	christmas party dresses	0		Party Dresses
+Clubbing Dress	clubbing dress	0		Club Dresses
+Clubbing Dresses	clubbing dresses	0		Club Dresses
+Cocktail Dress	cocktail dress	0		Cocktail Dresses
+Cocktail Dresses	cocktail dresses	0		Cocktail Dresses
+Cocktail Party Dresses	cocktail party dresses	0		Cocktail Dresses
+Coctail Dress	coctail dress	0		Cocktail Dresses
+Coctail Dresses	coctail dresses	0		Cocktail Dresses
+Dama Dresses for Quinceanera	dama dresses for quinceanera	0		Quinceanera Dresses
+Day Dresses	day dresses	0		Club Dresses;Cocktail Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Dinner Dresses	dinner dresses	0		Evening Dresses
+Dress for a Wedding	dress for a wedding	0		Bridal Gowns
+Dress for Party	dress for party	0		Party Dresses
+Dress for Prom	dress for prom	0		Prom Dresses
+Dress for Wedding Guest	dress for wedding guest	0		Wedding Guest Dresses
+Dress for Wedding	dress for wedding	0		Bridal Gowns
+Dress Prom	dress prom	0		Prom Dresses
+Dresses Cocktail	dresses cocktail	0		Cocktail Dresses
+Dresses Evening	dresses evening	0		Evening Dresses
+Dresses for a Wedding Guest	dresses for a wedding guest	0		Wedding Guest Dresses
+Dresses for a Wedding	dresses for a wedding	0		Bridal Gowns
+Dresses for Graduation	dresses for graduation	0		Graduation Dresses
+Dresses for Homecoming	dresses for homecoming	0		Homecoming Dresses
+Dresses for Mother of the Bride	dresses for mother of the bride	0		Mother of the Bride Dresses
+Dresses for Parties	dresses for parties	0		Party Dresses
+Dresses for Prom	dresses for prom	0		Prom Dresses
+Dresses for Special Occasions	dresses for special occasions	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Dresses for Wedding Guests	dresses for wedding guests	0		Wedding Guest Dresses
+Dresses for Wedding	dresses for wedding	0		Bridal Gowns
+Dresses for Weddings	dresses for weddings	0		Bridal Gowns
+Dresses Party	dresses party	0		Party Dresses
+Dresses to Wear to a Wedding as a Guest	dresses to wear to a wedding as a guest	0		Wedding Guest Dresses
+Dresses to Wear to a Wedding	dresses to wear to a wedding	0		Bridal Gowns
+Dresses to Wear to Weddings	dresses to wear to weddings	0		Bridal Gowns
+Dresses Wedding	dresses wedding	0		Bridal Gowns
+Evening Cocktail Dresses	evening cocktail dresses	0		Cocktail Dresses
+Evening Dress	evening dress	0		Evening Dresses
+Evening Dresses	evening dresses	0		Evening Dresses
+Evening Gown	evening gown	0		Evening Dresses
+Evening Gowns	evening gowns	0		Evening Dresses
+Evening Wear Dresses	evening wear dresses	0		Evening Dresses
+Evening Wear	evening wear	0		Evening Dresses
+Formal Attire	formal attire	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Formal Clothes	formal clothes	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Formal Cocktail Dresses	formal cocktail dresses	0		Cocktail Dresses
+Formal Dress	formal dress	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Formal Dresses and Gowns	formal dresses and gowns	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Formal Dresses	formal dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Formal Evening Dresses	formal evening dresses	0		Evening Dresses
+Formal Evening Gowns	formal evening gowns	0		Evening Dresses
+Formal Gown	formal gown	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Formal Gowns	formal gowns	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Formal Wear	formal wear	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Graduation Dress	graduation dress	0		Graduation Dresses
+Graduation Dresses	graduation dresses	0		Graduation Dresses
+Guest of Wedding Dresses	guest of wedding dresses	0		Wedding Guest Dresses
+Holiday Party Dresses	holiday party dresses	0		Party Dresses
+Little Black Dresses	little black dresses	0		Little Black Dresses
+Mother of Bride Dress	mother of bride dress	0		Mother of the Bride Dresses
+Mother of Bride Dresses	mother of bride dresses	0		Mother of the Bride Dresses
+Mother of Groom Dresses	mother of groom dresses	0		Mother of the Bride Dresses
+Mother of the Bride Dress	mother of the bride dress	0		Mother of the Bride Dresses
+Mother of the Bride Dresses	mother of the bride dresses	0		Mother of the Bride Dresses
+Mother of the Bride Gowns	mother of the bride gowns	0		Mother of the Bride Dresses
+Mother of the Groom Dresses	mother of the groom dresses	0		Mother of the Bride Dresses
+Night Out Dresses	night out dresses	0		Club Dresses
+Nightclub Dresses	nightclub dresses	0		Club Dresses
+Party Dress	party dress	0		Party Dresses
+Party Dresses	party dresses	0		Party Dresses
+Prom Dresses Prom Dresses	prom dresses prom dresses	0		Prom Dresses
+Prom Dresses	prom dresses	0		Prom Dresses
+Prom Girl Prom Dresses	prom girl prom dresses	0		Prom Dresses
+Promdresses	promdresses	0		Prom Dresses
+Second Marriage Wedding Dresses	second marriage wedding dresses	0		Bridal Gowns
+Second Wedding Dresses	second wedding dresses	0		Bridal Gowns
+Semi Formal Dress	semi formal dress	0		Cocktail Dresses
+Semi Formal Dresses	semi formal dresses	0		Cocktail Dresses
+Special Occasion Dresses	special occasion dresses	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+the Little Black Dress	the little black dress	0		Little Black Dresses
+the Party Dress	the party dress	0		Party Dresses
+the Wedding Dress	the wedding dress	0		Bridal Gowns
+Wedding Attire	wedding attire	0		Bridal Gowns
+Wedding Bridesmaid Dresses	wedding bridesmaid dresses	0		Bridesmaid Dresses
+Wedding Dress	wedding dress	0		Bridal Gowns
+Wedding Dresses Bridal Gowns	wedding dresses bridal gowns	0		Bridal Gowns
+Wedding Dresses Wedding Dresses	wedding dresses wedding dresses	0		Bridal Gowns
+Wedding Dresses	wedding dresses	0		Bridal Gowns
+Wedding Gowns	wedding gowns	0		Bridal Gowns
+Wedding Guest Attire	wedding guest attire	0		Wedding Guest Dresses
+Wedding Guest Dress	wedding guest dress	0		Wedding Guest Dresses
+Wedding Guest Dresses	wedding guest dresses	0		Wedding Guest Dresses
+Wedding Party Dresses	wedding party dresses	0		Wedding Guest Dresses
+Weddingdress	weddingdress	0		Bridal Gowns
+Weddings Dresses	weddings dresses	0		Bridal Gowns
+a Little Black Dress	a little black dress	0		Little Black Dresses
+Ballroom Gowns	ballroom gowns	0		Prom Dresses
+Dresses for Mother of the Groom	dresses for mother of the groom	0		Mother of the Bride Dresses
+Grad Dresses	grad dresses	0		Graduation Dresses
+Graduation Gown	graduation gown	0		Graduation Dresses
+My Little Black Dress	my little black dress	0		Little Black Dresses
+Special Occasion Dress	special occasion dress	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Vestidos De Quinceanera	vestidos de quinceanera	0		Quinceanera Dresses
+Attire for Wedding	attire for wedding	0		Bridal Gowns
+Birthday Party Dress	birthday party dress	0		Party Dresses
+Birthday Party Dresses	birthday party dresses	0		Party Dresses
+Bridal Bridesmaid Dresses	bridal bridesmaid dresses	0		Bridesmaid Dresses
+Bridal Clothes	bridal clothes	0		Bridal Gowns
+Bridal Collections	bridal collections	0		Bridal Gowns
+Bridal Dresses for Second Wedding	bridal dresses for second wedding	0		Bridal Gowns
+Bridal Gown Dresses	bridal gown dresses	0		Bridal Gowns
+Bridal Gowns and Dresses	bridal gowns and dresses	0		Bridal Gowns
+Bridal Gowns Dresses	bridal gowns dresses	0		Bridal Gowns
+Bridal Gowns Mother of the Bride	bridal gowns mother of the bride	0		Bridal Gowns;Mother of the Bride Dresses
+Bridal Gowns Wedding Dresses	bridal gowns wedding dresses	0		Bridal Gowns
+Bridal Mother Dress	bridal mother dress	0		Mother of the Bride Dresses
+Bridal Mother Dresses	bridal mother dresses	0		Mother of the Bride Dresses
+Bridal Mothers Dresses	bridal mothers dresses	0		Mother of the Bride Dresses
+Bridal Wedding Dress	bridal wedding dress	0		Bridal Gowns
+Bridal Wedding Gowns	bridal wedding gowns	0		Bridal Gowns
+Bridals Dresses	bridals dresses	0		Bridal Gowns
+Bridemaid Dress	bridemaid dress	0		Bridesmaid Dresses
+Bridesmaid Dresses Gowns	bridesmaid dresses gowns	0		Bridesmaid Dresses
+Bridesmaides Dresses	bridesmaides dresses	0		Bridesmaid Dresses
+Bridsmaid Dresses	bridsmaid dresses	0		Bridesmaid Dresses
+Club Party Dresses	club party dresses	0		Club Dresses;Party Dresses
+Club Wear Dresses	club wear dresses	0		Club Dresses
+Cocktail Evening Dresses	cocktail evening dresses	0		Cocktail Dresses;Evening Dresses
+Cocktail Party Dress	cocktail party dress	0		Cocktail Dresses;Party Dresses
+Cocktail Prom Dresses	cocktail prom dresses	0		Cocktail Dresses;Prom Dresses
+Cocktails Dresses	cocktails dresses	0		Cocktail Dresses
+Dress for a Wedding as a Guest	dress for a wedding as a guest	0		Wedding Guest Dresses
+Dress for a Wedding Guest	dress for a wedding guest	0		Wedding Guest Dresses
+Dress for Clubbing	dress for clubbing	0		Club Dresses
+Dress to Wear to a Wedding as a Guest	dress to wear to a wedding as a guest	0		Wedding Guest Dresses
+Dress Wedding Guest	dress wedding guest	0		Wedding Guest Dresses
+Dresses Evening Wear	dresses evening wear	0		Evening Dresses
+Dresses for Bridesmaids	dresses for bridesmaids	0		Bridesmaid Dresses
+Dresses for Clubs	dresses for clubs	0		Club Dresses
+Dresses for Formal	dresses for formal	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Dresses for Sweet 16	dresses for sweet 16	0		Sweet 16 Dresses
+Dresses for the Mother of the Bride	dresses for the mother of the bride	0		Mother of the Bride Dresses
+Dresses for Wedding Guest	dresses for wedding guest	0		Wedding Guest Dresses
+Dresses for Weddings for Guests	dresses for weddings for guests	0		Wedding Guest Dresses
+Dresses for Weddings Guest	dresses for weddings guest	0		Wedding Guest Dresses
+Dresses Formal	dresses formal	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Dresses Wedding Guest	dresses wedding guest	0		Wedding Guest Dresses
+Evening and Formal Dresses	evening and formal dresses	0		Evening Dresses
+Evening Cocktail Dress	evening cocktail dress	0		Evening Dresses;Cocktail Dresses
+Evening Dresses and Gowns	evening dresses and gowns	0		Evening Dresses
+Evening Dresses Cocktail Dresses	evening dresses cocktail dresses	0		Evening Dresses;Cocktail Dresses
+Evening Dresses Evening Dresses	evening dresses evening dresses	0		Evening Dresses
+Evening Formal Dresses	evening formal dresses	0		Evening Dresses
+Evening Gown Dresses	evening gown dresses	0		Evening Dresses
+Evening Gowns Dresses	evening gowns dresses	0		Evening Dresses
+Evening Party Dress	evening party dress	0		Evening Dresses;Party Dresses
+Evening Party Dresses	evening party dresses	0		Evening Dresses;Party Dresses
+Formal Bridal Gowns	formal bridal gowns	0		Bridal Gowns
+Formal Dresses Gowns	formal dresses gowns	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Formal Evening Dress	formal evening dress	0		Evening Dresses
+Formal Gowns and Dresses	formal gowns and dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Formal Party Dresses	formal party dresses	0		Party Dresses
+Formal Wear Dresses	formal wear dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Formal Wear Gowns	formal wear gowns	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Formal Wedding Dresses	formal wedding dresses	0		Bridal Gowns
+Formals Dresses	formals dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Gowns for Mother of the Bride	gowns for mother of the bride	0		Mother of the Bride Dresses
+Gowns for Weddings	gowns for weddings	0		Bridal Gowns
+Gowns Mother of the Bride	gowns mother of the bride	0		Mother of the Bride Dresses
+Guest Wedding Dresses	guest wedding dresses	0		Wedding Guest Dresses
+Homecoming Dresses Homecoming Dresses	homecoming dresses homecoming dresses	0		Homecoming Dresses
+Homecoming Prom Dresses	homecoming prom dresses	0		Homecoming Dresses;Prom Dresses
+Ladies Party Dresses	ladies party dresses	0		Party Dresses
+Little Black Cocktail Dresses	little black cocktail dresses	0		Little Black Dresses;Cocktail Dresses
+Little Black Dress Party	little black dress party	0		Little Black Dresses;Party Dresses
+Little Black Party Dress	little black party dress	0		Little Black Dresses;Party Dresses
+Little Black Party Dresses	little black party dresses	0		Little Black Dresses;Party Dresses
+Mother Bride Dresses	mother bride dresses	0		Mother of the Bride Dresses
+Mother of Bride Gown	mother of bride gown	0		Mother of the Bride Dresses
+Mother of Bride Groom Dresses	mother of bride groom dresses	0		Mother of the Bride Dresses
+Mother of Brides Dresses	mother of brides dresses	0		Mother of the Bride Dresses
+Mother of the Bride Dresses Gowns	mother of the bride dresses gowns	0		Mother of the Bride Dresses
+Mother of the Bride Formal Dresses	mother of the bride formal dresses	0		Mother of the Bride Dresses
+Mother of the Bride Wedding Dresses	mother of the bride wedding dresses	0		Mother of the Bride Dresses
+Mother of the Brides Dress	mother of the brides dress	0		Mother of the Bride Dresses
+Mother of the Brides Dresses	mother of the brides dresses	0		Mother of the Bride Dresses
+Mother Wedding Dress	mother wedding dress	0		Mother of the Bride Dresses
+Mother Wedding Dresses	mother wedding dresses	0		Mother of the Bride Dresses
+Mothers Dresses for Weddings	mothers dresses for weddings	0		Mother of the Bride Dresses
+Mothers of the Bride Dresses	mothers of the bride dresses	0		Mother of the Bride Dresses
+New Prom Dresses	new prom dresses	0		Prom Dresses
+New Quinceanera Dresses	new quinceanera dresses	0		Quinceanera Dresses
+New Wedding Dresses	new wedding dresses	0		Bridal Gowns
+Night Club Dresses	night club dresses	0		Club Dresses
+Occasions Bridesmaid Dresses	occasions bridesmaid dresses	0		Bridesmaid Dresses
+Party Club Dresses	party club dresses	0		Club Dresses;Party Dresses
+Party Cocktail Dress	party cocktail dress	0		Cocktail Dresses;Party Dresses
+Party Cocktail Dresses	party cocktail dresses	0		Cocktail Dresses;Party Dresses
+Party Dresses Cocktail	party dresses cocktail	0		Cocktail Dresses;Party Dresses
+Party Evening Dresses	party evening dresses	0		Evening Dresses;Party Dresses
+Party Gowns	party gowns	0		Party Dresses
+Prom Dress Sites	prom dress sites	0		Prom Dresses
+Prom Dresses and Gowns	prom dresses and gowns	0		Prom Dresses
+Prom Dresses Gowns	prom dresses gowns	0		Prom Dresses
+Prom Dresses Websites	prom dresses websites	0		Prom Dresses
+Prom Evening Dresses	prom evening dresses	0		Prom Dresses;Evening Dresses
+Prom Formal Dresses	prom formal dresses	0		Prom Dresses
+Prom Homecoming Dresses	prom homecoming dresses	0		Prom Dresses;Homecoming Dresses
+Prom Party Dress	prom party dress	0		Prom Dresses;Party Dresses
+Prom Party Dresses	prom party dresses	0		Prom Dresses;Party Dresses
+Proms Dresses	proms dresses	0		Prom Dresses
+Quinceanera Dresses Gowns	quinceanera dresses gowns	0		Quinceanera Dresses
+Quinceanera Dresses Websites	quinceanera dresses websites	0		Quinceanera Dresses
+Quinceanera Prom Dresses	quinceanera prom dresses	0		Quinceanera Dresses;Prom Dresses
+Special Occasion Gowns	special occasion gowns	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Sweet 16 Party Dresses	sweet 16 party dresses	0		Sweet 16 Dresses
+Tea Party Dress	tea party dress	0		Party Dresses
+Tea Party Dresses	tea party dresses	0		Party Dresses
+Wedding and Bridesmaid Dresses	wedding and bridesmaid dresses	0		Bridal Gowns;Bridesmaid Dresses
+Wedding Bridal Dress	wedding bridal dress	0		Bridal Gowns
+Wedding Bridal Dresses	wedding bridal dresses	0		Bridal Gowns
+Wedding Bridal Gowns	wedding bridal gowns	0		Bridal Gowns
+Wedding Bridesmaid Dress	wedding bridesmaid dress	0		Bridal Gowns;Bridesmaid Dresses
+Wedding Dreeses	wedding dreeses	0		Bridal Gowns
+Wedding Dress Bridal Gown	wedding dress bridal gown	0		Bridal Gowns
+Wedding Dress Gown	wedding dress gown	0		Bridal Gowns
+Wedding Dress Websites	wedding dress websites	0		Bridal Gowns;Bridesmaid Dresses;Flower Girl Dresses;Mother of the Bride Dresses;Wedding Guest Dresses
+Wedding Dresses and Bridesmaid Dresses	wedding dresses and bridesmaid dresses	0		Bridal Gowns;Bridesmaid Dresses
+Wedding Dresses for Guests	wedding dresses for guests	0		Wedding Guest Dresses
+Wedding Dresses for Second Marriages	wedding dresses for second marriages	0		Bridal Gowns
+Wedding Dresses Mother	wedding dresses mother	0		Mother of the Bride Dresses
+Wedding Guests Dresses	wedding guests dresses	0		Wedding Guest Dresses
+Wedding Mother of the Bride Dresses	wedding mother of the bride dresses	0		Mother of the Bride Dresses
+Wedding Suits for the Bride	wedding suits for the bride	0		Bridal Gowns
+16 Sweet Dresses	16 sweet dresses	0		Sweet 16 Dresses
+4 the Occasion Dresses	4 the occasion dresses	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Bridal Guest Dresses	bridal guest dresses	0		Wedding Guest Dresses
+Celebration Prom Dresses	celebration prom dresses	0		Prom Dresses
+Celebrations Prom Dresses	celebrations prom dresses	0		Prom Dresses
+Celebrity Formal Dresses	celebrity formal dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Christmas Cocktail Dresses	christmas cocktail dresses	0		Cocktail Dresses
+Club Dress Wear	club dress wear	0		Club Dresses
+Club Dresses Club Dresses	club dresses club dresses	0		Club Dresses
+Club Prom Dresses	club prom dresses	0		Club Dresses;Prom Dresses
+Clubdresses	clubdresses	0		Club Dresses
+Clubwear Dress	clubwear dress	0		Club Dresses
+Cocktail and Party Dresses	cocktail and party dresses	0		Cocktail Dresses;Party Dresses
+Cocktail Dresses Evening	cocktail dresses evening	0		Cocktail Dresses;Evening Dresses
+Cocktail Dresses for Wedding Guests	cocktail dresses for wedding guests	0		Cocktail Dresses;Wedding Guest Dresses
+Day Wedding Guest Dresses	day wedding guest dresses	0		Wedding Guest Dresses
+Dress Club	dress club	0		Club Dresses
+Dress for Graduation	dress for graduation	0		Prom Dresses
+Dress for Graduation Ceremony	dress for graduation ceremony	0		Graduation Dresses
+Dress for Special Occasion	dress for special occasion	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Dress for Wedding Guests	dress for wedding guests	0		Wedding Guest Dresses
+Dress for Weddings Guest	dress for weddings guest	0		Wedding Guest Dresses
+Dress Formal	dress formal	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Dress Wedding Party	dress wedding party	0		Wedding Guest Dresses
+Dresses Club	dresses club	0		Club Dresses
+Dresses Cocktail Dresses	dresses cocktail dresses	0		Cocktail Dresses
+Dresses for a Quinceanera	dresses for a quinceanera	0		Quinceanera Dresses
+Dresses for a Sweet 16	dresses for a sweet 16	0		Sweet 16 Dresses
+Dresses for a Wedding as a Guest	dresses for a wedding as a guest	0		Wedding Guest Dresses
+Dresses for Clubbing	dresses for clubbing	0		Club Dresses
+Dresses for Guest At Wedding	dresses for guest at wedding	0		Wedding Guest Dresses
+Dresses for Guest of Wedding	dresses for guest of wedding	0		Wedding Guest Dresses
+Dresses for Quinceanera	dresses for quinceanera	0		Quinceanera Dresses
+Dresses for Special Occasion	dresses for special occasion	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Dresses for Sweet 16 Court	dresses for sweet 16 court	0		Sweet 16 Dresses
+Dresses for Sweet Sixteen	dresses for sweet sixteen	0		Sweet 16 Dresses
+Dresses for the Club	dresses for the club	0		Club Dresses
+Dresses for Wedding Parties	dresses for wedding parties	0		Wedding Guest Dresses
+Dresses for Weddings Guests	dresses for weddings guests	0		Wedding Guest Dresses
+Dresses Homecoming	dresses homecoming	0		Homecoming Dresses
+Dresses Quinceanera	dresses quinceanera	0		Quinceanera Dresses
+Dresses Special Occasions	dresses special occasions	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Dresses to Wear as a Wedding Guest	dresses to wear as a wedding guest	0		Wedding Guest Dresses
+Dresses to Wear to a Graduation	dresses to wear to a graduation	0		Graduation Dresses
+Dresses to Wear to a Sweet 16	dresses to wear to a sweet 16	0		Sweet 16 Dresses
+Dresses to Wear to Wedding as a Guest	dresses to wear to wedding as a guest	0		Wedding Guest Dresses
+Dresses to Wear to Weddings as a Guest	dresses to wear to weddings as a guest	0		Wedding Guest Dresses
+Dresses Wear Wedding Guest	dresses wear wedding guest	0		Wedding Guest Dresses
+Dresses Wedding Party	dresses wedding party	0		Wedding Guest Dresses
+Even Dresses	even dresses	0		Evening Dresses
+Evening Dresse	evening dresse	0		Evening Dresses
+Evening Dresses Gowns	evening dresses gowns	0		Evening Dresses
+Evening Dresses Prom	evening dresses prom	0		Evening Dresses
+Evening Wedding Dresses	evening wedding dresses	0		Evening Dresses
+Formal Dress Gowns	formal dress gowns	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Formal Occasion Dresses	formal occasion dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Formal Wedding Attire	formal wedding attire	0		Bridal Gowns
+Formal Wedding Gown	formal wedding gown	0		Bridal Gowns
+Formal Wedding Guest Dresses	formal wedding guest dresses	0		Wedding Guest Dresses
+Formals Gowns	formals gowns	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Girl Special Occasion Dresses	girl special occasion dresses	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Girls Special Occasion Dress	girls special occasion dress	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Gowns Formal	gowns formal	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Graduation Ceremony Dresses	graduation ceremony dresses	0		Graduation Dresses
+Graduation Dress Ideas	graduation dress ideas	0		Graduation Dresses
+Graduation Dresse	graduation dresse	0		Graduation Dresses
+Graduation Dresses for 5th Graders	graduation dresses for 5th graders	0		Graduation Dresses
+Graduation Party Dresses	graduation party dresses	0		Graduation Dresses
+Guest At a Wedding Dress	guest at a wedding dress	0		Wedding Guest Dresses
+Guest At Wedding Dresses	guest at wedding dresses	0		Wedding Guest Dresses
+Guest of a Wedding Dress	guest of a wedding dress	0		Wedding Guest Dresses
+Guest of a Wedding Dresses	guest of a wedding dresses	0		Wedding Guest Dresses
+Guest of the Wedding Dress	guest of the wedding dress	0		Wedding Guest Dresses
+Guest of the Wedding Dresses	guest of the wedding dresses	0		Wedding Guest Dresses
+Guest of Wedding Dress	guest of wedding dress	0		Wedding Guest Dresses
+Guest Wedding Dress	guest wedding dress	0		Wedding Guest Dresses
+Holiday Cocktail Dresses	holiday cocktail dresses	0		Cocktail Dresses
+Holiday Evening Dresses	holiday evening dresses	0		Evening Dresses
+Homecoming Cocktail Dresses	homecoming cocktail dresses	0		Homecoming Dresses;Cocktail Dresses
+Homecoming Dresse	homecoming dresse	0		Homecoming Dresses
+Homecoming Dresses for	homecoming dresses for	0		Homecoming Dresses
+Homecoming Gowns	homecoming gowns	0		Homecoming Dresses
+Ladies Cocktail Dresses	ladies cocktail dresses	0		Cocktail Dresses
+Ladies Special Occasion Dresses	ladies special occasion dresses	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Little Black Cocktail Dress	little black cocktail dress	0		Little Black Dresses;Cocktail Dresses
+Little Black Dress Club	little black dress club	0		Little Black Dresses;Club Dresses
+Little Black Dress Homecoming	little black dress homecoming	0		Little Black Dresses;Homecoming Dresses
+Little Black Dresses for Prom	little black dresses for prom	0		Little Black Dresses;Prom Dresses
+Little Black Evening Dress	little black evening dress	0		Little Black Dresses;Evening Dresses
+Little Black Prom Dresses	little black prom dresses	0		Little Black Dresses;Prom Dresses
+Mother Bride Dress	mother bride dress	0		Mother of the Bride Dresses
+Mother of the Bride Clothes	mother of the bride clothes	0		Mother of the Bride Dresses
+Mother of the Bride Clothing	mother of the bride clothing	0		Mother of the Bride Dresses
+Mother of the Bride Formal Gowns	mother of the bride formal gowns	0		Mother of the Bride Dresses
+Mother of the Bride Formal Wear	mother of the bride formal wear	0		Mother of the Bride Dresses
+Mother of the Bride Suits and Dresses	mother of the bride suits and dresses	0		Mother of the Bride Dresses
+Mother of the Bride Wear	mother of the bride wear	0		Mother of the Bride Dresses
+Mother of the Groom Gowns	mother of the groom gowns	0		Mother of the Bride Dresses
+Mother the Bride Dresses	mother the bride dresses	0		Mother of the Bride Dresses
+Mothers Bridal Dresses	mothers bridal dresses	0		Mother of the Bride Dresses
+Mothers Bride Dresses	mothers bride dresses	0		Mother of the Bride Dresses
+Mothers Dresses	mothers dresses	0		Mother of the Bride Dresses
+Mothers of Bride Dresses	mothers of bride dresses	0		Mother of the Bride Dresses
+Mothers of the Bride Dress	mothers of the bride dress	0		Mother of the Bride Dresses
+My Sweet 16 Dress	my sweet 16 dress	0		Sweet 16 Dresses
+#N/A	new year s eve cocktail dresses	0		Cocktail Dresses
+New Years Eve Party Dress	new years eve party dress	0		Party Dresses
+New Years Eve Party Dresses	new years eve party dresses	0		Party Dresses
+Night Club Dress	night club dress	0		Club Dresses
+Night Club Wear	night club wear	0		Club Dresses
+Parties Dresses	parties dresses	0		Party Dresses
+Party Dress for Wedding	party dress for wedding	0		Wedding Guest Dresses
+Party Dress Wedding	party dress wedding	0		Wedding Guest Dresses
+Party Dresse	party dresse	0		Party Dresses
+Party Dresses for a Wedding	party dresses for a wedding	0		Wedding Guest Dresses
+Party Dresses for Weddings	party dresses for weddings	0		Wedding Guest Dresses
+Party Dresses Wedding	party dresses wedding	0		Wedding Guest Dresses
+Party Prom Dress	party prom dress	0		Party Dresses;Prom Dresses
+Party Prom Dresses	party prom dresses	0		Party Dresses;Prom Dresses
+Prom and Evening Dresses	prom and evening dresses	0		Prom Dresses;Evening Dresses
+Prom and Homecoming Dresses	prom and homecoming dresses	0		Prom Dresses;Homecoming Dresses
+Prom Cocktail Dresses	prom cocktail dresses	0		Prom Dresses;Cocktail Dresses
+Prom Dresses Cocktail Dresses	prom dresses cocktail dresses	0		Prom Dresses;Cocktail Dresses
+Quinceanera Dress Websites	quinceanera dress websites	0		Quinceanera Dresses
+Quinceaneras Dress	quinceaneras dress	0		Quinceanera Dresses
+Special Occasion Cocktail Dresses	special occasion cocktail dresses	0		Cocktail Dresses
+Special Occasion Dresses for Weddings	special occasion dresses for weddings	0		Wedding Guest Dresses
+Special Occasion Dresses Gowns	special occasion dresses gowns	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Special Occasion Dresses Mother of the Bride	special occasion dresses mother of the bride	0		Mother of the Bride Dresses
+Special Occasion Evening Dresses	special occasion evening dresses	0		Evening Dresses
+Special Occasions Dress	special occasions dress	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Special Occasions Dresses	special occasions dresses	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Special Occasions Dresses for Women	special occasions dresses for women	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Special Occasions Formal Wear	special occasions formal wear	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Special Occassion Dresses Girls	special occassion dresses girls	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Sweet 15 Dress	sweet 15 dress	0		Quinceanera Dresses
+Sweet 16 Birthday Dresses	sweet 16 birthday dresses	0		Sweet 16 Dresses
+Sweet 16 Cocktail Dresses	sweet 16 cocktail dresses	0		Sweet 16 Dresses;Cocktail Dresses
+Sweet 16 Dresses Gowns	sweet 16 dresses gowns	0		Sweet 16 Dresses
+Sweet 16 Dresses Sweet 16 Dresses	sweet 16 dresses sweet 16 dresses	0		Sweet 16 Dresses
+Sweet 16 Gowns	sweet 16 gowns	0		Sweet 16 Dresses
+Sweet 16 Outfits	sweet 16 outfits	0		Sweet 16 Dresses
+Sweet 16 Princess Dresses	sweet 16 princess dresses	0		Sweet 16 Dresses
+Sweet Fifteen Dresses	sweet fifteen dresses	0		Quinceanera Dresses
+Sweet Sixteen Dress	sweet sixteen dress	0		Sweet 16 Dresses
+Sweet Sixteen Gowns	sweet sixteen gowns	0		Sweet 16 Dresses
+Sweet Sixteen Party Dresses	sweet sixteen party dresses	0		Sweet 16 Dresses
+Sweet16 Dresses	sweet16 dresses	0		Sweet 16 Dresses
+Wear to a Wedding	wear to a wedding	0		Wedding Guest Dresses
+Websites for Quinceanera Dresses	websites for quinceanera dresses	0		Quinceanera Dresses
+Wedding Apparel for Guests	wedding apparel for guests	0		Wedding Guest Dresses
+Wedding Attire for Mothers	wedding attire for mothers	0		Mother of the Bride Dresses
+Wedding Bridal Gown	wedding bridal gown	0		Bridal Gowns
+Wedding Dress for Guests	wedding dress for guests	0		Wedding Guest Dresses
+Wedding Dress Guest	wedding dress guest	0		Wedding Guest Dresses
+Wedding Dresses for Guest	wedding dresses for guest	0		Wedding Guest Dresses
+Wedding Dresses Guest	wedding dresses guest	0		Wedding Guest Dresses
+Wedding Dresses Guests	wedding dresses guests	0		Wedding Guest Dresses
+Wedding Guest Apparel	wedding guest apparel	0		Wedding Guest Dresses
+Wedding Guest Outfit	wedding guest outfit	0		Wedding Guest Dresses
+Wedding Mother of Bride Dresses	wedding mother of bride dresses	0		Mother of the Bride Dresses
+Wedding Mother of the Bride Dress	wedding mother of the bride dress	0		Mother of the Bride Dresses
+Wedding Parties Dresses	wedding parties dresses	0		Wedding Guest Dresses
+Wedding Party Attire	wedding party attire	0		Wedding Guest Dresses
+Wedding Reception Dresses for Guests	wedding reception dresses for guests	0		Wedding Guest Dresses
+Wedding Wear Guest	wedding wear guest	0		Wedding Guest Dresses
+What to Wear for a Wedding	what to wear for a wedding	0		Wedding Guest Dresses
+Where Can I Find a Little Black Dress	where can i find a little black dress	0		Little Black Dresses
+Where Can I Find Homecoming Dresses	where can i find homecoming dresses	0		Homecoming Dresses
+Where to Buy Formal Dresses	where to buy formal dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Where to Find a Little Black Dress	where to find a little black dress	0		Little Black Dresses
+Where to Find Club Dresses	where to find club dresses	0		Club Dresses
+Where to Get a Homecoming Dress	where to get a homecoming dress	0		Homecoming Dresses
+Prom Dresses Long	prom dresses long	0		Prom Dresses
+Short Prom Dresses	short prom dresses	0		Prom Dresses;Short
+Homecoming Short Dresses	homecoming short dresses	0		Homecoming Dresses;Short
+Evening Dress Long	evening dress long	0		Evening Dresses
+Evening Dresses Long	evening dresses long	0		Evening Dresses
+Evening Long Dresses	evening long dresses	0		Evening Dresses
+Formal Dresses Short	formal dresses short	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Short  
+Formal Long Gowns	formal long gowns	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Formal Short Dresses	formal short dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Short
+Homecoming Dresses Short	homecoming dresses short	0		Homecoming Dresses;Short
+Knee Length Dresses	knee length dresses	0		Knee Length
+Long Bridesmaid Dresses	long bridesmaid dresses	0		Bridesmaid Dresses
+Long Cocktail Dresses	long cocktail dresses	0		Cocktail Dresses
+Long Dresses for Prom	long dresses for prom	0		Prom Dresses
+Long Evening Dress	long evening dress	0		Evening Dresses
+Long Evening Dresses	long evening dresses	0		Evening Dresses
+Long Formal Dress	long formal dress	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Long Formal Dresses	long formal dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Long Formal Evening Gowns	long formal evening gowns	0		Evening Dresses
+Long Formal Gowns	long formal gowns	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Mini Dress	mini dress	0		Mini
+				
+Mini Dresses	mini dresses	0		Mini
+Prom Dresses Short	prom dresses short	0		Prom Dresses;Short
+Short Cocktail Dress	short cocktail dress	0		Cocktail Dresses;Short
+Short Cocktail Dresses	short cocktail dresses	0		Cocktail Dresses;Short
+Short Dress	short dress	0		Short
+Short Dresses for Homecoming	short dresses for homecoming	0		Homecoming Dresses;Short
+Short Dresses for Parties	short dresses for parties	0		Party Dresses;Short
+Short Dresses	short dresses	0		Short
+Short Formal Dress	short formal dress	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Short
+Short Formal Dresses	short formal dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Short
+Short Formal Gowns	short formal gowns	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Short
+Short Homecoming Dresses	short homecoming dresses	0		Homecoming Dresses;Short
+Short Party Dress	short party dress	0		Party Dresses;Short
+Short Party Dresses	short party dresses	0		Party Dresses;Short
+Short Prom Dress	short prom dress	0		Prom Dresses;Short
+Prom Short Dresses	prom short dresses	0		Prom Dresses;Short
+Long Party Dresses	long party dresses	0		Party Dresses
+Mini Club Dresses	mini club dresses	0		Club Dresses;Mini
+Mini Party Dresses	mini party dresses	0		Party Dresses;Mini
+Mini Prom Dresses	mini prom dresses	0		Prom Dresses;Mini
+Mother of the Bride Dresses Long	mother of the bride dresses long	0		Mother of the Bride Dresses
+Short Club Dresses	short club dresses	0		Club Dresses;Short
+Club Mini Dress	club mini dress	0		Club Dresses;Mini
+Club Mini Dresses	club mini dresses	0		Club Dresses;Mini
+Clubwear Mini Dresses	clubwear mini dresses	0		Club Dresses;Mini
+Cocktail Mini Dress	cocktail mini dress	0		Cocktail Dresses;Mini
+Cocktail Mini Dresses	cocktail mini dresses	0		Cocktail Dresses;Mini
+Floor Length Prom Dresses	floor length prom dresses	0		Prom Dresses;Floor Length
+Formal Mini Dresses	formal mini dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Mini
+Knee Length Cocktail Dresses	knee length cocktail dresses	0		Cocktail Dresses;Knee Length
+Knee Length Formal Dresses	knee length formal dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Knee Length
+Little Black Mini Dress	little black mini dress	0		Little Black Dresses;Mini
+Little Black Mini Dresses	little black mini dresses	0		Little Black Dresses;Mini
+Long Ball Gowns	long ball gowns	0		Tea Length;Ankle Length;Floor Length;Sweep Train;Ball Gown
+Long Dress for Wedding Guest	long dress for wedding guest	0		Wedding Guest Dresses;Tea Length;Ankle Length;Floor Length;Sweep Train
+Long Graduation Dresses	long graduation dresses	0		Prom Dresses;Tea Length;Ankle Length;Floor Length;Sweep Train
+Long Homecoming Dresses	long homecoming dresses	0		Homecoming Dresses;Tea Length;Ankle Length;Floor Length;Sweep Train
+Long Special Occasion Dresses	long special occasion dresses	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Tea Length;Ankle Length;Floor Length;Sweep Train
+Micro Mini Dress	micro mini dress	0		Mini
+Micro Mini Dresses	micro mini dresses	0		Mini
+Mini Club Dress	mini club dress	0		Club Dresses;Mini
+Mini Cocktail Dress	mini cocktail dress	0		Cocktail Dresses;Mini
+Mini Cocktail Dresses	mini cocktail dresses	0		Cocktail Dresses;Mini
+Mini Dress Clubwear	mini dress clubwear	0		Club Dresses;Mini
+Mini Dresses Clubbing	mini dresses clubbing	0		Club Dresses;Mini
+Mini Dresses Clubwear	mini dresses clubwear	0		Club Dresses;Mini
+Party Mini Dress	party mini dress	0		Party Dresses;Mini
+Party Mini Dresses	party mini dresses	0		Party Dresses;Mini
+Short Cocktail Prom Dresses	short cocktail prom dresses	0		Cocktail Dresses;Prom Dresses;Short
+Short Dresses for Wedding Guest	short dresses for wedding guest	0		Wedding Guest Dresses;Short
+Short Graduation Dresses	short graduation dresses	0		Prom Dresses;Short
+Short Mini Dress	short mini dress	0		Mini;Short
+Short Mini Dresses	short mini dresses	0		Mini;Short
+Short Special Occasion Dresses	short special occasion dresses	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Short
+Shortest Mini Dress	shortest mini dress	0		Mini;Short
+Special Occasion Long Dresses	special occasion long dresses	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Tea Length;Ankle Length;Floor Length;Sweep Train
+Special Occasion Short Dresses	special occasion short dresses	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Short
+Sweet 16 Court Dresses	sweet 16 court dresses	0		Sweet 16 Dresses
+Long Prom Dresses	long prom dresses	0		Prom Dresses;Tea Length;Ankle Length;Floor Length;Sweep Train
+Short Prom Dresses under 100	short prom dresses under 100	0	100	Prom Dresses;Short
+Long Prom Dresses under 200	long prom dresses under 200	0	200	Prom Dresses;Tea Length;Ankle Length;Floor Length;Sweep Train
+Short Formal Dresses under 100	short formal dresses under 100	0	100	Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Short
+Short Homecoming Dresses under 100	short homecoming dresses under 100	0	100	Homecoming Dresses;Short
+Short Prom Dresses under 100 Dollars	short prom dresses under 100 dollars	0	100	Prom Dresses;Short
+Short Tight Homecoming Dresses	short tight homecoming dresses	0		Homecoming Dresses;Sheath;Short
+Petite Bridal Gowns	petite bridal gowns	0		Bridal Gowns;Petite
+Petite Cocktail Dresses	petite cocktail dresses	0		Cocktail Dresses;Petite
+Petite Evening Dresses	petite evening dresses	0		Evening Dresses;Petite
+Petite Wedding Dresses	petite wedding dresses	0		Bridal Gowns;Petite
+Petite Dresses Special Occasion	petite dresses special occasion	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Petite
+Evening Dresses Petite	evening dresses petite	0		Evening Dresses;Petite
+Petite Evening Gowns	petite evening gowns	0		Evening Dresses;Petite
+Petite Party Dresses	petite party dresses	0		Party Dresses;Petite
+Club Dresses for Curvy Women	club dresses for curvy women	0		Club Dresses;Hourglass
+Formal Petite Dresses	formal petite dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Petite
+Little Black Dress Size 12	little black dress size 12	0		Little Black Dresses
+Party Dresses Petite	party dresses petite	0		Party Dresses;Petite
+Petite Cocktail Dress	petite cocktail dress	0		Cocktail Dresses;Petite
+Petite Evening Dress	petite evening dress	0		Evening Dresses;Petite
+Petite Formal Dresses	petite formal dresses	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Petite
+Petite Formal Evening Gowns	petite formal evening gowns	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Petite
+Petite Formal Gowns	petite formal gowns	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Petite
+Petite Special Occasion Dress	petite special occasion dress	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Petite
+Petite Special Occasion Dresses	petite special occasion dresses	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Petite
+Size 16 Cocktail Dresses	size 16 cocktail dresses	0		Cocktail Dresses
+Size 16 Little Black Dress	size 16 little black dress	0		Little Black Dresses
+Special Occasion Dresses Petite	special occasion dresses petite	0		Club Dresses;Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Petite
+Petite Formal Wear	petite formal wear	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Petite
+Evening Dresses Discount	evening dresses discount	0		Evening Dresses
+Slinky Mini Dress	slinky mini dress	0		Sheath;Mini
+Bridal Dresses Online	bridal dresses online	0		Bridal Gowns
+Bridal Gowns Online	bridal gowns online	0		Bridal Gowns
+Bridesmaid Dresses Online	bridesmaid dresses online	0		Bridesmaid Dresses
+Cocktail Dresses Online	cocktail dresses online	0		Cocktail Dresses
+Evening Dresses Online	evening dresses online	0		Evening Dresses
+Formal Dresses Online	formal dresses online	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Online Wedding Dresses	online wedding dresses	0		Bridal Gowns
+Party Dresses Online	party dresses online	0		Party Dresses
+Prom Dress Websites	prom dress websites	0		Prom Dresses
+Prom Dresses Online	prom dresses online	0		Prom Dresses
+Wedding Dresses Online	wedding dresses online	0		Bridal Gowns
+Bridal Dress Online	bridal dress online	0		Bridal Gowns
+Bridal Dresses Websites	bridal dresses websites	0		Bridal Gowns
+Bridal Gown Online	bridal gown online	0		Bridal Gowns
+Bridesmaids Dresses Online	bridesmaids dresses online	0		Bridesmaid Dresses
+Buy Bridesmaid Dresses Online	buy bridesmaid dresses online	0		Bridesmaid Dresses
+Buy Wedding Dress Online	buy wedding dress online	0		Bridal Gowns
+Buy Wedding Dresses Online	buy wedding dresses online	0		Bridal Gowns
+Club Dresses Online	club dresses online	0		Club Dresses
+Online Bridal Dress	online bridal dress	0		Bridal Gowns
+Online Bridal Dresses	online bridal dresses	0		Bridal Gowns
+Online Bridal Gowns	online bridal gowns	0		Bridal Gowns
+Online Bridesmaid Dresses	online bridesmaid dresses	0		Bridesmaid Dresses
+Online Prom Dresses	online prom dresses	0		Prom Dresses
+Online Wedding Dress	online wedding dress	0		Bridal Gowns
+Party Dress Online	party dress online	0		Party Dresses
+Party Dress Websites	party dress websites	0		Party Dresses
+Prom Dress Online	prom dress online	0		Prom Dresses
+Wedding Dresses on Line	wedding dresses on line	0		Bridal Gowns
+Bridal Gown Websites	bridal gown websites	0		Bridal Gowns
+Bridal Gowns on Line	bridal gowns on line	0		Bridal Gowns
+Formal Dress Online	formal dress online	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Formal Wear Online	formal wear online	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Little Black Dress Online	little black dress online	0		Little Black Dresses
+Online Cocktail Dresses	online cocktail dresses	0		Cocktail Dresses
+Online Formal Wear	online formal wear	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses
+Websites for Sweet 16 Dresses	websites for sweet 16 dresses	0		Sweet 16 Dresses
+Dresses with Sleeves	dresses with sleeves	0		"Short Sleeve;Elbow Length Sleeve;""3/4 Length Sleeve"";Long Sleeve"
+Formal Dress with Sleeves	formal dress with sleeves	0		"Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Short Sleeve;Elbow Length Sleeve;""3/4 Length Sleeve"";Long Sleeve"
+Formal Dresses with Sleeves	formal dresses with sleeves	0		"Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Short Sleeve;Elbow Length Sleeve;""3/4 Length Sleeve"";Long Sleeve"
+Formal Gowns with Sleeves	formal gowns with sleeves	0		"Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Short Sleeve;Elbow Length Sleeve;""3/4 Length Sleeve"";Long Sleeve;Half Length Sleeve"
+Beaded Evening Dresses	beaded evening dresses	0		Evening Dresses;Beaded
+Beaded Formal Gowns	beaded formal gowns	0		Cocktail Dresses;Evening Dresses;Graduation Dresses;Homecoming Dresses;Little Black Dresses;Party Dresses;Prom Dresses;Quinceanera Dresses;Sweet 16 Dresses;Beaded
+Sequin Cocktail Dress	sequin cocktail dress	0		Cocktail Dresses;Sequin
+Sequin Party Dress	sequin party dress	0		Party Dresses;Sequin
+Sequin Party Dresses	sequin party dresses	0		Party Dresses;Sequin
+Beaded Ball Gowns	beaded ball gowns	0		Ball Gown;Beaded
+Beaded Cocktail Dress	beaded cocktail dress	0		Cocktail Dresses;Beaded
+Beaded Cocktail Dresses	beaded cocktail dresses	0		Cocktail Dresses;Beaded
+Beaded Evening Dress	beaded evening dress	0		Evening Dresses;Beaded
+Beaded Evening Gown	beaded evening gown	0		Evening Dresses;Beaded
+Beaded Prom Dresses	beaded prom dresses	0		Prom Dresses;Beaded
+Beaded Wedding Dresses	beaded wedding dresses	0		Bridal Gowns;Beaded
+Floral Cocktail Dress	floral cocktail dress	0		Cocktail Dresses;Flower
+Sequin Club Dresses	sequin club dresses	0		Club Dresses;Sequin
+Sequin Homecoming Dress	sequin homecoming dress	0		Homecoming Dresses;Sequin
+Flower Wedding Dress	flower wedding dress	0		Bridal Gowns;Flower
+Sequin Cocktail Dresses	sequin cocktail dresses	0		Cocktail Dresses;Sequin
+Sequin Dress	sequin dress	0		Sequin
+Sequin Dresses	sequin dresses	0		Sequin
+Sparkly Dresses	sparkly dresses	0		Sequin;Rhinestone;Crystals
+Flower Dresses	flower dresses	0		Flower
+Sequin Mini Dress	sequin mini dress	0		Sequin;Mini
+Bride's Dress	bride s dress	0		Bridal Gowns
+Bride's Dresses	bride s dresses	0		Bridal Gowns
+Bride's Mother Dress	bride s mother dress	0		Mother of the Bride Dresses
+Bride's Mother Dresses	bride s mother dresses	0		Mother of the Bride Dresses
+Bridesmaid's Dress	bridesmaid s dress	0		Bridesmaid Dresses
+Bridesmaid's Dresses	bridesmaid s dresses	0		Bridesmaid Dresses
+Cheap Women's Dresses	cheap women s dresses			all
+Mother's Wedding Dresses	mother s wedding dresses	0		Mother of the Bride Dresses
+Women's Casual Dresses	women s casual dresses	0		Casual

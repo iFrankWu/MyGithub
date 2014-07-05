@@ -1,0 +1,24 @@
+#用来描述分类的信息，格式:
+#${catagory};${tag}[,${tag}]
+#其中[]表示可选
+Default Category/Wedding Dresses
+Default Category/Special Occasion Dresses
+Default Category/Bridal Dresses;Bridal Gowns
+Default Category/Prom Dresses;Prom Dresses
+Default Category/Bridesmaid Dresses;Bridesmaid Dresses
+Default Category/Cocktail Dresses;Cocktail Dresses
+Default Category/Evening Dresses;Evening Dresses
+Default Category/Party Dresses;Party Dresses
+Default Category/Mother of the Bride;Mother of the Bride Dresses
+Default Category/Homecoming Dresses;Homecoming Dresses
+Default Category/Quinceanera Dresses;Quinceanera Dresses
+Default Category/Little Black Dresses;Little Black Dresses
+Default Category/Club Dresses;Club Dresses
+Default Category/Graduation Dresses;Graduation Dresses
+Default Category/Sweet 16 Dresses;Sweet 16 Dresses
+Default Category/Wedding Guest Dresses;Wedding Guest Dresses
+#Default Category/Vintage Dresses;Vintage,Antique,Mediewal,Traditional,Victoria
+#Default Category/Casual Dresses;Casual,Informal,Hawaiian,Bohemian
+#Default Category/Test Import Dresses;Zip up,Backless,Zipper
+#这是 showroom的总分类，将其删了，那么其所有子分类都将删除
+Default Category/showroom
