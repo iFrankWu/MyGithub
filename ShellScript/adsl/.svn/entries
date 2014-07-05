@@ -1,0 +1,46 @@
+8
+
+dir
+2873
+http://192.168.2.107:9999/repos/item/src/DownScript/adsl
+http://192.168.2.107:9999/repos/item
+
+
+
+2011-06-24T08:24:08.422875Z
+2767
+wusx
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+555d242a-387e-674a-ae3f-99512bad5fac
+
+switch_ip.sh
+file
+
+
+
+
+2011-06-11T10:10:46.356963Z
+7b158aecad8093a2fc0fc9241d1e40c5
+2011-06-11T10:09:53.954125Z
+2660
+wusx
+
+curl
+dir
+
+wget
+dir
+

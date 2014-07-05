@@ -1,0 +1,13 @@
+start=4011
+end=217158
+number=0
+threads=5
+output=/root/markosweb/testwget
+urllist=../../listac
+gather_site=http://www.markosweb.com/www/
+times=20
+down_site=markosweb
+downType=wget
+ip_log=result/tplink_ip.log
+log=result/info.log
+ipfrequecy=10

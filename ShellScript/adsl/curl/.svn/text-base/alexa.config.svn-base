@@ -1,0 +1,18 @@
+start=1
+end=377712
+threads=20
+output=/root/sharedata/alexa.com/2.20110613
+log=result/gather.log
+urllist=../../newsiteac
+gather_site=http://www.alexa.com/siteinfo/
+export adsl_nam=ppp1
+ip_log=result/1_ip.log
+zero_byte_site=result/ero_byte_site
+zero_byte_url=result/zero_byte_url
+need_switch_ip=result/1_need_switch_ip
+times=20
+current_ip=result/1_current_ip
+number=1
+down_site=alexa
+downType=curl
+

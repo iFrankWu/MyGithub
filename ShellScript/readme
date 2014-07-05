@@ -1,0 +1,43 @@
+该程序的目录结构如下：
+.
+|-- adsl			#存放adsl下载的相关脚本
+|   |-- curl			#curl下载脚本
+|   |   |-- alexa.config	#alexa的配置文件
+|   |   |-- down.sh		#curl下载脚本
+|   |   `-- main.sh		#脚本启动程序
+|   |-- switch_ip.sh
+|   `-- wget			#wget下载脚本
+|       |-- alexa.config	#alexa配置文件
+|       |-- down.sh		#wget下载
+|       |-- main.sh		#启动脚本
+|       `-- markosweb.config	#markosweb配置
+|-- check			#检查脚本
+|   |-- checkalexa.sh		#检查alexa页面
+|   `-- checkmarkosweb.sh	#检查markosweb脚本
+|-- down			#下载
+|   |-- adsl			#adsl下载
+|   |   |-- adsldown.sh		#adsl下载
+|   |   `-- switch_ip.sh	#切换ip
+|   |-- config			#配置文件
+|   |   |-- markosweb.adsl
+|   |   `-- markosweb.tplink
+|   |-- tplink			#tplink下载脚本
+|   |   |-- tplink.sh
+|   |   `-- tplinkdown.sh
+|   `-- util.sh			#公共脚本
+|-- listaa			
+|-- listab
+|-- listac
+|-- newsiteaa
+|-- newsiteab
+|-- newsiteac
+|-- tplink			#tplink下载
+|   |-- alexa.config
+|   |-- down.sh
+|   |-- main.sh
+|   |-- markosweb.config
+|   `-- tplink.sh
+|-- urllist
+|   |-- sitelist		#第一批次站点 64w
+|   `-- sitelist.tsv		#第二批次站点 113w
+`-- util.sh

@@ -1,0 +1,17 @@
+start=1
+end=377712
+threads=20
+output=/root/sharedata/alexa.com/2.20110613
+log=result/gather.log
+urllist=../../newsiteaa
+gather_site=http://www.alexa.com/siteinfo/
+export adsl_nam=ppp0
+ip_log=result/0_ip.log
+zero_byte_site=result/zero_byte_site
+zero_byte_url=result/zero_byte_url
+need_switch_ip=result/0_need_switch_ip
+times=20
+current_ip=result/0_current_ip
+number=0
+down_site=alexa
+downType=wget

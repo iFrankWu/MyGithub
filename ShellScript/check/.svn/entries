@@ -1,0 +1,52 @@
+8
+
+dir
+2873
+http://192.168.2.107:9999/repos/item/src/DownScript/check
+http://192.168.2.107:9999/repos/item
+
+
+
+2011-06-28T02:39:27.797875Z
+2775
+wusx
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+555d242a-387e-674a-ae3f-99512bad5fac
+
+checkalexa.sh
+file
+
+
+
+
+2011-06-24T08:16:10.741223Z
+7db5dba4e3a2e159dce06fc8ccd9e81e
+2011-06-24T08:14:55.860375Z
+2766
+wusx
+
+checkmarkosweb.sh
+file
+
+
+
+
+2011-06-28T02:40:26.712382Z
+361ddf7a30cb4912484090bb021139d0
+2011-06-28T02:39:27.797875Z
+2775
+wusx
+

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repos/item/!svn/ver/2722/src/DownScript/adsl/wget
+END
+down.sh
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/item/!svn/ver/2658/src/DownScript/adsl/wget/down.sh
+END
+main.sh
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/item/!svn/ver/2722/src/DownScript/adsl/wget/main.sh
+END
+alexa.config
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/item/!svn/ver/2679/src/DownScript/adsl/wget/alexa.config
+END
+markosweb.config
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/item/!svn/ver/2664/src/DownScript/adsl/wget/markosweb.config
+END

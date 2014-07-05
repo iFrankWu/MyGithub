@@ -1,0 +1,49 @@
+8
+
+dir
+2873
+http://192.168.2.107:9999/repos/item/src/DownScript/down
+http://192.168.2.107:9999/repos/item
+
+
+
+2011-06-28T02:34:58.829125Z
+2774
+wusx
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+555d242a-387e-674a-ae3f-99512bad5fac
+
+tplink
+dir
+
+adsl
+dir
+
+config
+dir
+
+util.sh
+file
+
+
+
+
+2011-06-23T05:07:15.050285Z
+edf091171f6b90ed545820019f0cc9ee
+2011-06-23T05:04:43.126000Z
+2758
+wusx
+

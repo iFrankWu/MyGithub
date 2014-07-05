@@ -1,0 +1,17 @@
+start=4500
+end=12222
+threads=10
+export output=/root/DownScript/test
+urllist=../../listab
+gather_site=http://www.markosweb.com/www/
+user_tplink=admin
+pass_tplink=608
+ip_tplink=192.168.2.16
+user_adsl=*902adsl8
+pass_adsl=Hello123World
+times=20
+down_site=markosweb
+downType=curl
+ip_log=result/tplink_ip.log
+log=result/info.log
+ipfrequency=10

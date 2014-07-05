@@ -1,0 +1,52 @@
+8
+
+dir
+2873
+http://192.168.2.107:9999/repos/item/src/DownScript/down/adsl
+http://192.168.2.107:9999/repos/item
+
+
+
+2011-06-28T02:34:58.829125Z
+2774
+wusx
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+555d242a-387e-674a-ae3f-99512bad5fac
+
+switch_ip.sh
+file
+
+
+
+
+2011-06-27T03:33:28.842062Z
+2d07d23cfc2bb22b92173ff774f52a9b
+2011-06-28T02:34:58.829125Z
+2774
+wusx
+
+adsldown.sh
+file
+
+
+
+
+2011-06-28T02:35:45.676308Z
+62db52e22efd3382eeb09252d416ed99
+2011-06-28T02:34:58.829125Z
+2774
+wusx
+
