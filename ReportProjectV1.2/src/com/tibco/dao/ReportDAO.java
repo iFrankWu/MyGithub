@@ -316,7 +316,7 @@ public class ReportDAO {
 	}
 	
 	public void exportData(String startDate,String endDate,ResultSetHandler handler)throws DBException{
-		String sql = "select * from report  where 1=1";
+		String sql = "select * from report  where 1=1 and isDelete = false";
 		if(startDate != null){
 			sql += " and checkDate >= '"+startDate+"'";
 		}
