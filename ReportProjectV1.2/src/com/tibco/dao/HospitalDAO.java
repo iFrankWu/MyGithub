@@ -49,7 +49,7 @@ public class HospitalDAO {
 	public Integer addHospital(Hospital hospitalBean) throws DBException{
 		String getNextAutoIdSql = "select auto_increment from information_schema.`TABLES` where table_name='hospital'";
 		Integer hospitalId =  (Integer)db.queryFirst(Integer.class, getNextAutoIdSql);
-		String sql="insert into hospital  (name,hospitalLogo,machineNumber,handController,firmwareVersion,hospitalId,department)  values(?,?,?,?,?,?,?,?)";
+		String sql="insert into hospital  (name,hospitalLogo,machineNumber,handController,firmwareVersion,hospitalId,department)  values(?,?,?,?,?,?,?)";
 		List<FieldParameter> fpList = new ArrayList<FieldParameter>();
 		fpList.add(new FieldParameter(1, hospitalBean.getName(), FieldTypes.VARCHAR));
 		fpList.add(new FieldParameter(2, hospitalBean.getHospitalLogo(), FieldTypes.VARCHAR));

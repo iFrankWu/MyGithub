@@ -25,7 +25,7 @@ import com.tibco.util.XLSExport;
  */
 public class ExportReportHandler implements ResultSetHandler {
 	private Hospital hopital ;
-	private String tableHeader[] = "报告单ID,检查日期,姓名,年龄,病历号,主机序列号,手控器序列号,主诉,临床表现,初善仪检查结果,初善仪点探数量,是否绝经,主诉/白带多,主诉/性交出血,主诉/不规则流血,主诉/其他,临床表现/光滑,临床表现/急性炎症,临床表现/肥大,临床表现/息肉,临床表现/糜烂,临床表现/撕裂,临床表现/纳氏腺囊肿,临床表现/白斑,临床表现/可疑癌,临床表现/其他".split(",");
+	private String tableHeader[] = "报告单ID,检查日期,姓名,年龄,病历号,主机序列号,手控器序列号,主诉,临床表现,初善仪检查结果,初善仪点探数量,是否绝经,主诉/白带多,主诉/性交出血,主诉/不规则流血,主诉/其他,临床表现/光滑,临床表现/急性炎症,临床表现/肥大,临床表现/息肉,临床表现/糜烂,临床表现/撕裂,临床表现/纳氏腺囊肿,临床表现/白斑,临床表现/可疑癌,临床表现/其他,操作人员,申请医生".split(",");
 	public ExportReportHandler(XLSExport xlsExport) throws DBException{
 		this.xlsExport = xlsExport;
 		HospitalDAO hospitalDAO = new HospitalDAO();
@@ -76,6 +76,9 @@ public class ExportReportHandler implements ResultSetHandler {
 			xlsExport.setCell(23, rs.getBoolean("isWhite") == true ? "是":"否");
 			xlsExport.setCell(24, rs.getBoolean("isCancer") == true ? "是":"否");
 			xlsExport.setCell(25, rs.getString("otherClinical"));
+
+            xlsExport.setCell(26,rs.getString("doctorName"));
+            xlsExport.setCell(27,rs.getString("prescribingDoctorName"));
 			
 			rowIndex++;
 		}catch(Exception e){
