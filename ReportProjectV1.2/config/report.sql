@@ -15,7 +15,7 @@ isDelete boolean not null DEFAULT false
 );
 
 #drop table logrecord;
-create table logRecord(
+create table logrecord(
 recordId int auto_increment not null primary key,
 doctorId int,
 ip varchar(64),
