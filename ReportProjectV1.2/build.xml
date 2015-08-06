@@ -11,8 +11,7 @@
 	<property name="jars" value="../jar" />
 	-->
 	  <property file="${basedir}/user.properties"/>
-	 <property file="${basedir}/share.properties"/>
-	
+
 	 <property name="out-jar.name" value="${env.OUT_JAR_NAME}"/>
 	 <property name="out-jar.dir" value="${basedir}/jar"/>
 	 <property name="to.dir" value="${env.TO_DIR}"/>
@@ -55,6 +54,9 @@
 
 
 	<target name="run" depends="compile">
+		<property name="myclasspath" refid="classpath"/>
+					<echo message="Classpath = ${myclasspath}"/>
+
 		<java classname="com.tibco.test.Jetty" fork="true">
 			<classpath refid="classpath" />
 		</java>
