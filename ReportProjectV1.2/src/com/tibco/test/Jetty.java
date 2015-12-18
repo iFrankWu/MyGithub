@@ -8,6 +8,7 @@
  */
 package com.tibco.test;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
@@ -58,7 +59,10 @@ public class Jetty {
 			server.setHandler(context);
 			
 //			context.
-		
+		if(!new File("./web/upload").exists()){
+            File f = new File("./web/upload");
+            f.mkdir();
+        }
 		
 		
 //		context.addFilter(OAuthAuthenticationFilter.class, "/", null);

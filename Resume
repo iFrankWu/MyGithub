@@ -1,0 +1,123 @@
+PERSONAL DETAILS
+
+Name		:	Frank Wu (Shexin)			
+Gender		:	Male			
+Date of Birth	:	Oct 28th, 1987		
+Location	:	Beijing			
+Email		:	wushexin2006@126.com			
+Cell Phone	:	18600890643		
+English Level	:	Fluent			
+
+
+QUALIFICATIONS SUMMARY				
+
+	More than 6 years Java server experience. Strong OO programming skills.
+	Substantial experience in Java Concurrency, optimization and performance tuning
+	Experienced with Java web container, such as Tomcat, Jetty
+	Experienced with REST-based web services development
+	Good understanding of XML and JSON technologies 
+	Good at SQL language, familiar with Oracle/Mysql/MSSQL etc
+	NoSql solutions, such as mongDB, redis, Tokyo tyrant ,Amazon DynamoDB
+	Experienced with types of LDAP server, such as IBM Tivoli server, OpenLDAP, Microsoft Acitve Directory and SunOne LDAP server,Understanding LDAP Schema and LDAP world rule
+	In-depth understanding of the full life cycle of the software development.
+	Experienced with client-side technologies and/or frameworks such as HTML5/CSS, AJAX
+	Also have experience on JS frameworks such as jQuery, Angular 1.x, BackBone.js, Marionette,EasyUI etc
+	Experienced with Codes management tools such as SVN, Git
+	Fluent English communication skill both oral and written. Had Multiple time visited Silicon Valley, USA.
+
+
+PROFESSIONAL EXPERIENCES 			
+
+2012.03 -- Present	Pactera/TIBCO CDC						Beijing
+Tilte1: Senior Software Engineer
+Responsibilities:
+	Development for TIBCO B2B cloud products: BusinessConnect on Sliver Fabric, Sliver Fabric is a PaaS cloud product
+	Development for Java base product: Trading Community Management
+	Development for Java base product: Partner Express
+	Development for java concurrent & OSGI program for SAML part that embedded in EXBML product
+	Maintain BC core framework codes. 
+	Debug and resolve customer issues, that include System optimization, Performance tuning
+	Research TIBCO B2B new version of Cloud products, IPass (Integration Platform as a service) 
+
+Projects:
+	Project1:		TIBCO BusinessConnect EBXML
+Period:	07/2014~07/2015
+Project Info:	It’s a BC business protocol that implement EBXML protocol and standard.
+SW Environment:	JDK 1.7, Eclipse, Oracle/DB2/SQL server/Mysql ,SVN,JIRA
+Responsibilities:
+		1) Research SAML standard
+		2) Implement SAML part of EBXML 
+			a) Create DB schema 
+			b) Research OSGI, and define the ClassLoader for loader SAML jars to BC runtime engine.
+			c) Make sure the SAML part of function are multiple thread safe the load balance ability.
+		3) Give guide line to QA team to help they verify SAML feature of EBXML
+
+
+	Project2:		TIBCO Silver Fabric Enabler for BusinessConnect
+Period:	09/2013~07/2014
+Project Info:	It’s the first BC product on Cloud.
+SW Environment:	JDK 1.7, Eclipse, Oracle/DB2/SQL server/Mysql , Silver Fabric 5.5,SVN,JIRA
+Responsibilities:
+		1) Analysis the Product requirement
+		2) Research Silver Fabric Product feature
+		3) Design Silver Fabric enabler for BusinessConnect product feature
+		4) Coding the critical part Java code
+		5) Manage the product and assign the job to developer
+		6) Communicate with the Department Manager locate at Palo Alto, CA, USA
+		7) Communicate with QA team and help they define a test scope for testing Silver Fabric Enabler for BC
+
+	Project3:		Trading Partner Management
+Period:	2012.12 – 2013.8
+Project Info:	an B/S based product for managing the trading partner 
+Responsibilities:
+		1) As Lead of this product, we are server team have 6 person.
+		2) Research TIBCO Business Event products and Embedded to TPM 
+		3) Research AngularJS and work with UX team to made good experience
+		4)Designed and created the database tables;
+		5) Developed the critical part of cords.
+
+	Project4:		Trading Community Management
+Period:	03/2012 – 11/2012
+Project Info:	an B/S architecture product for partner to manage he(she)’s trading information, such as protocol, transports, business agreements etc.
+Responsibilities:
+		1) As the server team leader in CDC , I have to communicate with UX team, QA team and Server team in USA. 
+		2) As discussed with UX team, we agreed with transfer the data between server and UI use json, I list all function API for UI, so server team and UX team can develop each other independent. 
+		3) I implement  the features include  Self-Registration, Business Agreement, Transports, Management Log, Adults Log and Community News, Customized Host Logo etc.
+		4) During this time, my work has been appreciated by the US-leader, so I get one month business training trip to the head office of TIBCO, in Palo Alto ,CA,USA.
+
+2010.07 – 2012.02	UnitedWin Technology Co., Ltd				Beijing
+Tilte1: Network Engineer
+Responsibilities:
+	As a Java program I did a lot here, also work hard, finally become a “Programer”.
+
+Projects:
+	Project1:	http://www.uwdress.com/
+	Period:	10/2011 – 02/2012
+Project Info:	an B to C electronic mall oriented to America and Europe on Dresses
+SW Environment:	Linux & Java 1.6, Mysql, PHP, svn
+Responsibilities:	Collect data about wedding dresses, generate our own products data after analysis, and then import them into mall management system automatically
+
+	Project2:		sitemasterbus.com Data site project
+Period:	05/2011 – 09/2011
+Project Info:	Collect data from domain name of alexa.com and markosweb.com, publish on our website after processing.
+SW Environment:	Linux & Java 1.6、 Oracle 10G、 PL/SQL developer、Bash Shell
+Responsibilities:	Responsible for data collection and analytical storage，including shell and java edition.
+
+	Project3:		infosum.net Translation site group project
+Period:	10/2012 – 04/2011
+Project Info:	Collect articles from the Internet, translate them into languages of different countries, and then publish them on company’s website.
+SW Environment:	Linux & Java 1.6、 Oracle 10G、 PL/SQL developer、Bash Shell
+Responsibilities:	Responsible for the development of Multi-threaded, multi-language module, ie, translate articles from local data base into 40 kinds of languages and then saved them into local data base.
+
+EDUCATION
+
+Hunan University of Science and Technology,		2006/09 – 2010/06
+Bachelor's, Information and Computing Science
+
+CERTIFICATES
+01/2014       TIBCO CDC                                                  Excellect Award
+06/2010       Hunan University of Science and Technology                 Outstanding Graduates
+03/2010       Sun Certificated Java Programmer   		         Pass (86%)
+05/2009       Software Designer     				         Qualified
+02/2009       USA Mathematical Contest in Modeling /Interdisciplinary Contest in Modeling            Successful Participant
+09/2008       China Undergraduate Mathematical Contest in Modeling     National Second Prize
