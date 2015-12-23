@@ -473,6 +473,16 @@ ReportController = function ($scope, $routeParams,$location, $filter,$http,Docto
 		$scope.newCreateReport = !$scope.newCreateReport;
 	}
 	
+
+	$scope.lcts = ["NILM","ASCUS","LSIL","HSIL","ASC-H","SCC","AGC"];
+	$scope.hpv = ["阴性","阳性"];
+
+	$scope.report = {'hpv':'vaule1'}
+	$scope.fu = function(){
+		document.getElementById("inputSelect").value=$scope.report.hpv;
+		console.log(document.getElementById("inputSelect").value);
+	}
+
 	$scope.checkReport = function(){
 		if($scope.report == null || $scope.report.patientName == null || $scope.report.caseNumber == null || $scope.report.patientName == "" ||  $scope.report.caseNumber == ""){
 			alert("报告单中的姓名、病历号等信息不能够为空！");
@@ -541,7 +551,7 @@ ReportController = function ($scope, $routeParams,$location, $filter,$http,Docto
 $scope.report = null;
 	}
 	
-	$scope.report = null;
+	// $scope.report = null;
 	 
 	$scope.unauthorizedCallBack = function(response){
 		 if(response.status == 401){

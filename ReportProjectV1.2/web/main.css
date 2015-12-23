@@ -107,6 +107,9 @@ input
 	text-align:left;
 	width: 140px;
 }
+td > input {
+	/*width: 40px */
+}
 body{
 	/*
 	font-family:"Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu
