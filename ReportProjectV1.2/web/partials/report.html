@@ -36,6 +36,7 @@
 		<td ><label>申请医生:</label></td>
 		<td ><select style="width:154px" ng-model="report.prescribingDoctorName" ng-options="v for v in applyDoctorList">
                 </select>
+                </td>
 <!--
 			<select style="width:154px"><option>刘医生</option>
 			<option>康医生</option>
@@ -65,7 +66,7 @@
 				<select style="width:100%" ng-model="report.lct" ng-options="v for v in lcts">
                 </select>
 		</td>
-		<td style="width:5%"><label>HPV:</label></td>
+		<td style="width:5%;padding-left:10px"><label>HPV:</label></td>
 		<td style="width:10%">
 				<select style="width:100%" ng-model="report.hpv" ng-options="v for v in hpvs">
                 </select>
@@ -79,8 +80,8 @@
 			</div>
 		</td> -->
 
-		<td style="width:7%"><label>其他:</label></td>
-		<td style="width:20%"><input style="width:90%" type="text" ng-model="report.otherComplaints"/></td>
+		<td style="width:7%;padding-left:10px"><label>其他:</label></td>
+		<td style="width:15%"><input style="width:90%" type="text" ng-model="report.otherComplaints"/></td>
 	</tr>
 </table>
 </fieldset>
@@ -572,13 +573,13 @@
 				<select style="width:100%" ng-model="report.lct" ng-disabled="disabled" ng-options="v for v in lcts">
                 </select>
 		</td>
-		<td style="width:5%"><label>HPV:</label></td>
+		<td style="width:5%;padding-left:10px"><label>HPV:</label></td>
 		<td style="width:10%">
 				<select style="width:100%" ng-model="report.hpv" ng-disabled="disabled" ng-options="v for v in hpvs">
                 </select>
 		</td>
 		<td style="width:7%"><label>其他:</label></td>
-		<td style="width:20%"><input style="width:90%" type="text" ng-model="report.otherComplaints" ng-readonly='readonly'/></td>
+		<td style="width:15%"><input style="width:90%" type="text" ng-model="report.otherComplaints" ng-readonly='readonly'/></td>
 	</tr>
 </table>
 </fieldset>
