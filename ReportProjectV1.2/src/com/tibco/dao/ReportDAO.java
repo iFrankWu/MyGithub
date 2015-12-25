@@ -38,9 +38,9 @@ public class ReportDAO {
 				"otherComplaints,isSmooth,isAcuteInflammation,isHypertrophy,isPolyp," +
 				"erosion,isTear,isNesslersGlandCyst,isWhite,isCancer," +
 				"otherClinical,pointNumber,isComplete,checkResult,screening," +
-				"checking,otherSuggestion,checkDate,isDelete,address,doctorName,doctorId,department,reason4doesNotComplete,phone,prescribingDoctorName)" +
+				"checking,otherSuggestion,checkDate,isDelete,address,doctorName,doctorId,department,reason4doesNotComplete,phone,prescribingDoctorName,lct,hpv,touchbleeding)" +
 				//add patientAddress after idDelete
-				" values(?,?,?,?,?,   ?,?,?,?,?,   ?,?,?,?,?,  ?,?,?,?,?,  ?,?,?,?,?,  ?,?,now(),false,?,?,?,?,?,?,?)";
+				" values(?,?,?,?,?,   ?,?,?,?,?,   ?,?,?,?,?,  ?,?,?,?,?,  ?,?,?,?,?,  ?,?,now(),false,?,?,?,?,?,?,?,?,?,?)";
 		//patientName,age,caseNumber,lastTimeMenstruation,pregnancyNumber,
 		List<FieldParameter> fpList = new ArrayList<FieldParameter>();
 		fpList.add(new FieldParameter(1,report.getPatientName(),FieldTypes.VARCHAR));
@@ -89,6 +89,10 @@ public class ReportDAO {
 		fpList.add(new FieldParameter(32,report.getReason4doesNotComplete(),FieldTypes.VARCHAR));
 		fpList.add(new FieldParameter(33,report.getPhone(),FieldTypes.VARCHAR));
 		fpList.add(new FieldParameter(34,report.getPrescribingDoctorName(),FieldTypes.VARCHAR));
+		
+		fpList.add(new FieldParameter(35,report.getLct(),FieldTypes.VARCHAR));
+		fpList.add(new FieldParameter(36,report.getHpv(),FieldTypes.VARCHAR));
+		fpList.add(new FieldParameter(37,report.getTouchbleeding(),FieldTypes.VARCHAR));
 		db.execute(sql, fpList);
 	}
 	private Boolean initBoolean(Boolean flag){
@@ -178,7 +182,7 @@ public class ReportDAO {
 				"otherComplaints=?,isSmooth=?,isAcuteInflammation=?,isHypertrophy=?,isPolyp=?," +
 				"erosion=?,isTear=?,isNesslersGlandCyst=?,isWhite=?,isCancer=?," +
 				"otherClinical=?,pointNumber=?,isComplete=?,checkResult=?,screening=?," +
-				"checking=?,otherSuggestion=?,doctorName=?,doctorId=?,modifyDate=now(),department=?,address=?,reason4doesNotComplete=?,phone=?,prescribingDoctorName=?" +
+				"checking=?,otherSuggestion=?,doctorName=?,doctorId=?,modifyDate=now(),department=?,address=?,reason4doesNotComplete=?,phone=?,prescribingDoctorName=?,lct =? ,hpv =?,touchbleeding = ?" +
 				" where reportId=?";
 		//1.patientName=?,age=?,caseNumber=?,lastTimeMenstruation=?,pregnancyNumber=?," +
 		List<FieldParameter> fplist=new ArrayList<FieldParameter>();
@@ -232,6 +236,10 @@ public class ReportDAO {
 		fplist.add(new FieldParameter(34,report.getPrescribingDoctorName(),FieldTypes.VARCHAR));
 		
 		fplist.add(new FieldParameter(35, report.getReportId(), FieldTypes.INTEGER));
+		
+		fplist.add(new FieldParameter(36,report.getLct(),FieldTypes.VARCHAR));
+		fplist.add(new FieldParameter(37,report.getHpv(),FieldTypes.VARCHAR));
+		fplist.add(new FieldParameter(38,report.getTouchbleeding(),FieldTypes.VARCHAR));
 		db.execute(sql, fplist);
 	}
 	

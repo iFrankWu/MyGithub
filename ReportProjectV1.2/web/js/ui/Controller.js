@@ -475,13 +475,13 @@ ReportController = function ($scope, $routeParams,$location, $filter,$http,Docto
 	
 
 	$scope.lcts = ["NILM","ASCUS","LSIL","HSIL","ASC-H","SCC","AGC"];
-	$scope.hpv = ["阴性","阳性"];
+	$scope.hpvs = ["阴性","阳性"];
 
-	$scope.report = {'hpv':'vaule1'}
-	$scope.fu = function(){
-		document.getElementById("inputSelect").value=$scope.report.hpv;
-		console.log(document.getElementById("inputSelect").value);
-	}
+	// $scope.report = {'hpv':'vaule1'}
+	// $scope.onChangeOption = function(){
+	// 	document.getElementById("inputSelect").value=$scope.report.hpv;
+	// 	console.log(document.getElementById("inputSelect").value);
+	// }
 
 	$scope.checkReport = function(){
 		if($scope.report == null || $scope.report.patientName == null || $scope.report.caseNumber == null || $scope.report.patientName == "" ||  $scope.report.caseNumber == ""){

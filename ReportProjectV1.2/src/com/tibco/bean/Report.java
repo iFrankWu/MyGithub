@@ -67,7 +67,29 @@ public class Report {
 	
 	private String prescribingDoctorName;//v1.2 增加开方医生
 	
+	private String lct ; //V1.3 added
+	private String hpv; //V1.3 added
+	private String touchbleeding; //V1.3 added
 	
+	
+	public String getLct() {
+		return lct;
+	}
+	public void setLct(String lct) {
+		this.lct = lct;
+	}
+	public String getHpv() {
+		return hpv;
+	}
+	public void setHpv(String hpv) {
+		this.hpv = hpv;
+	}
+	public String getTouchbleeding() {
+		return touchbleeding;
+	}
+	public void setTouchbleeding(String touchbleeding) {
+		this.touchbleeding = touchbleeding;
+	}
 	/**
 	 * return the value of this prescribingDoctorName
 	 * @return 

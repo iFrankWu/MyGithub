@@ -62,12 +62,12 @@
 		</td>	 		 
 		<td style="width:5%"><label>LCT:</label></td>
 		<td style="width:10%">
-				<select style="width:100%" ng-model="report.lcts" ng-options="v for v in lcts">
+				<select style="width:100%" ng-model="report.lct" ng-options="v for v in lcts">
                 </select>
 		</td>
 		<td style="width:5%"><label>HPV:</label></td>
 		<td style="width:10%">
-				<select style="width:100%" ng-model="report.hpv" ng-options="v for v in hpv">
+				<select style="width:100%" ng-model="report.hpv" ng-options="v for v in hpvs">
                 </select>
 		</td>
 
@@ -95,11 +95,7 @@
 		<td style="width:6%"><input type="checkbox" ng-model="report.isAcuteInflammation"/></td>
 		<td style="width:8%"><label>肥大:</label></td>
 		<td style="width:6%"><input type="checkbox" ng-model="report.isHypertrophy"/></td>
-		<td style="width:8%"><label>息肉:</label></td>
-		<td style="width:8%"><input type="checkbox" ng-model="report.isPolyp"/></td>
-
-		<td style="width:8%"><label>撕裂:</label></td>
-		<td style="width:6%"><input type="checkbox" ng-model="report.isTear"/></td>
+		
 
 		<!-- <td style="width:10%"><label>糜烂:</label></td>
 		<td style="width:10%">
@@ -115,6 +111,11 @@
 				Ⅱ&#176;<input type="radio" value="中" name="erosion" ng-model="report.erosion" style="margin-right:2px"/>
 				Ⅲ&#176;<input type="radio" value="轻" name="erosion" ng-model="report.erosion" style="margin-right:2px"/>
 		</td>
+		<td style="width:8%"><label>息肉:</label></td>
+		<td style="width:8%"><input type="checkbox" ng-model="report.isPolyp"/></td>
+
+		<td style="width:8%"><label>撕裂:</label></td>
+		<td style="width:6%"><input type="checkbox" ng-model="report.isTear"/></td>
 
 	</tr>
 
@@ -128,8 +129,8 @@
 	<td><input type="checkbox" ng-model="report.isCancer"></input></td>
 	<td><label>接触性出血:</label></td>
 	<td>	
-			有<input type="radio" value="重" name="aa" ng-model="report.aa" style="margin-right:8px"/>
-			无<input type="radio" value="中" name="aa" ng-model="report.aa" style="margin-right:8px"/>
+			有<input type="radio" value="有" name="touchbleeding" ng-model="report.touchbleeding" style="margin-right:8px"/>
+			无<input type="radio" value="无" name="touchbleeding" ng-model="report.touchbleeding" style="margin-right:8px"/>
 			
 	</td>
 	<td ><label>其他:</label></td>
@@ -139,7 +140,7 @@
 </fieldset>
 
 <fieldset>
-<legend><b><font color="#296B3C">初善仪<SUP>&reg;</SUP>宫颈癌筛查系统检查内容</font></b></legend>
+<legend><b><font color="#296B3C">TruScreen<SUP>&reg;</SUP>宫颈癌筛查系统检查内容</font></b></legend>
 <span  width="50%" style="float:left">
 <table style="clear:left;max-width:424px;width:424px;vertical-align:middle;height:300px" ><tr><td>
 <label>  主机序列号:<label></td><td style="text-align:left" >{{hospital.machineNumber}}</td></tr>
@@ -365,12 +366,18 @@
 		<td style="width:10%"><input type="checkbox" ng-model="search.isHypertrophy"/></td>
 		<td style="width:10%"><label>息肉:</label></td>
 		<td style="width:10%"><input type="checkbox" ng-model="search.isPolyp"/></td>
-		<td style="width:10%"><label>糜烂:</label></td>
+		<td style="width:12%"><label>柱状上皮异位:</label></td>
+		<td style="width:18%">
+				Ⅰ&#176;<input type="radio" value="重" name="erosion" ng-model="report.erosion" style="margin-right:2px"/>
+				Ⅱ&#176;<input type="radio" value="中" name="erosion" ng-model="report.erosion" style="margin-right:2px"/>
+				Ⅲ&#176;<input type="radio" value="轻" name="erosion" ng-model="report.erosion" style="margin-right:2px"/>
+		</td>
+	<!-- 	<td style="width:10%"><label>糜烂:</label></td>
 		<td style="text-align:left" style="width:10%">
 				重<input type="radio" value="重" name="erosion" ng-model="search.erosion" style="margin-right:8px"/>
 				中<input type="radio" value="中" name="erosion" ng-model="search.erosion" style="margin-right:8px"/>
 				轻<input type="radio" value="轻" name="erosion" ng-model="search.erosion" style="margin-right:8px"/>
-		</td>
+		</td> -->
 	</tr>
 <tr>
 	<td width="50px"><label>撕裂:</label></td>
@@ -388,7 +395,7 @@
 </fieldset>
 	
 	<fieldset>
-		<legend><b><font color="#296B3C">初善仪®宫颈癌筛查系统检查内容</font></b></legend>
+		<legend><b><font color="#296B3C">TruScreen®宫颈癌筛查系统检查内容</font></b></legend>
 		<table>
 			<tr><td><label>检查是否完成:</label></td>
 	<td style="text-align:left" colspan="3">
@@ -549,19 +556,29 @@
 <legend><b><font color="#296B3C">主诉</font></b></legend>
 <table style="width:100%">
 	<tr>
-		<td style="width:10%"><label>白带多:</label></td>
-		<td style="width:10%"><input type="checkbox" ng-model="report.isLeucorrhea" ng-disabled="disabled"/></td>
-		<td style="width:10%"><label>性交出血:</label></td>
-		<td style="width:10%"><input type="checkbox" ng-model="report.isBleed" ng-disabled="disabled"/></td>
-		<td style="width:10%"><label>不规则流血:</label></td>
-		<td style="width:15%">
-				多<input type="radio" name="unrule" value="多" ng-model="report.unregularBleed" ng-disabled="disabled" style="margin-right:8px"/>
-				中<input type="radio" name="unrule" value="中" ng-model="report.unregularBleed" ng-disabled="disabled" style="margin-right:8px"/>
-				少<input type="radio" name="unrule" value="少" ng-model="report.unregularBleed" ng-disabled="disabled" style="margin-right:8px"/>
+		<td style="width:6%"><label>白带多:</label></td>
+		<td style="width:4%"><input type="checkbox" ng-model="report.isLeucorrhea" ng-disabled="disabled"/></td>
+		<td style="width:6%"><label>性交出血:</label></td>
+		<td style="width:4%"><input type="checkbox" ng-model="report.isBleed" ng-disabled="disabled"/></td>
+		<td style="width:8%"><label>不规则流血:</label></td>
+		<td style="width:10%">
+				多<input type="radio" name="unrule" value="多" ng-model="report.unregularBleed" ng-disabled="disabled" style="margin-right:2px"/>
+				中<input type="radio" name="unrule" value="中" ng-model="report.unregularBleed" ng-disabled="disabled" style="margin-right:2px"/>
+				少<input type="radio" name="unrule" value="少" ng-model="report.unregularBleed" ng-disabled="disabled" style="margin-right:2px"/>
 		</td>
-		<td  style="width:1%"></td>
+	<!-- 	<td  style="width:1%"></td> -->
+		<td style="width:5%"><label>LCT:</label></td>
+		<td style="width:10%">
+				<select style="width:100%" ng-model="report.lct" ng-disabled="disabled" ng-options="v for v in lcts">
+                </select>
+		</td>
+		<td style="width:5%"><label>HPV:</label></td>
+		<td style="width:10%">
+				<select style="width:100%" ng-model="report.hpv" ng-disabled="disabled" ng-options="v for v in hpvs">
+                </select>
+		</td>
 		<td style="width:7%"><label>其他:</label></td>
-		<td style="width:15%"><input style="width:90%" type="text" ng-model="report.otherComplaints" ng-readonly='readonly'/></td>
+		<td style="width:20%"><input style="width:90%" type="text" ng-model="report.otherComplaints" ng-readonly='readonly'/></td>
 	</tr>
 </table>
 </fieldset>
@@ -570,38 +587,54 @@
 <legend><b><font color="#296B3C">临床表现</font></b></legend>
 <table style="width:100%">
 	<tr>
-		<td style="width:10%"><label>光滑:</label></td>
-		<td style="width:10%"><input type="checkbox" ng-model="report.isSmooth" ng-disabled="disabled"/></td>
-		<td style="width:10%"><label>急性炎症:</label></td>
-		<td style="width:10%"><input type="checkbox" ng-model="report.isAcuteInflammation" ng-disabled="disabled"/></td>
-		<td style="width:10%"><label>肥大:</label></td>
-		<td style="width:10%"><input type="checkbox" ng-model="report.isHypertrophy" ng-disabled="disabled"/></td>
-		<td style="width:10%"><label>息肉:</label></td>
-		<td style="width:10%"><input type="checkbox" ng-model="report.isPolyp" ng-disabled="disabled"/></td>
-		<td style="width:10%"><label>糜烂:</label></td>
+		<td style="width:8%"><label>光滑:</label></td>
+		<td style="width:6%"><input type="checkbox" ng-model="report.isSmooth" ng-disabled="disabled"/></td>
+		<td style="width:8%"><label>急性炎症:</label></td>
+		<td style="width:6%"><input type="checkbox" ng-model="report.isAcuteInflammation" ng-disabled="disabled"/></td>
+		<td style="width:8%"><label>肥大:</label></td>
+		<td style="width:6%"><input type="checkbox" ng-model="report.isHypertrophy" ng-disabled="disabled"/></td>
+	
+
+		<!-- <td style="width:10%"><label>糜烂:</label></td>
 		<td style="width:10%">
 				重<input type="radio" value="重" name="erosion" ng-model="report.erosion" ng-disabled="disabled" style="margin-right:8px"/>
 				中<input type="radio" value="中" name="erosion" ng-model="report.erosion" ng-disabled="disabled" style="margin-right:8px"/>
 				轻<input type="radio" value="轻" name="erosion" ng-model="report.erosion" ng-disabled="disabled" style="margin-right:8px"/>
+		</td> -->
+		<td style="width:12%"><label>柱状上皮异位:</label></td>
+		<td style="width:18%">
+				Ⅰ&#176;<input type="radio" value="重" name="erosion" ng-model="report.erosion" style="margin-right:2px"/>
+				Ⅱ&#176;<input type="radio" value="中" name="erosion" ng-model="report.erosion" style="margin-right:2px"/>
+				Ⅲ&#176;<input type="radio" value="轻" name="erosion" ng-model="report.erosion" style="margin-right:2px"/>
 		</td>
+			<td style="width:8%"><label>息肉:</label></td>
+		<td style="width:8%"><input type="checkbox" ng-model="report.isPolyp" ng-disabled="disabled"/></td>
+
+		<td style="width:8%"><label>撕裂:</label></td>
+		<td style="width:6%"><input type="checkbox" ng-model="report.isTear" ng-disabled="disabled"/></td>
 	</tr>
 <tr>
-	<td><label>撕裂:</label></td>
-	<td><input type="checkbox" ng-model="report.isTear" ng-disabled="disabled"/></td>
+	 
 	<td ><label>纳博特囊:</label></td>
 	<td><input type="checkbox" ng-model="report.isNesslersGlandCyst" ng-disabled="disabled"/></td>
 	<td><label>白斑:</label></td>
 	<td><input type="checkbox" ng-model="report.isWhite" ng-disabled="disabled"/></td>
 	<td ><label>可疑癌:</label></td>
 	<td><input type="checkbox" ng-model="report.isCancer" ng-disabled="disabled"></input></td>
+	<td><label>接触性出血:</label></td>
+	<td>	
+			有<input type="radio" value="有" name="touchbleeding" ng-model="report.touchbleeding" style="margin-right:8px"/>
+			无<input type="radio" value="无" name="touchbleeding" ng-model="report.touchbleeding" style="margin-right:8px"/>
+			
+	</td>
 	<td ><label>其他:</label></td>
-	<td><input type="text" ng-model="report.otherClinical" ng-readonly='readonly'/></td>
+	<td colspan=3><input type="text" ng-model="report.otherClinical" ng-readonly='readonly'/></td>
 	</tr>
 </table>	
 </fieldset>
 
 <fieldset>
-<legend><b><font color="#296B3C">初善仪<SUP>&reg;</SUP>宫颈癌筛查系统检查内容</font></b></legend>
+<legend><b><font color="#296B3C">TruScreen<SUP>&reg;</SUP>宫颈癌筛查系统检查内容</font></b></legend>
 <span  width="50%" style="float:left">
 <table style="clear:left;max-width:424px;width:424px;vertical-align:middle;height:300px"><tr><td>
 <label>  主机序列号:<label></td><td style="text-align:left" >{{hospital.machineNumber}}</td></tr>
@@ -814,7 +847,7 @@
 <h1 align="center" style="margin:30px">
 <img ng-show="showLogo" src="{{hospital.hospitalLogo}}" width="50px" height="30px">
 <font style="font-family:黑体">{{hospital.name}}</font></h1>
-<h1 align="center"  style="margin:20px">初善仪<SUP>&reg;</SUP>宫颈癌筛查系统报告单</h1>
+<h1 align="center"  style="margin:20px">TruScreen<SUP>&reg;</SUP>宫颈癌筛查系统报告单</h1>
 <div id="checkdate">
 <label style="font-size:11">检查日期:<input type="text" ng-model="checkDatePrint" style="font-size:11"/></label>
 </div>
@@ -865,6 +898,8 @@
 		<td><input type="text" ng-model="report.pregnancyNumber" ></td>
 		<td > 产次: </td>
 		<td ><input type="text" ng-model="report.childbirthNumber"></td>
+		<td style="width:90px">申请医生:</td>
+		<td><input type="text" ng-model="report.prescribingDoctorName"></td>
 		</tr>
 </tbody></table>
 </fieldset>
@@ -875,19 +910,30 @@
 	<tbody> 
 	<tr style="height:10px"></tr>
 		<tr>
-		<td style="width:10%"><label>白带多:</label></td>
-		<td style="width:10%"><input type="checkbox" ng-model="report.isLeucorrhea"/></td>
+		<td style="width:8%"><label>白带多:</label></td>
+		<td style="width:4%"><input type="checkbox" ng-model="report.isLeucorrhea"/></td>
 		<td style="width:10%"><label>性交出血:</label></td>
-		<td style="width:10%"><input type="checkbox" ng-model="report.isBleed"/></td>
-		<td style="width:10%" ><label>不规则流血:</label></td>
-		<td style="width:15%">
+		<td style="width:4%"><input type="checkbox" ng-model="report.isBleed"/></td>
+		<td style="width:12%" ><label>不规则流血:</label></td>
+		<td style="width:16%">
 				多<input type="radio" name="unrule" value="多" ng-model="report.unregularBleed" style="margin-right:8px"/>
 				中<input type="radio" name="unrule" value="中" ng-model="report.unregularBleed" style="margin-right:8px"/>
 				少<input type="radio" name="unrule" value="少" ng-model="report.unregularBleed" style="margin-right:8px"/>
 		</td>
-		<td  style="width:3%"></td>
-		<td style="width:7%"><label>其他:</label></td>
-		<td style="width:15%"><input style="width:90%" type="text" ng-model="report.otherComplaints"/></td>
+		<td style="width:5%"><label>LCT:</label></td>
+		<td style="width:10%">
+			<input style="width:100%" type="text" ng-model="report.lct">
+				<!-- <select style="width:100%" ng-model="report.lct" ng-options="v for v in lcts">
+                </select> -->
+		</td>
+		<td style="width:5%"><label>HPV:</label></td>
+		<td style="width:10%">
+			<input style="width:100%" type="text" ng-model="report.hpv">
+				<!-- <select style="width:100%" ng-model="report.hpv" ng-options="v for v in hpvs">
+                </select> -->
+		</td>
+		<td style="width:6%"><label>其他:</label></td>
+		<td style="width:10%"><input style="width:90%" type="text" ng-model="report.otherComplaints"/></td>
 	</tr>
 	
 </tbody></table>
@@ -899,39 +945,55 @@
 	<tbody>
 <tr style="height:10px"></tr>	
 	<tr>
-	<td style="width:10%"><label>光滑:</label></td>
-		<td style="width:7%"><input type="checkbox" ng-model="report.isSmooth"/></td>
-		<td style="width:15%"><label>急性炎症:</label></td>
-		<td style="width:7%"><input type="checkbox" ng-model="report.isAcuteInflammation"/></td>
-		<td style="width:10%"><label>肥大:</label></td>
-		<td style="width:7%"><input type="checkbox" ng-model="report.isHypertrophy"/></td>
+		<td style="width:10%"><label>光滑:</label></td>
+		<td style="width:4%"><input type="checkbox" ng-model="report.isSmooth"/></td>
+		<td style="width:10%"><label>急性炎症:</label></td>
+		<td style="width:4%"><input type="checkbox" ng-model="report.isAcuteInflammation"/></td>
+		<td style="width:8%"><label>肥大:</label></td>
+		<td style="width:4%"><input type="checkbox" ng-model="report.isHypertrophy"/></td>
+		
+
+		<td style="width:14%"><label>柱状上皮异位:</label></td>
+		<td style="width:18%">
+				Ⅰ&#176;<input type="radio" value="重" name="erosion" ng-model="report.erosion" style="margin-right:2px"/>
+				Ⅱ&#176;<input type="radio" value="中" name="erosion" ng-model="report.erosion" style="margin-right:2px"/>
+				Ⅲ&#176;<input type="radio" value="轻" name="erosion" ng-model="report.erosion" style="margin-right:2px"/>
+		</td>
 		<td style="width:10%"><label>息肉:</label></td>
-		<td style="width:7%"><input type="checkbox" ng-model="report.isPolyp"/></td>
-		<td style="width:10%"><label>糜烂:</label></td>
+		<td style="width:8%"><input type="checkbox" ng-model="report.isPolyp"/></td>
+		<td style="width:8%"><label>撕裂:</label></td>
+		<td style="width:6%"><input type="checkbox" ng-model="report.isTear"/></td>
+		
+		<!-- <td style="width:10%"><label>糜烂:</label></td>
 		<td style="width:15%">
 				重<input type="radio" value="重" name="erosion" ng-model="report.erosion" style="margin-right:8px"/>
 				中<input type="radio" value="中" name="erosion" ng-model="report.erosion" style="margin-right:8px"/>
 				轻<input type="radio" value="轻" name="erosion" ng-model="report.erosion" style="margin-right:8px"/>
-		</td>
+		</td> -->
 		</tr>
 	
 <tr>
-	<td ><label>撕裂:</label></td>
-	<td><input type="checkbox" ng-model="report.isTear"/></td>
+ 
 	<td ><label>纳博特囊:</label></td>
 	<td><input type="checkbox" ng-model="report.isNesslersGlandCyst"/></td>
 	<td ><label>白斑:</label></td>
 	<td><input type="checkbox" ng-model="report.isWhite"/></td>
 	<td ><label>可疑癌:</label></td>
 	<td><input type="checkbox" ng-model="report.isCancer"></input></td>
+	<td><label>接触性出血:</label></td>
+	<td>	
+			有<input type="radio" value="有" name="touchbleeding" ng-model="report.touchbleeding" style="margin-right:8px"/>
+			无<input type="radio" value="无" name="touchbleeding" ng-model="report.touchbleeding" style="margin-right:8px"/>
+			
+	</td>
 	<td ><label>其他:</label></td>
-	<td><input type="text" ng-model="report.otherClinical"/></td>
+	<td colspan=3><input type="text" ng-model="report.otherClinical"/></td>
 	</tr>
 </tbody></table>	
 </fieldset>
 
 <fieldset style="margin:30px">
-<legend><font color="#296B3C" style="font-family:黑体">初善仪<SUP>&reg;</SUP>宫颈癌筛查系统检查内容</font></legend>
+<legend><font color="#296B3C" style="font-family:黑体">TruScreen<SUP>&reg;</SUP>宫颈癌筛查系统检查内容</font></legend>
 <span  width="50%" style="float:left" >
 <table style="clear:left;max-width:460px;width:460px;vertical-align:middle;height:400px">
 <tr style="height:10px"></tr>
