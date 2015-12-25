@@ -92,5 +92,4 @@ foreign key(doctorId) REFERENCES doctors(doctorId) on delete  CASCADE
 );
 
 ALTER TABLE report ADD prescribingDoctorName VARCHAR(128); /** prescribingDoctorName varchar(128), add prescibing doctor name V1.2 2014.4.9 */
-/**ALTER TABLE doctors ADD prescribingDoctorName VARCHAR(1024); *//**store all prescribing doctor names, use "," split it. V1.2 requirements 2014.4.9*/
-
+ALTER TABLE report ADD COLUMN (lct VARCHAR(128), hpv VARCHAR(128) ,touchbleeding VARCHAR(128) )/** add lct hpv and touch bleeding V1.3 12/25/2015 */

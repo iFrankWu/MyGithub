@@ -106,11 +106,13 @@
 			</war>
 	 	<delete file="${to.dir}/${war.name}"/> 
 	 	<delete dir="${to.dir}/demo-rest"/>
+	 	<!--
 		<copy todir="${to.dir}" filtering="true" overwrite="true">
 		 	           <fileset dir="${basedir}" >
 		 	           <include name="**/*.war"/>
 						</fileset>
 		 </copy>
+		 -->
 		</target>
 	
 	<target name="copy-jar-2-tomcat" depends="compile-jar">
