@@ -454,7 +454,7 @@ ReportController = function ($scope, $routeParams,$location, $filter,$http,Docto
 	DoctorService.getDoctorList(function(result){
 	    		if(result != null){
 		    		 var j = 0;
-		    		 for (var i = 0; i < result.length - 1; i++) {
+		    		 for (var i = 0; i < result.length ; i++) {
 		    		 	if(result[i].type == '申请医生')
 		    		 		$scope.applyDoctorList[j++] = result[i].doctorName;
 		    		 };
