@@ -12,24 +12,33 @@ English Level	:	Fluent
 QUALIFICATIONS SUMMARY				
 
 	More than 6 years Java server experience. Strong OO programming skills.
+	Understand well of TCP/IP and HTTP protocols.
+	Experienced with Java 8 and its new features such as Date API,  Internal Iteration.
 	Substantial experience in Java Concurrency, optimization and performance tuning
 	Experienced with Java web container, such as Tomcat, Jetty
 	Experienced with REST-based web services development
 	Good understanding of XML and JSON technologies 
 	Good at SQL language, familiar with Oracle/Mysql/MSSQL etc
-	NoSql solutions, such as mongDB, redis, Tokyo tyrant ,Amazon DynamoDB
+	Good at Regular Expression language
+	Understand well Design Patterns, such as Factory pattern and template pattern.
+	NoSql solutions, such as mongDB, redis, Tokyo tyrant, Amazon DynamoDB
 	Experienced with types of LDAP server, such as IBM Tivoli server, OpenLDAP, Microsoft Acitve Directory and SunOne LDAP server,Understanding LDAP Schema and LDAP world rule
 	In-depth understanding of the full life cycle of the software development.
 	Experienced with client-side technologies and/or frameworks such as HTML5/CSS, AJAX
-	Also have experience on JS frameworks such as jQuery, Angular 1.x, BackBone.js, Marionette,EasyUI etc
-	Experienced with Codes management tools such as SVN, Git
+	Also have experience on JS frameworks such as jQuery, Zepto,Angular 1.x, BackBone.js, Marionette,EasyUI etc.
+	Experienced with Codes management tools such as SVN, Git.
+Experienced with JIRA, Confluence software to trace bug. 
 	Fluent English communication skill both oral and written. Had Multiple time visited Silicon Valley, USA.
+	
 
 
-PROFESSIONAL EXPERIENCES 			
+PROFESSIONAL EXPERIENCES 	
+2016.01 -- Present	Flight Management(航班管家)				Beijing
+Tilte: Crawler Research Engineer	
+	Responsible for crawling Internation Flight data. Build an multiple thread safe framework to crawl different web site data. that construct by Consume and Produce Queue and Java NIO.	
 
-2012.03 -- Present	Pactera/TIBCO CDC						Beijing
-Tilte1: Senior Software Engineer
+2012.03 -- 2016.01	Pactera/TIBCO CDC						Beijing
+Tilte: Senior Software Engineer
 Responsibilities:
 	Development for TIBCO B2B cloud products: BusinessConnect on Sliver Fabric, Sliver Fabric is a PaaS cloud product
 	Development for Java base product: Trading Community Management
@@ -53,7 +62,7 @@ Responsibilities:
 		3) Give guide line to QA team to help they verify SAML feature of EBXML
 
 
-	Project2:		TIBCO Silver Fabric Enabler for BusinessConnect
+	Project2:		TIBCO Silver Fabric Enabler for BusinessConnect
 Period:	09/2013~07/2014
 Project Info:	It’s the first BC product on Cloud.
 SW Environment:	JDK 1.7, Eclipse, Oracle/DB2/SQL server/Mysql , Silver Fabric 5.5,SVN,JIRA
