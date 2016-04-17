@@ -1,0 +1,141 @@
+As a task of Crawler, recently I was research ctrip.com, and it have a lot of algorithm, and its hard time if you look into it. but its really a good chance to practice the brain.
+
+For example, the algorithm of generate Deivce ID is a difficult.
+
+The JS source code they used , you can get it from ctrip.com login page "https://accounts.ctrip.com/member/login.aspx", see the page source code, you can find a line as below , this is  algorithm of generate the device id.  
+<script type="text/javascript" async="" src="https://pages.c-ctrip.com/Cdid/deviceid.js"></script>
+
+below lines HTML codes is the logic of Device ID they used.
+<!-- page id they used to generate a cookie value--> 
+<input id="page_id" type="hidden" value="100003">
+<input id="EncryptID" value="OnlineLogin" type="hidden">
+<input id="EncryptID_GUID_URL" type="hidden" value="https://cdid.c-ctrip.com/Payment-CardRisk-DeviceWebSite/DeviceGuid.aspx?EncryptID={$EncryptID}">
+<input id="EncryptID_DeviceID_URL" type="hidden" value="https://cdid.c-ctrip.com/Payment-CardRisk-DeviceWebSite/EntryWay.aspx?Plugid=3&amp;EncryptID={$EncryptID}&amp;GUID={$GUID}&amp;DeviceID={$DeviceID}">
+
+
+if we look at EncryptID_DeviceID_URL, then we know it have three variables there are  {$EncryptID},{$GUID},{$DeviceID}
+
+And the EncryptID is directly expose to all of us. and the GUID is generate by EncryptID_GUID_URL that by replaced the {$EncryptID} with the EncryptID. then we can access this URL to get GUID.
+
+So how to get DeviceID? it is a problem. go through whole of HMTL page, we found a js file named "deviceid.js", so basiclly all information are hide in this file, use firebug to debug this file and format the js file, we can see it depends the cookie value '_bfa', fuck, how to get '_bfa' is another question we met.
+
+fortunatilly, we can quickly to get the js file named "https://webresource.c-ctrip.com/code/ubt/_bfa.min.js?v=20163_16.js" to set cookie value for '_bfa'.
+
+Look into _bfa.min.js file, it is a large file,we can execute it at browser console. it can create the cookie value successful. Debug into this file, we found the core js codes are :
+				c.hash = function(a) {
+                	var b = 1,  d = 0,  e;
+               		 if (!c.isEmpty(a))
+	                    for (b =
+	                        0, e = a.length - 1; 0 <= e; e--) d = a.charCodeAt(e),
+	                        b = (b << 6 & 268435455) + d + (d << 14),
+	                        d = b & 266338304,
+	                        b = (0 != d ? b ^ d >> 21 : b);
+	                return b
+           		};
+				getHash: function() {
+				//f ==> window
+				// a = f.screen,
+                // b = f.navigator,
+                //d = (a ? a.colorDepth + '-bit' : ''),
+                //e = ((b && b.language ? b.language : (b && b.browserLanguage ? b.//browserLanguage : ''))).toLowerCase(),
+               //l = (b && b.javaEnabled() ? 1 : 0);
+                        for (var q = f.history.length, n = [
+                                b.appName,
+                                b.appVersion,
+                                e,
+                                b.platform,
+                                b.userAgent,
+                                l,
+                                a.width + a.height,
+                                d,
+                                (p.cookie ? p.cookie : ''),
+                                (p.referrer ? p.referrer : '')
+                            ].join(''), g = n.length; 0 < q;) n += q-- ^ g++;
+                        return c.hash(n)
+                    }
+				c.getRand = function() {
+                	return ('' + Math.random()).slice(-8)
+            	};
+				uniqueId_: function() {
+                    var tmp = c.getRand() ^ c.CLI.getHash() & 2147483647;
+                    return c.getRand() ^ c.CLI.getHash() & 2147483647
+			    },
+			    readBfa: function() {
+                    var a = this.getItem('_bfa', '', !0);
+                    a && y._bfa.test(a) && (a = a.split('.'), 6 < a.length && (this.bfa = a));
+                    this.bfa || (a = this.enterTime, this.bfa = [
+                        1,
+                        a,
+                        this.uniqueId_().toString(36),
+                        1,
+                        a,
+                        a,
+                        0,
+                        0
+                    ], this._isNewVisitor = 1)
+                },
+                sessRead: function() {
+                    var a = this.getItem('_bfs', '', !0);
+                    (
+                        !this._isNewVisitor && a && y._bfs.test(a) ? 
+                        (   
+                            this.bfs = a.split('.'), 
+                            this.bfs[1] = this.plus_(this.bfs[1])) 
+                        : 
+                        (this._isNewSession = 1, 
+                            this.bfs = [ 1,1], 
+                            this.bfa[4] = this.bfa[5], 
+                            this.bfa[5] = this.enterTime, 
+                            this.bfa[6] = this.plus_(this.bfa[6]))
+                        );
+                    this.bfa[7] = this.plus_(this.bfa[7]);
+                    this.sessWrite()
+                },
+                sessWrite: function() {
+                    this.setItem('_bfa', this.bfa.join('.'), 63072000000);
+                },
+
+
+                 setItem: function(a, b, d) {
+                    if (c.isSupportCookie) c.setCookie(a, b, d);
+                    else return !1
+                },
+
+
+so we can see the key methond is uniqueId_(), actually , it is use the local browser infomation to generate a hash value and use 36bit to code. its not to hard. and if we have browser environment, then we can get the cookie easier. 
+
+After a lot of google search, found that https://bugs.openjdk.java.net/browse/JDK-8006183 they provide a simulate browser enviroment for js engines. so we  can the cookie value now.
+
+after get cookie value, go back to deviceid.js,the core codes are :
+			function encrypt(b, c) {
+		        if ('number' == typeof c) c = [
+		            c
+		        ];
+		         else {
+		            for (var t = [
+		            ], a = 0, B = c.length; a < B; a++) t[a] = c.charCodeAt(a);
+		            c = t
+		        }
+		        t = [
+		        ];
+		        a = 0;
+		        for (B = b.length; a < B; a++) {
+		            var m = b.charCodeAt(a),
+		            g = c[a % c.length];
+		            t[a] = String.fromCharCode(m ^ g || g)
+		        }
+		        return t.join('')
+		    }
+		    z = [],
+		    //the value of "v", you can look the js source code carefully.
+       		v = "u_id|{vid}@u_localZone|+8@u_screen|1366x768@u_colorDep|24@u_osVer|Win32@u_osLang|en-US@u_browserVer|Firefox 45.0@u_browserLang|en-US@u_pdfVer|@u_plug|SilverLight:5.1.30514.0@u_play|ShockWave:,MediaPlayer:,Realplayer:,QuickTime:@u_java|@u_component|";
+     	    for (var z = l = 0, H = w.length; z < H; z++) 
+	          	 l += w.charCodeAt(z);
+			M = encrypt(encrypt(v, l % 256), w);
+
+After research the whole process, so we need to have a browser simulators for js engines, and then execute the two js file, the we can get DeivceID.
+
+
+by the way,Java 1.8 has been release a new JS engine that is Nashorn, for performance Nashorn is better than Rhino,and it worse than V8 engine.
+
+And sometimes, we want to simulate a browser environment by Java JS engine, its doable, by use "EnvJs" , see more https://bugs.openjdk.java.net/browse/JDK-8006183
