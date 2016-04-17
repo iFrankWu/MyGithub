@@ -1,6 +1,6 @@
-As a task of Crawler, recently I was research ctrip.com, and it have a lot of algorithm, and its hard time if you look into it. but its really a good chance to practice the brain.
+As a task of Crawler, recently I was researched ctrip.com, and it have a lot of algorithm, and its hard time if you look into it. but its really a good chance to practice the brain.
 
-For example, the algorithm of generate Deivce ID is a difficult.
+For example, the algorithm of generate Deivce ID, it is a difficult.
 
 The JS source code they used , you can get it from ctrip.com login page "https://accounts.ctrip.com/member/login.aspx", see the page source code, you can find a line as below , this is  algorithm of generate the device id.  
 <script type="text/javascript" async="" src="https://pages.c-ctrip.com/Cdid/deviceid.js"></script>
