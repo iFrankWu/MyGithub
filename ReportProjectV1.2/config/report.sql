@@ -9,8 +9,8 @@ doctorName varchar(128) not null,
 password varchar(128) not null,
 type varchar(16),
 status varchar(16),
-modifyDate timestamp DEFAULT  now() ,
-createDate timestamp,
+modifyDate timestamp default CURRENT_TIMESTAMP ,
+createDate timestamp default CURRENT_TIMESTAMP,
 isDelete boolean not null DEFAULT false
 );
 
@@ -47,7 +47,7 @@ patientName varchar(128),
 age int ,
 caseNumber varchar(128) not null,
 phone varchar(64),
-lastTimeMenstruation timestamp,
+lastTimeMenstruation timestamp default CURRENT_TIMESTAMP ,
 pregnancyNumber int,
 childbirthNumber int,
 isMenopause boolean,
@@ -81,7 +81,7 @@ screening boolean,/* 筛查*/
 checking boolean,/**检查*/
 otherSuggestion varchar(512),
 
-checkDate timestamp,
+checkDate timestamp default CURRENT_TIMESTAMP,
 
 doctorName varchar(128),
 doctorId int,
@@ -93,3 +93,4 @@ foreign key(doctorId) REFERENCES doctors(doctorId) on delete  CASCADE
 
 ALTER TABLE report ADD prescribingDoctorName VARCHAR(128); /** prescribingDoctorName varchar(128), add prescibing doctor name V1.2 2014.4.9 */
 ALTER TABLE report ADD COLUMN (lct VARCHAR(128), hpv VARCHAR(128) ,touchbleeding VARCHAR(128) );/** add lct hpv and touch bleeding V1.3 12/25/2015 */
+ALTER TABLE report ADD checkHpv boolean default false;/** add checkHpv suggestion V1.4 2016.12.25 */

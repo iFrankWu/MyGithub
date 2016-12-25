@@ -93,11 +93,21 @@ public class ExportReportHandler implements ResultSetHandler {
 			if (rs.getBoolean("screening")) {
 				nextStepSuggestion = "按照国家宫颈癌筛查指南定期筛查";
 			}
+
+			if (rs.getBoolean("checkHpv")) {
+				if (nextStepSuggestion.length() > 0) {
+					nextStepSuggestion += "/建议进行HPV筛查";
+				} else {
+					nextStepSuggestion = "建议进行HPV筛查";
+				}
+			}
+
 			if (rs.getBoolean("checking")) {
 				if (nextStepSuggestion.length() > 0) {
-					nextStepSuggestion += "/";
+					nextStepSuggestion += "/进行阴道镜或阴道镜下活检";
+				} else {
+					nextStepSuggestion = "进行阴道镜或阴道镜下活检";
 				}
-				nextStepSuggestion = "进行阴道镜或阴道镜下活检";
 			}
 
 			if (StringUtils.isNotBlank(rs.getString("otherSuggestion"))) {

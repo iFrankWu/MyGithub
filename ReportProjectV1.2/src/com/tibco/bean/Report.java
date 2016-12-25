@@ -71,7 +71,15 @@ public class Report {
 	private String hpv; //V1.3 added
 	private String touchbleeding; //V1.3 added
 	
+	private Boolean checkHpv;//checkHpv v1.4 addded 建议进行HPV筛查
 	
+	
+	public Boolean getCheckHpv() {
+		return checkHpv;
+	}
+	public void setCheckHpv(Boolean checkHpv) {
+		this.checkHpv = checkHpv;
+	}
 	public String getLct() {
 		return lct;
 	}
